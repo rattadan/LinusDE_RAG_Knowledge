@@ -1,0 +1,2 @@
+# Robotaxi Technology (GM/Cruise) - Chunk 1
+GM and Cruise are working together to advance autonomous vehicle technology, building on the foundation of Super Cruise to develop fully autonomous personal vehicles. Their vision is that autonomous vehicles can lead to a safer, less congested future, giving people back their most valuable asset: time. GM's approach includes both Advanced Driver Assistance Systems (ADAS) like Super Cruise, which still require driver attention, and fully Autonomous Vehicles (AV) that are completely self-driving with no driver supervision required.

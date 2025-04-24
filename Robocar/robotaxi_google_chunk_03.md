@@ -1,0 +1,2 @@
+# Robotaxi Technology (Waymo) - Chunk 3
+The Waymo Driver's perception system processes complex data from its advanced sensor suite using AI to identify surrounding objects - from pedestrians to cyclists, vehicles to construction zones. It responds to traffic signals, signs, and temporary road conditions. Using experience gained from 20+ million miles of real-world driving and 20+ billion miles in simulation, the system leverages AI to anticipate what other road users might do, understanding how different objects move and predicting their possible paths, all instantaneously.

@@ -1,0 +1,851 @@
+Comprehensive Summary: 
+
+The provided document discusses innovative mobility concepts and their implications for transportation systems, particularly in the context of shared autonomous vehicles and dynamic transport services. The study focuses on the development and analysis of welfare-optimal operations for these emerging mobility solutions, emphasizing external cost pricing and system efficiency. 
+Key Themes: 
+
+     
+
+    Innovative Mobility Concepts: 
+         The document explores the potential of shared autonomous vehicles (SAVs) and dynamic transport services to address challenges in traditional transportation systems, such as traffic congestion, environmental impact, and inefficiencies in public transit.
+         Shared mobility services, including shared taxis and ride-sharing platforms, are analyzed for their ability to optimize resource allocation and reduce costs.
+         
+     
+
+    Simulation-Based Analysis: 
+         The study employs agent-based simulation tools (e.g., MATSim) to model transportation systems and evaluate the performance of dynamic vehicle routing algorithms.
+         Synthetic demand modeling and open data are used to create realistic scenarios for testing these concepts in urban environments, such as Berlin.
+         
+     
+
+    Dynamic Transport Services: 
+         The research highlights the importance of dynamic routing and real-time optimization in improving the efficiency of transportation services. This includes balancing supply (vehicle fleets) and demand (user requests) to minimize waiting times and maximize service coverage.
+         External cost pricing is introduced as a mechanism to internalize the costs of environmental and social impacts, ensuring a more welfare-optimal allocation of resources.
+         
+     
+
+    Key Findings: 
+         The study demonstrates that dynamic vehicle routing algorithms can significantly improve system performance by optimizing routes in real-time, reducing empty running, and enhancing service availability.
+         The size of the vehicle fleet and pricing strategies play critical roles in determining the efficiency and sustainability of shared mobility services.
+         User behavior, including willingness to share rides or wait for vehicles, also influences the overall effectiveness of these systems.
+         
+     
+
+    Conclusion: 
+         The document underscores the potential benefits of integrating shared autonomous vehicles into urban transportation networks, provided that appropriate policies and pricing mechanisms are in place.
+         It emphasizes the need for further research and validation of these concepts through large-scale simulations and real-world pilot studies.
+         
+     
+
+References: 
+
+The study cites various works on mobility modeling, shared transportation systems, and autonomous vehicles, highlighting the growing body of research in this field. It also references tools like MATSim and PSim for multi-agent simulation and notes the importance of collaboration between researchers, policymakers, and industry stakeholders to advance these concepts. 
+
+In summary, the document provides a detailed analysis of how dynamic transport services and shared autonomous vehicles can transform urban mobility, offering insights into their operational challenges, benefits, and potential for widespread adoption. 
+Procedia Computer Science 00 (2020) 000–000
+Procedia
+Computer
+Science
+(2020)
+000–000
+Procedia
+Computer
+Science
+17000
+(2020)
+807–812
+
+www.elsevier.com/locate/procedia
+www.elsevier.com/locate/procedia
+
+The 9th International Workshop on Agent-based Mobility, Traffic and Transportation Models,
+The 9th International (ABMTRANS)
+Workshop on Agent-based
+TrafficPoland
+and Transportation Models,
+April 6 - 9,Mobility,
+2020, Warsaw,
+(ABMTRANS) April 6 - 9, 2020, Warsaw, Poland
+
+The
+The impact
+impact of
+of pricing
+pricing and
+and service
+service area
+area design
+design on
+on the
+the modal
+modal shift
+shift
+towards
+demand
+responsive
+transit
+towards demand responsive transit
+a
+a
+Ihab Kaddouraa,∗
+a,∗, Gregor Leicha , Kai Nagela
+Ihab Kaddoura
+,
+Gregor
+Leich
+,
+Kai
+Nagel
+a
+Technische Universität Berlin
+a Technische Universität Berlin
+Department of Transport
+Systems Planning and Telematics
+Department
+of Transport
+Planning
+and Telematics
+Salzufer
+17–19; Systems
+10587 Berlin;
+Germany
+Salzufer 17–19; 10587 Berlin; Germany
+
+Abstract
+Abstract
+In this study, an agent-based transport simulation is used to look into different design concepts for demand responsive transit
+In
+this study,
+an agent-based
+simulation
+is used tocase
+look
+into ofdifferent
+design
+concepts
+responsive
+(DRT).
+In different
+simulationtransport
+experiments
+for a real-world
+study
+the Greater
+Berlin
+area, for
+the demand
+DRT service
+area is transit
+either
+(DRT).
+Ininner-city
+different simulation
+real-world
+case
+study
+of the
+Greater
+Berlin area,
+the DRTsimulation
+service area
+is either
+set to the
+center areaexperiments
+or the entirefor
+citya area,
+and the
+DRT
+pricing
+scheme
+is varied.
+The existing
+framework
+set
+to the inner-city
+center approximation
+area or the entire
+city area,
+and the DRT
+pricing scheme
+is varied. The
+simulation
+framework
+is extended
+by an iterative
+approach
+to improve
+the computational
+performance.
+Theexisting
+simulation
+results show
+that a
+is
+extended
+by
+an
+iterative
+approximation
+approach
+to
+improve
+the
+computational
+performance.
+The
+simulation
+results
+show
+small service area and too low prices may result in an unwanted mode shift effect from walk and bicycle to DRT. For higher that
+fares,a
+small
+service area
+tooeffect
+low prices
+may and
+result
+in anusers
+unwanted
+effect
+and bicycle
+to DRT. experiments
+For higher fares,
+the
+unwanted
+modeand
+shift
+is reduced
+fewer
+switchmode
+fromshift
+bicycle
+andfrom
+walkwalk
+to DRT.
+The simulation
+also
+the
+unwanted
+modeDRT
+shiftservice
+effect is
+reduced
+and fewer
+users
+from
+bicycle
+andmode
+walk shift
+to DRT.
+The
+simulation
+experiments also
+show
+that a larger
+area
+contributes
+towards
+answitch
+increase
+of the
+desired
+effect
+from
+car to DRT.
+show that a larger DRT service area contributes towards an increase of the desired mode shift effect from car to DRT.
+c 2020
+
+2020 The
+The Authors.
+Authors. Published
+Published by
+by Elsevier
+Elsevier B.V.
+B.V.
+©
+c 2020an
+
+The Authors.
+Published
+by Elsevier
+B.V.
+This
+This is
+is an open
+open access
+access article
+article under
+under the
+the CC
+CC BY-NC-ND
+BY-NC-ND license
+license (http://creativecommons.org/licenses/by-nc-nd/4.0/)
+(http://creativecommons.org/licenses/by-nc-nd/4.0/)
+This
+is
+an
+open
+access
+article
+under
+the
+CC
+BY-NC-ND
+license
+(http://creativecommons.org/licenses/by-nc-nd/4.0/)
+Peer-review
+under
+responsibility
+of
+the
+Conference
+Program
+Chairs.
+Peer-review under responsibility of the Conference Program Chairs.
+Peer-review under responsibility of the Conference Program Chairs.
+Keywords: ride-hailing ; modal shift ; shared autonomous vehicles ; service area design ; pricing ; demand responsive transit ; agent-based
+Keywords:
+simulation ride-hailing ; modal shift ; shared autonomous vehicles ; service area design ; pricing ; demand responsive transit ; agent-based
+simulation
+
+1. Introduction and problem statement
+1. Introduction and problem statement
+In the last decades, several companies have started App-based on-demand mobility services (e.g. UBER, Lyft,
+In the last
+decades, several
+companies
+App-based
+on-demand
+(e.g.who
+UBER,
+BerlKönig,
+CleverShuttle,
+MOIA).
+Most ofhave
+thesestarted
+services
+combine trip
+requestsmobility
+of severalservices
+passengers
+will Lyft,
+then
+BerlKönig,
+CleverShuttle,
+MOIA).
+Most
+of
+these
+services
+combine
+trip
+requests
+of
+several
+passengers
+who
+will then
+share the same ride (pooling, ridesharing). Forming a new category within the public transit sector, such services
+are
+share
+the sametoride
+(pooling,responsive
+ridesharing).
+Forming
+new
+category within
+public
+transitservices
+sector, are
+suchstill
+services
+often referred
+as demand
+transit
+(DRT)a or
+ride-hailing.
+Most the
+of the
+existing
+based are
+on
+often
+referreddriver-controlled
+to as demand responsive
+or ride-hailing.
+Mostwith
+of the
+existing services
+on
+conventional
+vehicles;transit
+only a(DRT)
+few services
+experiment
+autonomous
+vehiclesare
+[5,still
+7]. based
+A broad
+conventional
+driver-controlled
+vehicles;
+only
+a
+few
+services
+experiment
+with
+autonomous
+vehicles
+[5,
+7].
+A
+broad
+market introduction of (shared) autonomous vehicles is expected to reduce operating cost. Lower-bound estimates are
+market
+(shared)
+autonomous
+is expected
+to Reduced
+reduce operating
+cost.
+Lower-bound
+estimates
+are
+found inintroduction
+the range ofof0.30
+to 0.38
+EUR per vehicles
+passenger-km
+[3, 12].
+operating
+costs
+may translate
+into lower
+found in the range of 0.30 to 0.38 EUR per passenger-km [3, 12]. Reduced operating costs may translate into lower
+∗ Corresponding author. Tel.: +49-30-314-78793 ; fax: +49-30-314-26269.
+∗ Corresponding author. Tel.: +49-30-314-78793 ; fax: +49-30-314-26269.
+
+E-mail address: kaddoura@vsp.tu-berlin.de
+E-mail address: kaddoura@vsp.tu-berlin.de
+c 2020 The Authors. Published by Elsevier B.V.
+1877-0509 
+c 2020
+1877-0509
+
+Thearticle
+Authors.
+Published
+by Elsevier B.V.
+This
+is an open
+access
+under
+the CC BY-NC-ND
+license (http://creativecommons.org/licenses/by-nc-nd/4.0/)
+1877-0509
+©under
+2020
+Thearticle
+Authors.
+Published
+by Elsevier
+B.V.
+This is an open
+access
+under
+the Conference
+CC BY-NC-ND
+license
+(http://creativecommons.org/licenses/by-nc-nd/4.0/)
+Peer-review
+responsibility
+of
+the
+Program
+Chairs.
+This
+is
+an
+open
+access
+article
+under
+the
+CC
+BY-NC-ND
+license (http://creativecommons.org/licenses/by-nc-nd/4.0/)
+Peer-review under responsibility of the Conference Program Chairs.
+Peer-review under responsibility of the Conference Program Chairs.
+10.1016/j.procs.2020.03.152
+
+Ihab Kaddoura et al. / Procedia Computer Science 170 (2020) 807–812
+I. Kaddoura et al. / Procedia Computer Science 00 (2020) 000–000
+
+808
+2
+
+user prices which may boost the demand for such innovative on-demand mobility services. Operators of on-demand
+mobility services need guidance on how to change their today’s service in order to increase their profit, increase the
+number of DRT users or reach a predefined level of service quality. In contrast, municipalities may need guidance on
+how to regulate the existing DRT services in order to improve overall system welfare or follow a political agenda, e.g.
+a modal shift from private cars to environmental friendlier modes. This study investigates how the design of the DRT
+service area and pricing scheme may affect transport users’ travel behavior.
+2. Methodology
+2.1. Agent-based transport simulation framework
+MATSim overview. The proposed optimization approach uses the agent-based and dynamic transport simulation
+framework MATSim (Multi-Agent Transport Simulation, see www.matsim.org) [6]. In MATSim, each transport user
+is modeled as an individual agent. Transport demand adapts to the transport supply (road network, SAV availability,
+tolls, fares) applying an evolutionary iterative approach involving the following three steps:
+1. The traffic flow is simulated. DRT vehicles and other road users interact on the same network applying a queue
+model which accounts for dynamic congestion and spill-back effects.
+2. Each agent evaluates his/her daily (travel) behavior taking into consideration (i) the time spent performing an
+activity and (ii) travel-related costs, e.g. mode-specific fixed cost and travel time costs, tolls, fares.
+3. The agents are enabled to adjust their travel behavior. They can switch to another mode of transportation, adjust
+their routes or change their departure time. In this study, changes in location choice are neglected.
+MATSim DRT module. The simulation of on-demand mobility services in MATSim uses an existing module for
+dynamic vehicle routing problems [10, 11] and an existing module for the simulation of DRT [2]. Agents using DRT
+walk to the next virtual DRT stop (there is one stop on each car network link in the service area) and request a DRT ride
+when they arrive at the stop. The ride request is then assigned to a DRT vehicle which can serve it while maintaining
+certain service quality constraints for the new passenger and the passengers already scheduled to use that vehicle. The
+overall passenger to vehicle assignment heuristic strives to minimize the total vehicle operation time spent on serving
+ride requests. If the DRT system is congested and no DRT vehicle can serve the ride request within the service quality
+constraints, the request is not rejected but assigned to the vehicle which can serve it with the least additional operation
+time ignoring the service quality criteria. After arriving at the destination stop, the agent walks to the destination.
+2.2. DRT speed up
+To speed up the simulation experiments, in this study, an approximation approach is developed which is somewhat
+similar to the approach by [4]. In contrast to [4], the proposed approximation approach accounts for the specific
+characteristics of the DRT module (for example the DRT pricing scheme) and only approximates the DRT mode,
+whereas, all other modes are simulated without any modification. During the first n iterations, the DRT mode is only
+simulated in detail every k iterations. In between these iterations, the DRT mode is simulated in a simplified way
+without running the assignment of DRT vehicles and users on the network. Instead, user costs are approximated as
+follows:
+• The DRT trip travel time is calculated based on the beeline distance and an average beeline speed which is obtained from the detailed DRT simulation. The average beeline speed is updated every k iterations and considers
+the time passengers spend inside the DRT vehicles as well as the time passengers spend waiting for a DRT
+vehicle.
+• The DRT trip fare is computed in the same way as in the detailed simulation. For the distance-related fare,
+the DRT trip distance is calculated based on the beeline distance and an average beeline distance factor which
+is obtained from the detailed DRT simulation. The average beeline distance is updated every k iterations and
+considers the network layout and actual distance driven by DRT vehicles.
+
+Ihab Kaddoura et al. / Procedia Computer Science 170 (2020) 807–812
+I. Kaddoura et al. / Procedia Computer Science 00 (2020) 000–000
+
+809
+3
+
+In this study, k is set to 10 iterations, and n is set to 0.7, that is, for the final 150 iterations, the DRT speed up is
+disabled. The approximation approach may easily be improved, e.g. by computing differentiated averages by time
+of day or origin-destination-relation. The DRT-speed-up program code used in this study is publicly available on
+https://github.com/matsim-vsp/drt-speed-up (release v0.0.1).
+3. Case study and simulation experiments
+Case study: Greater Berlin area. The transport network contains all roads and public transit lines in the Greater
+Berlin area. Travel demand consists of work and non-work trips by car, public transit, bicycle, ride and walk mode.
+The synthetic population is calibrated against real-world traffic data, i.e. car counts, modal split [8] and trip-distances
+[1]. To improve computational performance, in this study, a 10% sample is used and the DRT fleet size and road
+capacities are accordingly reduced. A detailed description of the applied case study is provided in Ziemke et al. [13].
+The Berlin case study which is used in this study is publicly available on https://github.com/matsim-scenarios/matsimberlin (development branch 5.5.x, commit 7c5c791).
+Simulation setup. The DRT mode is added to the existing modes of transportation and may be used for trips starting
+and ending within the service area. Agents are also allowed to walk a maximum distance of 2 km to get from outside
+the service area to the DRT pick-up point, or the other way round, from the drop-off point inside the service area to
+their trip destination outside the service area. A trip request starting and/or ending outside the range of 2 km walking
+distance to or from the service area will not be served and the agent is forced to use the walk mode for the entire trip.
+Vehicle capacities are set to a maximum of 4 passengers and the DRT service allows for pooling (ride-sharing). The
+DRT fleet size is set to fixed number of 10,000 vehicles (1,000 vehicles for the 10% sample). In the first iteration,
+all vehicles are randomly distributed in the inner-city Berlin area. Then, vehicles remain on the link where the last
+drop-off took place. The pick-up and drop-off duration is set to 1 minute. DRT vehicles interact with each other as well
+as with private cars and trucks (dynamic congestion). Travel times within public transport (PT) mode result from
+walking times from and to the transit stop, waiting times and in-vehicle times based on the schedule. In this simulation
+setup, buses and tramways do not interact with DRT vehicles, private cars or bicycles. The walk, bicycle and ride
+mode are simulated in a simplified way, i.e. teleported from one activity to the next one. That is, transport users do
+not interact with each other or users of other modes. For walk and bicycle, the travel times are computed based on
+a mode-specific speed (walk: 4 km/h; bicycle: 12 km/h) and a trip distance resulting from the beeline distance and a
+beeline distance factor (walk: 1.5; bicycle: 1.4). For ride, the travel time is computed based on the least cost network
+route taking into consideration the congested car travel time.
+Choice dimensions. All transport users are allowed to change their transport routes, departure times and modes of
+transportation. For each sub-tour, i.e. trip chains starting and ending at the same activity location, the transport mode
+may be changed to only car, only bicycle (chain-based modes) or a combination of public transit, DRT and walk for
+each trip within the sub-tour. The ride mode is fixed, i.e. transport users are not enabled to switch from or to the ride
+mode. In this study, intermodal trips are not accounted for. Each agent’s choice sets is limited to 5 travel plans. All
+simulation experiments are run for a total of 500 iterations. During choice set generation (first 400 iterations), in each
+iteration the share of agents who change their mode, route and departure time (innovative strategies) is set to 5% per
+choice dimension. In the final 100 iterations, all agents select from their choice sets based on a multinomial logit
+model. Utility parameters for the different modes are set similar to [9].
+Simulation experiments. In different simulation experiments, the DRT mode is added as an additional mode of transportation as described in Sec. 3 and the DRT service area is either set to (1) the inner-city Berlin area or (2) the entire
+Berlin area. The DRT fare is set to a distance-based fare of 0.35 EUR/km, and the minimum fee is set to (a) 0.00,
+(b) 2.00 or (c) 3.00 EUR. All simulation experiments are carried out for two pricing schemes for the car mode: i) no
+tolling and ii) with a toll of 0.20 EUR/km. The toll is only imposed on car users and does not affect to DRT vehicles
+or DRT users. The simulation results are compared to the base case continued in which there is no DRT mode and no
+car toll.
+
+Ihab Kaddoura et al. / Procedia Computer Science 170 (2020) 807–812
+I. Kaddoura et al. / Procedia Computer Science 00 (2020) 000–000
+
+810
+4
+
+4. Results
+4.1. DRT speed up
+
+0.35
+
+4200.00
+
+0.3
+
+3600.00
+3000.00
+
+Mode share
+
+Computation time [sec]
+
+Using the DRT speed up module has a significant impact on the computational performance. In iterations where the
+DRT mode is simulated in a simplified way, the computation time is reduced by approx. 30-60 minutes per iteration
+compared to the detailed simulation (every 10th iteration), depending on the total number of simulated DRT users (see
+Fig. 1a). Also, as shown in Fig. 1b, there is no significant change in the mode shares before and after disabling the
+speed up approach in iteration 350. The jump in iteration 400 is explained by switching off the innovative strategies
+(disabling choice set generation).
+
+2400.00
+1800.00
+1200.00
+600.00
+0.00
+
+0
+
+50 100 150 200 250 300 350 400 450 500
+Iteration
+
+(a) Computation time over the iterations
+
+0.25
+bicycle
+
+0.2
+
+car
+
+0.15
+
+DRT
+
+0.1
+
+PT
+
+0.05
+
+walk
+
+0
+
+0
+
+50
+
+100
+
+150
+
+200
+
+250 300
+Iteration
+
+350
+
+400
+
+450
+
+500
+
+(b) Mode share over the iterations
+
+Fig. 1: Mode share and computation time over the iterations (DRT service area: Berlin area; Minimum fee: 2.00 EUR)
+
+4.2. Travel time and travel distance
+Tab. 1 and 2 provide the average DRT travel time and average DRT trip distance for each simulation experiment. As
+expected, increasing the minimum fee makes the DRT mode less attractive for short distance trips which is indicated
+by an increase in average travel time and average travel distance. Also, expanding the DRT service area from the
+inner-city area to the entire Berlin area allows for longer trips and yields an increase in average travel time and
+average travel distance. For users switching from car to DRT, the average beeline travel speed is observed to decrease
+Table 1: Average travel time and trip distance
+(DRT service area: Inner-city Berlin area, no car toll)
+Minimum fee
+Avg. DRT travel time [sec]
+Avg. DRT travel distance [m]
+
+0.00 EUR
+787
+2,418
+
+2.00 EUR
+1,080
+4,574
+
+Table 2: Average travel time and trip distance
+(DRT service area: Berlin area, no car toll)
+3.00 EUR
+1,352
+5,912
+
+Minimum fee
+Avg. DRT travel time [sec]
+Avg. DRT travel distance [m]
+
+0.00 EUR
+870
+2,633
+
+2.00 EUR
+1,247
+5,153
+
+3.00 EUR
+1,641
+8,095
+
+and the average travel time increases. In contrast, for all users switching from PT, bicycle and walk to the DRT mode,
+the average beeline speed increases and the average travel time decreases.
+4.3. Mode shift effects
+Fig. 2 and 3 provide the absolute numbers of DRT trips as well as the modes of transportation which would have
+been chosen in the case without the DRT mode and without the car toll (base case continued). Fig. 2 provides the
+outcome for the simulation experiments in which the service area is set to the inner-city Berlin area. Fig. 3 provides
+the outcome for the simulation experiments in which the service area is set to the entire Berlin area. For each service
+area setup, simulation results are given for different pricing schemes.
+Without car tolling. The total number of DRT trips strongly depends on the pricing setup as well as the service area.
+For the minimum fee of 3 EUR, expanding the service area approx. increases the number of residents inside
+the service area by a factor of 4, but increases the number of DRT trips by a factor of 10. For the other pricing
+
+Ihab Kaddoura et al. / Procedia Computer Science 170 (2020) 807–812
+I. Kaddoura et al. / Procedia Computer Science 00 (2020) 000–000
+
+811
+5
+
+schemes, the number of DRT trips increases to a lesser extent, which is explained by the limited number of available
+DRT vehicles (see in particular 3a). The DRT vehicle fleet size is set to a fixed number of 10,000 vehicles in all
+simulation experiments. DRT vehicles operating at the capacity limit yields long waiting times for some DRT users
+who will eventually prefer a different mode of transportation. Depending on the service area and pricing scheme, the
+DRT trip share of all trips in the Berlin area ranges from 0.04% (DRT service area: inner-city Berlin area; Minimum
+fare: 3.00 EUR) to 4.9% (DRT service area: entire Berlin area; Minimum fee: 0 EUR). A comparison of the modal
+shift effect for the different pricing setups reveals that without a minimum charge, most DRT users come from the
+bicycle and walk mode. Without a minimum charge, for both service area setups, only a share of 4% switch from
+car to DRT. Charging a minimum fee has a significant effect on the total number of DRT trips as well as the modal
+shift: For a higher minimum fee, the number of users switching from bicycle and walk to the DRT mode is
+drastically reduced. And instead, users switching from PT to DRT is observed to be the strongest modal shift effect.
+Nevertheless, even for a relatively high minimum fee, a significant share of DRT users come from the bicycle and
+walk mode. The DRT service area is found to have a strong impact on the modal shift between car and DRT. In the
+setup where DRT vehicles only operate inside the inner-city Berlin area, increasing the minimum fee does not increase
+the share of users switching from car to DRT. In contrast, a larger DRT service area increases the modal shift from
+car to DRT. The setup in which DRT vehicles operate inside the entire Berlin area, a higher minimum fee translates
+into a higher share of users switching from car to DRT. Nevertheless, the share of users switching from car to DRT is
+rather minor compared to the number of users switching from PT to DRT.
+
+(a) Minimum fee: 0.00 EUR
+No car toll
+DRT trips: 255,030
+
+(b) Minimum fee: 2.00 EUR
+No car toll
+DRT trips: 28,680
+
+(c) Minimum fee: 3.00 EUR
+No car toll
+DRT trips: 3,770
+
+(d) Minimum fee: 3.00 EUR
+With car toll
+DRT trips: 6,560
+
+Fig. 2: Previously chosen mode by DRT users – DRT service area: Inner-city Berlin area
+
+(a) Minimum fee: 0.00 EUR
+No car toll
+DRT trips: 502,0401
+
+(b) Minimum fee: 2.00 EUR
+No car toll
+DRT trips: 88,390
+
+(c) Minimum fee: 3.00 EUR
+No car toll
+DRT trips: 35,340
+
+(d) Minimum fee: 3.00 EUR
+With car toll
+DRT trips: 88,650
+
+Fig. 3: Previously chosen mode by DRT users – DRT service area: Berlin area
+
+The effect of imposing a toll on car users. Implementing the DRT service and imposing a toll of 0.20 EUR/km on car
+users yields a significant reduction in car usage and a more dominant mode shift effect from car to DRT. As shown
+in Fig. 2d and 3d, more than a third of all DRT users come from the car mode. The car trip share in the Berlin area
+decreases by approx. 12% (minimum DRT fee: 3 EUR), and PT, bicycle, walk and DRT trip shares increase.
+1 The number of DRT trips is limited by the fleet size which is fixed to 10,000 vehicles. Additional simulation experiments which are carried out
+to investigate the impact of the fleet size indicate that a fleet of 20,000 vehicles results in approx. 1 million DRT trips, and an even larger fleet size
+of 100,000 vehicles motivates additional users to switch to the DRT mode, resulting in a total of approx. 1.5 million DRT trips.
+
+812
+6
+
+Ihab Kaddoura et al. / Procedia Computer Science 170 (2020) 807–812
+I. Kaddoura et al. / Procedia Computer Science 00 (2020) 000–000
+
+5. Conclusion and Outlook
+For Berlin, the simulation results have shown that a small service area and too low prices may result in an unwanted
+mode shift effect from walk and bicycle to DRT. In order to design a DRT concept which yields a reduction in car trips,
+the service area should not be limited to the city-center area, and rather cover a typical commuting area. In addition,
+the pricing scheme should have a relatively high minimum fee in order to make the DRT mode less attractive for shortdistance travelers who may as well walk or take the bicycle without facing any high additional costs. The simulation
+experiments have also shown that even for a city-wide DRT service area and a minimum fee of 3.00 EUR, without
+car tolling only 11% of the DRT users are shifted from the car mode. With car tolling, the simulation experiments
+yield a larger share of users switching from car to DRT. Similar to the finding in [see, e.g., 9], this highlights the
+importance to combine ’pull’ measures (introducing DRT as a new mode of transportation) with ’push’ measures,
+such as, implementing a road pricing scheme, increasing parking costs or banning private vehicles in certain areas. In
+several simulation experiments, even for a city-wide DRT and a minimum fee, a significant share of DRT users come
+from the PT mode. From the user perspective, this indicates a positive effect since users switching from PT to DRT
+experience a reduced travel time and obtain a higher utility.
+Future studies will address service concepts which aim at a desired mode shift effect. The simulation setup will
+also be extended to account for intermodal trips, in particular the combination of PT and DRT which is expected to
+have a positive effect on the modal shift from car to PT and/or DRT. Furthermore the base case will be extended by
+other modes of transportation, such as car sharing and conventional taxis, which are also highly relevant for the modal
+shift towards DRT.
+Acknowledgements
+This research was funded in part by the German Federal Ministry of Transport and Digital Infrastructure (funding
+number 16AVF2160).
+References
+[1] Ahrens, G.A., 2009. Endbericht zur Verkehrserhebung Mobilität in Städten – SrV 2008 in Berlin. Technical Report. Technische Universität Dresden. http://www.stadtentwicklung.berlin.de/verkehr/politik_planung/zahlen_fakten/download/2_SrV_
+endbericht_tudresden_2008_berlin.pdf.
+[2] Bischoff, J., Maciejewski, M., Nagel, K., 2017. City-wide shared taxis: A simulation study in Berlin, in: 2017 IEEE 20th International
+Conference on Intelligent Transportation Systems (ITSC), IEEE. doi:10.1109/itsc.2017.8317926.
+[3] Bsch, P.M., Becker, F., Becker, H., Axhausen, K.W., 2018. Cost-based analysis of autonomous mobility services. Transport Policy 64, 76–91.
+doi:10.1016/j.tranpol.2017.09.005.
+[4] Fourie, P., 2016. Multi-modeling in matsim: Psim, in: [6]. chapter 39. doi:10.5334/baw.
+[5] Harris, M., 2015.
+Uber Could Be First to Test Completely Driverless Cars in Public.
+IEEE Spectrum,
+14.09.2015.
+URL:
+http://spectrum.ieee.org/cars-that-think/transportation/self-driving/
+uber-could-be-first-to-test-completely-driverless-cars-in-public.
+[6] Horni, A., Nagel, K., Axhausen, K.W. (Eds.), 2016. The Multi-Agent Transport Simulation MATSim. Ubiquity, London. doi:10.5334/baw.
+[7] Hsu, J., 2016. Gm and lyft team up for robot taxi service. IEEE Spectrum, 04.01.2016. URL: http://spectrum.ieee.org/
+cars-that-think/transportation/self-driving/gm-and-lyft-team-up-for-robot-taxi-service.
+[8] infas, DLR, 2010. Mobilität in Deutschland 2008 – Ergebnisbericht. Schlussbericht für Forschungsprojekt FE Nr. 70.801/2006. Institut fr
+angewandte Sozialwissenschaft, Deutsches Zentrum fr Luft- und Raumfahrt. URL http://daten.clearingstelle-verkehr.de/223/.
+[9] Kaddoura, I., Bischoff, J., Nagel, K., 2018. Towards welfare optimal operation of innovative mobility concepts: External cost pricing in a world
+of shared autonomous vehicles. VSP Working Paper 18-01. TU Berlin, Transport Systems Planning and Transport Telematics.
+[10] Maciejewski, M., 2016. Dynamic transport services, in: [6]. chapter 23. doi:10.5334/baw.
+[11] Maciejewski, M., Bischoff, J., Hörl, S., Nagel, K., 2017. Towards a testbed for dynamic vehicle routing algorithms, in: Bajo, J., Vale, Z.,
+Hallenborg, K., Rocha, A.P., Mathieu, P., Pawlewski, P., Del Val, E., Novais, P., Lopes, F., Duque Méndez, N.D., Julián, V., Holmgren, J. (Eds.),
+Highlights of Practical Applications of Cyber-Physical Multi-Agent Systems: International Workshops of PAAMS 2017, Porto, Portugal, June
+21-23, 2017, Proceedings. Springer International Publishing, pp. 69–79. doi:10.1007/978-3-319-60285-1.
+[12] Trommer, S., Kolarova, V., E., F., Kröger, L., Kickhöfer, B., Kuhnimhof, T., Lenz, B., Phleps, P., 2016. Autonomous driving: The impact of
+vehicle automation on mobility behaviour. Institute for Mobility Research (ifmo).
+[13] Ziemke, D., Kaddoura, I., Nagel, K., 2019. The MATSim Open Berlin Scenario: A multimodal agent-based transport simulation scenario
+based on synthetic demand modeling and open data. Procedia Computer Science 151, 870–877. doi:10.1016/j.procs.2019.04.120.
+
+

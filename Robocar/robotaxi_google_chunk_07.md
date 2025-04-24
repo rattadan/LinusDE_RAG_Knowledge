@@ -1,0 +1,2 @@
+# Robotaxi Technology (Baidu Apollo Go) - Chunk 1
+Baidu's Apollo Go is China's largest robotaxi service, which as of February 2025 has commenced 100% fully driverless operations across over 10 cities in China. The service is backed by an impressive 150 million kilometers of safe autonomous driving track record and has completed over 10 million cumulative rides. Apollo Go's technology has proven reliable enough to expand internationally, with operations planned in Abu Dhabi and Dubai in the UAE.

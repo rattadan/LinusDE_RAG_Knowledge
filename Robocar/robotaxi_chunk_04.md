@@ -1,0 +1,22 @@
+# Robotaxi (Chunk 4)
+Trials listed have a safety driver unless otherwise indicated. The commencement of a trial does not mean it is still active. 
+- August 2016 - NuTonomy launched its autonomous taxi service using a fleet of 6 modified Renault Zoes and Mitsubishi i-MiEVs in Singapore
+- September 2016 - Uber started allowing a select group of users in Pittsburgh, Pennsylvania to order robotaxis from a fleet of 14 vehicles. Two Uber engineers were always in the front seats of each vehicle.
+- March 2017 - An Uber self-driving car was hit and flipped on its side by another vehicle that failed to yield. In October 2017, Uber started using only one test driver.
+- April 2017 - Waymo started a large scale robotaxi tests in a geo-fenced suburb of Phoenix, Arizona with a driver monitoring each vehicle. The service area was about 100 square miles (260 km2). In November 2017 some testing without drivers began. Commercial operations began in November 2019.
+- August 2017 - Cruise Automation launched the beta version robotaxi service for 250 employees (10% of its staff) in San Francisco using a fleet of 46 vehicles.
+- March 2018 - A woman attempting to cross a street in Tempe, Arizona at night was struck and killed by an Uber vehicle while the onboard safety driver was watching videos. Uber later restarted testing, but only during daylight hours and at slower speeds.
+- August 2018 - Yandex began a trial with two vehicles in Innopolis, Russia
+- December 2018 - Waymo started self-driving taxi service, dubbed Waymo One, in Arizona for paying customers.
+- April 2019 - Pony.ai launched a pilot system covering 50 km2 (19 sq mi) in Guangzhou, China for employees and invited affiliated, serving pre-defined pickup points.
+- November 2019 - WeRide RoboTaxi began a pilot service with 20 vehicles in Guangzhou and Huangpu over an area of 144.65 km2 (55.85 sq mi)
+- November 2019 - Pony.ai started a three-month trial in Irvine, California with 10 cars and stops for pickup and drop off.
+- April 2020 - Baidu opened its trial of 45 vehicles in Changsha, China to public users for free trips, serving 100 designated spots on a set 135 km (84 mi) network. Services operation from 9:20am to 4:40pm with a safety-driver and a "navigator", allowing space for two passengers in the back.
+- June 2020 - DiDi robotaxi service begins operation in Shanghai in an area that covers Shanghai's Automobile Exhibition Center, the local business districts, subway stations and hotels in the downtown area.
+- August 2020. Baidu began offering free trips, with app bookings, on its trial in Cangzhou, China which serves 55 designated spots over pre-defined routes.
+- December 2020. AutoX (which is backed by Alibaba Group) launched a non-public trial of driverless robotaxis in Shenzhen with 25 vehicles. The service was then opened to the public in January 2021.
+- February 2021 - Waymo One began limited robotaxi service in a number of suburbs of San Francisco for a selection of its own employees. In August 2021 the public was invited to apply to use service, with places limited.  A safety driver is present in each vehicles.  The number of vehicles involved has not been disclosed.
+- May 2021 - Baidu commences a commercial robotaxi service with ten Apollo Go vehicles in a 3 km2 (1.2 sq mi) area with eight pickup and drop-off stops, in Shougang Park in western Beijing
+- July 2021 - Baidu opened a pilot program to the public in Guangzhou with a fleet of 30 sedans serving 60 sq mi (160 km2) in the Huangpu district.  200 designated spots are served between 9:30am and 11pm every day.
+- July 2021 - DeepRoute.ai began a free-of-charge trial with 20 vehicles in downtown Shenzhen serving 100 pickup and dropoff locations.
+- February 2022 - Cruise opened up its driverless cars in San Francisco to the public.

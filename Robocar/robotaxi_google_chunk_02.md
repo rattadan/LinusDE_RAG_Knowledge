@@ -1,0 +1,2 @@
+# Robotaxi Technology (Waymo) - Chunk 2
+Before operating in a new area, Waymo maps the territory with incredible detail, capturing lane markers, stop signs, curbs, and crosswalks. Rather than relying solely on GPS, which can lose signal, the Waymo Driver uses these detailed custom maps combined with real-time sensor data and artificial intelligence to determine its exact road location at all times. This mapping foundation is essential for safe autonomous navigation in complex urban environments.

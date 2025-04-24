@@ -1,0 +1,684 @@
+Workout: Understanding Cross-Chain Transfer (CCT) Failures 
+
+Warm-up: Define Key Terms 
+
+     What is CCT?
+     What are the different types of CCTs mentioned in the content? (IBC, Axelar, Circle, Hyperlane, Go Fast)
+     What is a packet tracker and how does it relate to CCT failures?
+     
+Summary of Cross-Chain Transfer (CCT) Failures Workout 
+
+Warm-up: Define Key Terms 
+
+     CCT: A mechanism that allows assets to be transferred between different blockchain networks.
+     Types of CCTs Mentioned: IBC, Axelar, Circle, Hyperlane, Go Fast.
+     Packet Tracker: A tool used for tracking the status and progress of packets during transfer.
+     
+
+Section 1: IBC Failures 
+
+     Common Failure Sources: Network issues, time delays, validation failures.
+     Outcome of an IBC Swap Failure: The swap is reverted or fails to complete.
+     Post-Swap Failure: Tokens may end up on the wrong chain or in a failed state.
+     
+
+Section 2: Axelar Failures 
+
+     Attestation Service: A service that verifies cross-chain transactions. If it malfunctions, it can lead to failures.
+     Circle's Attestation Service Outage: Can cause delays or failures in cross-chain transfers.
+     Post-Swap Failure: Similar outcomes as IBC, where tokens may be stuck on a chain.
+     
+
+Section 3: Hyperlane Failures 
+
+     Interchain Security Module (ISM): A component that manages the security and execution of cross-chain messages. Not meeting the required signature threshold can lead to failure.
+     Required Signature Threshold: If not met, transactions fail, and tokens may be stuck on a chain.
+     Types of ISMs: Different ISMs have varying requirements for signatures.
+     
+
+Section 4: Go Fast Failures 
+
+     Transfer Timeout: If the transfer times out, the transaction fails, and tokens are refunded to the sender.
+     Refund Process: Solvers initiate refunds, which may include a refund for initial fees intended for solver compensation.
+     Handling Fees: The system ensures that any initially allocated solver compensation is handled appropriately.
+     
+
+Section 5: Multi-Tx Route Failures 
+
+     Possible Outcomes of Failures: Tokens can end up on the initiating chain or where the swap takes place, leading to stuck tokens.
+     Transaction Initiation and Swap Completion: Depending on which part fails, tokens may be in a failed state on one or more chains.
+     
+
+Cool-down: Summarize Key Points 
+
+     Common Failure Sources: Network issues, timeouts, validation failures.
+     Handling Failures by Different CCTs: IBC handles failures through network and timeout mechanisms, Axelar via attestation service reliability, Hyperlane through ISM signature requirements, Go Fast with transfer timeouts and refund processes, and multi-tx routes with potential chain-specific outcomes.
+     Possible Outcomes of Multi-Tx Route Failures: Tokens may be stuck on the initiating or swapping chains.
+     
+
+Eureka
+Technical Overview
+Technical details of how IBC Eureka works
+
+​
+Native IBC Security Model
+Eureka implements the full IBC light client security model, providing trust-minimized verification of cross-chain transactions:
+
+Light Client Verification: Each chain runs a light client of the other chain, enabling cryptographic verification of state transitions
+No Multisig Dependencies: Unlike many bridge solutions, Eureka doesn’t rely on trusted validator sets or multisigs for security
+Permissionless Access: Anyone can connect to the IBC network and Ethereum, as long as your chain has an IBC implementation, classic or v2
+Minimal Infrastructure Overhead, no ongoing costs: Relaying, proving and routing between the Cosmos Hub and Ethereum onto your chain is handled by the smart relayer, paid for by end users. Simply maintain an IBC classic connection to the Cosmos Hub
+​
+Performance and Cost Efficiency
+~$5 Fast, ~$1 Standard
+
+IBC Eureka
+
+Ethereum
+
+Cosmos Hub
+
+Your Cosmos Chain
+
+Optimized Gas Consumption: Transfer from Ethereum to your chain, via Cosmos Hub for approximately $5 using fast mode and less than $1 for standard transfers
+Fast Finality: Assets arrive on destination chains in seconds, regardless of source chain finality times
+​
+Native Asset Representation
+Bank Module Integration: Received assets live directly in the bank module as native tokens
+No Wrapped Tokens: Assets are not wrapped or suffixed with bridge-specific identifiers (e.g., no ETH.axl)
+ERC20 Compatibility: Assets can be easily represented as ERC20s in the future without conversion complexity
+​
+How Eureka Works
+Eureka connects blockchains through a combination of:
+
+IBC Protocol v2: The standardized communication layer that defines packet formats and verification logic
+Solidity Implementation: Smart contracts deployed on Ethereum and EVM chains that implement the IBC protocol (Other smart contract chains to come)
+Light Clients: Each chain runs a light client of the other chain to verify state transitions
+Relayers: IBC v2 uses relayers to send messages between chains. We facilitate and operate the relaying infrastructure for Eureka for you.
+The IBC protocol guarantees that a packet delivered on the destination chain was definitely sent from the source chain, using cryptographic verification rather than trusted third parties.
+
+​
+Permissioned Relay
+The initial rollout of IBC Eureka will use permissioned relayers for additional safety and security guarantees. The IBC light clients will be used in the same way as when IBC is permissionless, the permissioning only means that liveness is dependent on the permissioned relay set. Permissioning will be removed in the near future.
+
+​
+Eureka
+Integration Guide
+A guide on how to integrate IBC Eureka for chain developers, asset issuers, and application developers
+
+​
+Types of Integrators
+There are three types of integrators of Eureka:
+
+Chain Developers - ensuring that your chain is compatible with Eureka and can facilitate the bridging of assets to and from other chains in the Eureka ecosystem.
+Asset Issuers - ensuring the assets you care about being bridged over Eureka are properly set up in the protocol and in the Skip Go API for application developers to support easily.
+Application Developers - ensuring your end users have access to Eureka assets and bridging capabilities via the Skip Go API.
+​
+Chain Developers
+If you’re developing a Cosmos-based blockchain, the easiest way to unlock Eureka assets and bridging capabilities is by opening up an IBC connection to the Cosmos Hub:
+
+Requires an IBC (classic) connection to the Cosmos Hub
+No chain upgrade is needed if you’re already using IBC
+Users benefit from reduced cost of asset transfers between Eureka-enabled domains through batching
+Chains only need to maintain a single relayer to the Cosmos Hub to reach the entire Eureka and IBC network
+If you are interested in a direct Eureka connection to Ethereum or L2s/Solana coming later this year, please reach out to Jeremy or Susannah directly as additional integration work is required.
+
+​
+Asset Issuers
+During the initial rollout of IBC Eureka, we will be working closely with asset issuers to ensure their tokens are bridged over and set up in the Skip Go API for application developers to support easily.
+
+If you’re an asset issuer looking to expand access to your token across different blockchains connected to the Eureka ecosystem, please reach out to Jeremy or Susannah so that we can help set you up!
+
+​
+Application Developers
+If you’re an application developer looking to give your users access to Eureka assets in your UI or to leverage them within your protocol, integrating into the Eureka ecosystem via Skip Go is super simple!
+
+​
+New Skip Go Integrator
+If you’re brand new to Skip Go, read about our cross-chain developer platform on the Getting Started page will be the best resource for you to get up to speed on the capabilities of Skip Go and the various integration options.
+
+For the quickest and easiest integration, you can integrate the Widget in minutes! For more control over the UI you provide your users, the Client Library is the way to go.
+The integration provides a one-click experience for users to transfer assets across the Eureka ecosystem and beyond in a single integration (via Skip Go’s aggregation and composability engine).
+​
+Current Skip Go Integrator
+Ensuring Eureka works with your Skip Go integration is the same easy process as any other bridge! Changes are as follows:
+
+eureka_transfer Operation type to be expected to be returned from the /route and /msgs_direct endpoints
+eureka_transfer Transfer type to be expected to be returned from the /status endpoint in the transfer sequence
+eureka bridge type returned from the /bridges endpoint
+To keep Eureka opt-in, integrators must pass eureka into the experimental_features array in the /route and /msgs_direct calls to enable Eureka routing
+What this looks like for each type of Skip Go integration:
+
+If you’re using the Widget, make sure you’re updated to version 3.5.0 or above and pass in eureka to the experimentalFeatures prop.
+If you’re using the Client Library, make sure you’re updated to version 0.16.22 or above and pass in eureka to the experimentalFeatures param.
+If you’re integrated directly with the REST endpoints, you can find the relevant types in the API reference for the Route Operation and for the Lifecycle Tracking Transfer.
+
+Eureka
+Security properties
+Depending on where it is deployed, IBC Eureka might have different security properties compared to the ones in IBC Classic. This is mainly because EVM chains do not have any form of governance, whereas Cosmos chains do.
+
+To improve protocol and fund safety at launch, IBC Eureka is going to launch in stages, delineated by improved security properties at each stage.
+
+​
+Launch stage (0)
+At launch, IBC Eureka is going to be deployed on two blockchains: Ethereum and Cosmos Hub mainnet. On the Cosmos Hub side, the security properties remain the same as in IBC Classic - governance has ultimate control over the chain, light client and channels.
+
+On the Ethereum mainnet side, it is different - a security council will have control over contract upgradeability, pausing and light client upgrades.
+
+​
+Security council
+The Eureka Security Council is designated as a 5-of-7 council that can take actions such as:
+
+upgrading the ICS20Transfer, ICS26Router, IBCERC20 and Escrow contracts
+migrating light clients in case of freezing due to misbehaviour, expiration or security vulnerabilities/incidents
+designating specific canonical names for IBC applications and light clients on Ethereum mainnet
+The security council cannot take these actions instantly - the actions are timelocked using a standard OpenZeppelin TimelockController contract with a minimum delay of three days. The delay gives an opportunity for the Cosmos Hub to halt inbound / outbound transfers in case of a malicious action taken by the Security Council.
+
+The security council is composed of individuals associated with well-respected and trusted entities in the Ethereum and Cosmos communities:
+
+Wildcat Finance
+Informal
+Hypha
+ZK Validator
+Chorus One
+Coinbase Cloud
+Interchain Labs
+​
+Pausing council
+The pausing council is designated for rapid-response to a security incident. The only actions that the pausing council can take are pausing and unpausing transfers out of the Ethereum-side contracts.
+
+The council is composed of a subset of people in the Security Council who are going to be rapidly responding to security incidents related to canonical IBC Eureka deployments. The actions of the pausing council are not time-locked to allow for a quick response time.
+
+​
+Governance stage (1)
+After the protocol has successfully launched, the next step in the IBC Eureka roadmap is to allow general contract message passing between chains.
+
+This will enable canonical EVM Eureka deployments to be controlled by Cosmos Hub governance. As such, the security council will increase the minimum delay of the TimelockController to be longer than the time it takes to pass a governance proposal on the Cosmos Hub.
+
+This means that the security council will be much closer to becoming obsolete, while allowing the Cosmos Hub to override actions taken by the security council.
+
+​
+Pausing stage (2)
+After a trial period of allowing the Cosmos Hub to govern the canonical Eureka deployments, the security council will revoke its’ rights and controls over canonical deployments, fully allowing the Cosmos Hub to take over its’ responsibilities.
+
+Token & Route Support Requirements
+This document describes the steps you must complete for the Skip Go API to begin providing new routes for users to transfer a token over to various remote chains using IBC.
+
+​
+Background
+New tokens often want Skip Go API to add support for transferring their token to other chains because the API powers cross-chain swaps + transfers in all the major cosmos wallets (Leap, Keplr, IBC Wallet, Metamask Snap) and cross-chain DEX aggregation for many popular defi aggregator and dapp frontends (e.g. Stargaze). As a result, being added to the Skip Go API instantly offers distribution across the interchain for a new token
+This document covers the basic requirements tokens must satisfy and steps their contributors must complete in order for Skip Go API to support transferring them throughout the interchain
+Guide assumes using IBC for interop
+
+This guide assumes you’re using IBC to transfer your token between chains.
+
+The Skip Go API supports other bridges and interop protocols in addition to IBC, including Hyperlane, CCTP, and Axelar. If you’re using one of these, please get in contact with us on our Discord. and we will help guide you through it to the extent we can.
+
+These other interop protocols are less standardized and/or less permissionless than IBC, so the process of adding support for transferring new tokens over them is more bespoke and varies by protocol. We’re happy to help where we can, providing guidance, implementation, and introductions where necessary.
+
+​
+1. Satisfy the following basic requirements
+The chain where the token is issued must already be supported by the Skip Go API
+Use the /info/chains endpoint to query a list of actively supported chains: /v2/info/chains
+If the chain is not already supported, follow the instructions in Chain Support Requirements to request support
+This is a pre-requisite
+The Skip Go API must also support the remote chains to which you wish users to be able to transfer the asset
+Use the /info/chains endpoint to query a list of actively supported chains: /v2/info/chains
+If the chain is not already supported, follow the instructions in Chain Support Requirements to request support
+This is a pre-requisite
+Token metadata is available in a commonly used chain registry (e.g. Cosmos Chain Registry) . Metadata should include at least:
+Denom (programmatic string identifier)
+Symbol (aka “ticker”)
+Asset name (human readable denom)
+Display name (aka pretty name)
+Decimals / exponent
+Images
+coingecko_id (if applicable)
+Description
+Ensure IBC relayers are actively monitoring and relaying packets on all channels over which you want users to transfer your token (See Chain Support Requirements for more info on relayers.)
+​
+2. “Warm Start” your Asset Routes
+For each destination chain:
+
+Pick a channel that you would like to be the canonical channel for transferring the asset to this destination chain
+Transfer a non-zero amount of the token over the channel
+Confirm that the token successfully gets transferred to the destination chain
+Leave the transferred tokens on the destination chain
+How do I pick a channel for a destination chain?
+
+If you’re launching a new chain, you should just pick whatever channel your team has set up. Usually, there’s just one highly-trafficked and well-relayed channel between two chains over which all assets are transferred. (In theory, there can be many because IBC is permissionless, but usually relayers are only monitoring 1 and creating more adds confusion for all parties)
+
+If you’re launching a new token on a chain that already has a vibrant IBC ecosystem and has already issued tokens that are widely used throughout the interchain (e.g. Osmosis or Neutron), you should probably use the same channel the well-established tokens use, since relayers are most likely to support these ones. To see which channel this is, call the /v2/fungible/recommend_assets endpoint with the following values:
+
+source_denom: A well-established token on the chain where your asset is issued (e.g. uatom)
+source_chain_id: The chain_id of the chain where your asset is issued (e.g. cosmoshub-4)
+dest_chain_id: The chain_id of the chain to which you want to be able to transfer your asset (e.g. osmosis-1)
+The channel you want to use is available in the response in recommendations[0].asset.trace
+
+How do I transfer tokens over my chosen channel before Skip Go API supports it?
+
+The easiest way to transfer tokens over a channel before official Skip Go API support is to use Keplr’s developer mode. To enable developer mode in the Keplr extension, open the hamburger menu, click on settings, then click advanced, then activate the toggle for “Developer Mode”.
+
+Once developer mode is active, at the bottom of the main page you should see “Advanced IBC Transfer”. Click on this then follow the instructions for inputting your token and desired channel ID.
+
+Why is this required?
+
+Warm starting the channels kicks off Skip’s intelligent routing suggestions for folks bridging to and from your chain. We choose routes between chains that ensure users are always receiving the most desirable version of their chosen token on their destination chain.
+
+As a part of providing good user experiences for everyone using the API, we don’t enable users to bridge assets to new chains where no one has previously bridged that asset. (Often times, for ordinary users, taking an existing token to a chain it doesn’t exist leaves them stuck on that new chain with a useless token). That’s why we need to “warm start” channels — to enable recommending them as bridging routes.
+
+​
+3. Wait up to 24 hours and verify
+Skip’s intelligent route detection should automatically detect new routes for all assets and chains that meet the above requirements in 4-8 hours. This will not happen immediately. Please ensure you wait the necessary amount of time.
+
+After you’ve let enough time pass, you can verify that Skip Go API supports the new routes you’ve configured using the /v2/fungible/recommend_assets endpoint. For each destination chain you’ve configured, call this endpoint with the following data:
+
+source_denom: Your token
+source_chain_id: The chain on which your token is issued
+dest_chain_id: The chain to which you’ve warm-started an IBC route in the previous step
+​
+Common questions
+​
+I want a CW20 token added to Skip Go, what do I need to do to add it?
+To add a CW20 token, you should first make sure its usable (either has ibc20-cw20 converter contracts deployed to IBC transfer the token or source-chain swappable on a swap venue used by Skip Go).
+Once confirmed usable, you must add the CW20 token’s metadata to a registry we support indexing from. The easiest one is likely the Cosmos Chain Registry, you can check out an example of a CW20 token entry here in Archway’s assetlist.json.
+Once the PR is merged into a registry, our indexing will add it to the API on our next indexing run (hourly).
+
+Support Requirements
+Swap Venue Requirements
+This document covers what Skip Go API requires of DEXes to support them as potential swapping venues within the API’s cross-chain DEX aggregation functionality. At the end, the document provides instructions for helping the Skip team add your DEX to the API as a swapping venue
+
+​
+Background
+DEXes often want Skip Go API to add support for their DEX as a swapping venue because the API powers cross-chain swaps + transfers in all the major cosmos wallets (Leap, Keplr, IBC Wallet, Metamask Snap) and cross-chain DEX aggregation to many popular defi aggregator and dapp frontends (e.g. Stargaze). As a result, being added to the Skip Go API instantly offers distribution across the interchain for your DEX
+The Skip Go API’s swapping system is currently built in CosmWasm and can support swapping assets on Cosmos SDK modules (ex: Osmosis Poolmanager) and other CosmWasm contracts (ex: Astroport DEX) that can be queried and executed by Skip Go API’s CosmWasm contracts.
+You can use this form to submit information about your swapping venue to Skip and track your progress through the required steps
+​
+Chain Requirements
+The chain must already be supported by the Skip Go API
+Use the /info/chains endpoint to query a list of actively supported chains: /v2/info/chains
+If your chain is not already supported, follow the instructions in Chain Support Requirements to request support
+This is a pre-requisite
+CosmWasm Support
+IBC support
+ibc-hooks Support (Check out our blog post about ibc-hooks)
+​
+Module / Contract Requirements
+​
+General
+The module / contract must be able to be called by the Skip Go API’s CosmWasm contracts. For Cosmos SDK modules, this will require the module queries described below to be whitelisted and queryable by CosmWasm contracts (see Osmosis for an example).
+​
+Execution Messages
+Supports a “Swap Exact In” method where a user specifies an input asset and path to swap, and the module / contract swaps the given user asset to the user’s desired output asset and sends it to the user (see Osmosis for a module example, or Astroport for a contract example).
+Inputs into the swap:
+An asset (Native cosmos coin or CW20 token, incl. denom and amount)
+A path (can be a single pool, or multiple pools if designed like a router)
+Outputs of the swap:
+An asset
+NICE TO HAVE (Optional): Supports a “Swap Exact Out” method where a user specifies a desired output asset, a path to swap through to achieve that asset, and a maximum amount of an input asset to swap, and the module / contracts swaps in the exact input asset needed to acquire the specified output asset and sends it to the user (see Osmosis for a module example).
+​
+Query Messages
+Exposes a “Swap Exact In Simulation” method where a user can put the inputs that would be used in the “Swap Exact In” execution method, and gets a response from the query that specifies the asset they would receive if executing the method (see Osmosis for a module example, or Astroport for a contract example).
+Exposes a “Swap Exact Out Simulation” method where a user can input the asset desired and a given pool / path, and the query returns the asset required to swap in to receive the output asset desired (see Osmosis for a module example, or Astroport for a contract example).
+​
+Getting Skip to add support for your DEX
+If your DEX and the chain its deployed on meets all of the functionality requirements described above, please fill out this support request form and submit it to support@skip.build or TG:@bpiv400. The form will help us scope how much work is required on our side to add support, guide our implementation, and inform our decision for how quickly to prioritize it in our roadmap (e.g. based on swapping volume + liquidity, and clarity of the technical information)
+
+CW20 Tokens & Their Limitations
+Information about performing CW20 swaps
+
+This page covers the basics of CW20s and the limitations around performing cross-chain actions with CW20 tokens — compared to tokenfactory and “native” Cosmos assets (aka Bank Module assets).
+
+​
+CW20 Token Denom Formatting In API Requests
+To use CW20 tokens in the Skip Go API, specify the denom as “cw20:” + the token contract address.
+
+Example denom for Astro on Terra2: cw20:terra1nsuqsk6kh58ulczatwev87ttq2z6r3pusulg9r24mfj2fvtzd4uq3exn26
+
+​
+Background
+​
+What is a CW20 token?
+CW20 is the fungible token spec for the CosmWasm (i.e. CW) VM. CosmWasm is the most popular smart contract VM among CosmosSDK blockchains today. At a high-level, CW20 is very similar to ERC20 (the popular EVM fungible token standard).
+
+Contracts that comply with the standard implement the following functionalities:
+
+Transferring tokens from one account to another
+Sending tokens to a contract along with a message (similar to callContractWithToken)
+Tracking balances
+Delegating balance spending to other accounts and contracts
+ASTRO (Astroport’s governance token) is one CW20 token issued on Terra2.
+
+​
+How do CW20 tokens interact with IBC?
+CW20-ICS20 converter contracts make a CW20 token compatible with the ICS20 token transfer standard, so they can be sent to other chains over normal ICS20 transfer channels. When they arrive on the destination chain, they’re indistinguishable from bank module and tokenfactory tokens.
+
+These converter contracts are the source of much difficulty when attempting to perform cross-chain actions with CW20s:
+
+Different converter contracts implement different versions of the ICS20 standard (e.g. Some don’t support memos, which are required for post-transfer contract calls and multi-hop transfers)
+On transfer failure, converter contracts just return assets to sender. That means if one of our contracts attempts to send tokens on your behalf unsuccessfully, it will receive the tokens. We can’t atomically send them to you.
+​
+How do CW20 tokens compare to “native” (aka bank module) tokens?
+“Native” tokens are tokens where minting, burning, balances, and transfer functionality are managed by the bank module, instead of by contracts. Unlike CW20s, native tokens are directly compatible with ICS20 and IBC modules. One can send a native token to another chain over a transfer channel just using a MsgTransfer — no conversion contracts or anything of the sort required.
+
+The downside of native tokens is that they’re permissioned and deeply ingrained into the chain’s state machine. As a result, issuing a new native token requires a chain upgrade. Issuing a CW20 on the other hand, only requires deploying a new contract (just a transaction).
+
+​
+How do CW20 tokens compare to “tokenfactory” tokens?
+Tokenfactory tokens are created with the tokenfactory module. They’re designed to have the best of both worlds of CW20 and native tokens:
+
+Like CW20s, they’re permissionless and users can create new ones just by submitting transactions — no need to modify the chain’s state machine
+Like native tokens, they’re directly compatible with IBC out-of-the-box, and the bank module manages their balances + transferring functionality.
+This combination of traits leads many to see tokenfactory as a strict improvement on CW20 that devs should prefer in the vast majority of cases. We strongly agree with this conclusion.
+
+Unlike CW20s , tokenfactory tokens have no limitations in the cross-chain functionality Skip Go API can offer for them.
+
+​
+What limitations do CW20 tokens have within the Skip Go API?
+At a high-level, basically any multi-chain action—in which the token is on the chain where it was issued for one stage of the action—requires multiple transactions.
+
+In particular, this means you cannot perform the following actions in 1 transaction:
+
+IBC transfer after purchasing a cw20 asset
+Chain 1 is the origin chain where the cw20 token can be swapped freely, but it cannot be transferred to another chain in the same transaction.
+Chain 1 is the origin chain where the cw20 token can be swapped freely, but it cannot be transferred to another chain in the same transaction.
+
+Call a contract on a remote chain after purchasing a cw20 asset (e.g. since this requires an IBC transfer under the hood)
+Chain 1 is the origin chain, where the token can be used freely for post-route actions, but it cannot be used in post-route actions on other chains.
+Chain 1 is the origin chain, where the token can be used freely for post-route actions, but it cannot be used in post-route actions on other chains.
+
+IBC transfer from a remote chain to the CW20’s origin chain then perform a swap or any other post-route action on that chain
+Chain 2 is the origin chain. The token can be transferred back there, but it can't be used or swapped for anything in the same transaction.
+Chain 2 is the origin chain. The token can be transferred back there, but it can't be used or swapped for anything in the same transaction.
+
+In principle, you can use the Skip Go API to construct any of these action sequences across multiple transactions, but it will be more challenging for you and your end users.
+
+Have questions or feedback? Help us get better!
+
+Join our Discord and select the “Skip Go Developer” role to share your questions and feedback.
+
+SVM Transactions
+This document explains how to use Skip Go API and Client TypeScript Package to construct SVM transactions.
+
+​
+Intro
+When a user needs to transfer or swap from an SVM chain (e.g. Solana), the Skip Go API will return an SvmTx type for the developer to pass to the user for signing
+This doc is intended for CosmosSDK and EVM developers who aren’t already familiar with the concepts of transaction construction in the SVM and need to use SvmTx to help their users move from/to Solana and other SVM chains.
+Due to the difficult nature of including Solana transactions on chain during times of high network congestion, we HIGHLY recommend using the /submit endpoint to avoid dealing with complex retry logic and/or multiple RPC providers for submission reliability. Skip Go API’s /submit endpoint implements best practices for Solana transactions submission for you!
+​
+Interact with Solana Wallets
+We recommend using @solana/wallet-adapter to interact with Solana wallets and build transactions. It provides a standardized Adapter object that wraps all major Solana wallets (e.g. Phantom, Backpack, etc…), as well as visual React components for wallet selection. See here for all the supported wallets.
+
+​
+Set up the SkipClient to use a Solana wallet
+All you need to do is initialize the getSVMSigner method in SkipClient.options to extract the @solana/wallet-adapter-base from the user’s connected wallet of choice:
+
+TypeScript
+
+Copy
+import { useWallet } from "@solana/wallet-adapter-react";
+import { PhantomWalletName } from "@solana/wallet-adapter-phantom"
+import { SkipClient } from '@skip-go/client';
+
+const { wallets } = useWallet();
+
+const skipClient = new SkipClient({
+  getSVMSigner: async (chainID) => {
+		const { svm } = trackWallet.get();
+		const solanaWallet = wallets.find((w) => w.adapter.name === PhantomWalletName);
+    return solanaWallet
+  }
+});
+After this point, you can use route, executeRoute, and the other methods of SkipClient as you normally would.
+
+The rest of these docs cover the underlying details of the data structures, in case you need them.
+
+​
+Understand SvmTx Data Structure
+The SvmTx has 2 fields that the developer needs to understand:
+
+chain_id: The ID of the chain that this transaction should be submitted to
+tx: This is the base64 encoded bytes of the transaction you should have the end user sign.
+​
+Info on SvmTx.tx
+This is a fully constructed transaction. You don’t need to change it or add anything to it to prepare it for signing. You just need to sign it and have the user submit it on chain within about 1 minute (or the nonce will expire).
+
+For more detail, the transaction already includes:
+
+User’s nonce (In Solana, this is actually a recent blockhash by default)
+Instructions (Solana’s equivalent to messages)
+Base transaction fees (Set to the default of 500 lamports per signature)
+Priority fees (More info on how we set these below)
+For more information on transactions, check out the Solana’s official docs
+
+​
+Signing tx
+Skip Go Client takes care of all of the complexity of signing the transaction that gets returned in SvmTx.tx.
+
+You just need to have set the getSVMSigner method in the SkipClientOptions object in the SkipClient constructor then use executeRoute or executeTxs.
+
+​
+How Priority Fees are Set
+Solana “priority fees” affect how likely it is a transaction gets included in a block. Unlike for many other major blockchain networks, Solana’s priority fees are evaluated “locally”. In other words, the size of the fee is compared to other transactions that access the same pieces of state (e.g. the same DEX pool, the same token contract etc…):
+
+If the fee is low relative to other transactions that access the same state, the transaction is unlikely to get included.
+If its high relative to these other transactions accessing similar state, its likely to be included
+As a result, transactions that touch “congested” or “popular” state will be the most expensive.
+
+At this time, we are setting priority fees to match the 90% percentile of priority fees for the “wif” pool state on Jupiter, which we believe is highly congested state. This is a very conservative setting, but it even with these “high amounts”, fees are still fractions of a cent.
+
+EVM Transactions
+This doc covers how to interact with the EvmTx type returned by the Skip Go API
+
+​
+Intro
+When a user needs to transfer or swap from an EVM chain (e.g. Ethereum mainnet, Arbitrum, Optimism, etc…), the Skip Go API will return an EvmTx type for the developer to pass to the user for signing
+Unlike CosmosSDK transactions, EVM transactions do not have a notion of messages, so this object doesn’t correspond 1-to-1 to a “message”, which might be a more familiar notion to Cosmos developers
+This doc is intended for CosmosSDK developers who aren’t already familiar with the concepts of transaction construction in the EVM and need to use EvmTx to help their users move from/to EVM chains.
+​
+EvmTx Data Structure
+The EvmTx has 4 fields that the developer needs to understand:
+
+to: The address of the smart contract or externally owned account (EOA) with which this transaction interacts, as a hex-string prefixed with 0x (e.g. 0xfc05aD74C6FE2e7046E091D6Ad4F660D2A159762)
+value: The amount of wei this transaction sends to the contract its interacting with (1 ETH = 1^18 WEI)
+data: The calldata this transaction uses to call the smart contract it interacts with, as a hex string. The data bytes will be interpreted according to the application-binary-interface (ABI) of the contract that’s being interacted with. If this field is empty, it means the transaction is sending funds to an address, rather than calling a contract.
+required_erc20_approvals: The permissions that must be granted to a specific smart contract to spend or transfer a certain amount of their ERC-20 tokens on behalf of the end user. This allows smart contracts to execute expressive flows that may involve moving some amount of the user’s ERC-20 tokens
+Skip Go will always return this field if there are any erc20 approvals needed for the route. It is the client’s responsibility to check if the user’s approval is already at or above the returned approval needed (for example, if the integrator allows for max approvals). If this field is non-empty and the user does not have the approvals necessary, the approval must be granted, signed, and submitted before the EvmTx populated by the other fields in the response can be submitted to the network. Otherwise, it will fail to execute with a permission error.
+Skip’s ERC20Approval object has 3 fields that define approval: _ token_contract: The address of the ERC-20 token on which the approval is granted _ spender: The address of the contract to which the approval will grant spend authority * amount: The amount of token_contract tokens the approval will grant the spender to spend
+Check out EIP-2612 for more information on ERC-20 approvals.
+chain_id: This is the same as in the Cosmos context (simply an identifier for the chain), but it’s an int instead of a string
+For more information on transactions, check out the Ethereum foundation’s docs
+
+​
+Example constructing & signing an EVM Transaction
+​
+1. Install Signing Library and Skip Library
+To enable EVM transactions in your application, first install an EVM developer library. The most popular options are:
+
+viem
+ethers.js
+web3.js
+The code snippets below use viem.
+
+Shell
+
+Copy
+npm i viem
+npm i @skip-go/client
+​
+1. Initialize the SkipClient client with the EVM WalletClient object
+All 3 libraries mentioned above allow you to create WalletClient “signer” objects that:
+
+Use an RPC provider under the hood to query the chain for necessary data to create transactions (e.g. nonce, gas price, etc…)
+Expose an API that allows constructing, signing, and broadcasting transactions
+You need to set up the getEVMSigner function in the SkipClient constructor to initialize this signer object for the a given EVM chain.
+
+For example, with Viem, we do the following:
+
+TypeScript
+
+Copy
+import { createWalletClient, custom} from 'viem';
+import * as chains from 'viem/chains';
+import { SkipClient } from '@skip-go/client';
+
+const
+const skipClient = new SkipClient({
+  getEVMSigner: async (chainID) => {
+    const chain = extractChain({
+  		chains: Object.values(chains),
+  		id: parseInt(chainID)
+    });
+    const evmWalletClient = createWalletClient({
+  		chain: chain,
+  		transport: custom(window.ethereum!)
+  	});
+    return evmWalletClient;
+  }
+});
+​
+2. Request Route using SkipClient and get required chain
+Next, request your route as normal:
+
+TypeScript
+
+Copy
+const route = await skipClient.route({
+  amountIn: "1000",
+  sourceAssetDenom: "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+  sourceAssetChainID: "1",
+  destAssetDenom: "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+  destAssetChainID: "42161",
+  smartRelay: true,
+  smartSwapOptions: {
+    splitRoutes: true
+  }
+};
+
+​
+3. Get User Addresses for all Required Chains
+Use the route to determine the chains for which you need to supply a user address (the source, destination, and all intermediate chains that require a recovery address for receiving tokens in case of a failure)
+
+TypeScript
+
+Copy
+let userAddresses = []
+const requiredAddresses = route.requiredChainAddresses;
+// iterate over chain IDs for chains that require addresses
+for (const chainID of requiredAddresses) {
+  	// Check that the chain is an EVM chain
+    if (parseInt(chainID)) {
+      // use signer library to get address from wallet
+      const chain = extractChain({
+        chains: Object.values(chains),
+        id: parseInt(chainID)
+      });
+      const evmWalletClient = createWalletClient({
+        chain: chain,
+        transport: custom(window.ethereum!)
+      });
+      const [address] = await client.requestAddresses();
+      // add to map
+      userAddresses.append({address: address, chainID: chainID})
+    } else {
+      // handle cosmos and SVM wallets -- not shown
+    }
+
+});
+return evmWalletClient;
+}
+
+​
+4. Execute the Route using SkipClient
+Finally, you can use SkipClient.executeRoute to prompt the user to sign the approval(s) and transaction, and submit the transaction on chain.
+
+TypeScript
+
+Copy
+await skipClient.executeRoute({
+  route:route,
+  userAddresses: userAddresses
+});
+
+
+Cross-chain Failure Cases
+This page covers the different ways our cross-chain swaps + transfers might fail to help identify failures and manage user expectations
+
+​
+Failures during IBC Transfers and Swaps
+There are two types of IBC failures that may occur when a user attempts to traverse a swap / transfer route produced by the Skip Go API.
+
+Pre-Swap / swap failures
+What: These are failures in the sequence of ICS-20 transfers leading up to the swap or a failure in the swap itself (usually due to slippage).
+Outcome / What to Expect: The users’ original source tokens are returned their starting address on the source chain
+Common causes:
+Inactive relayers on a channel allow a packet to timeout
+Slippage (the amount out for the swap turns out to be less than the user’s specified minimum, i.e. their slippage exceeds their tolerance)
+The user / frontend provides an invalid recovery address
+An IBC client on the destination chain has expired
+Examples: Consider a route where the source asset is ATOM on Neutron, the destination asset is STRIDE on Stride, and the swap takes place on Osmosis:
+The user’s tokens transfer from Neutron to the Hub to Osmosis. The swap initiates but the price of STRIDE has gotten so high that the swap exceeds slippage tolerance and fails. A sequence of error acks is propagated back to the Hub then Neutron, releasing the user’s ATOM to their address on Neutron where they started
+The user attempts to transfer tokens from Neutron to the hub, but the packet isn’t picked up by a relayer for more than 5 minutes (past the timeout_timestamp). When a relayer finally comes online, it relays a timeout message to Neutron, releasing the user’s ATOM back to their address on Neutron where they first had it.
+For transfer-only routes: This is the only kind of failure that may happen on a route that only contains transfers. Either the user’s tokens will reach their destination chain as intended, or they will wind up with the same tokens, on the same chain where they started.
+In a pre-swap or swap related error, the user will end up with the same tokens they started with on their initial chain (e.g. ATOM on Neutron in this example)
+In a pre-swap or swap related error, the user will end up with the same tokens they started with on their initial chain (e.g. ATOM on Neutron in this example)
+
+Post-swap failures:
+Description: These are failures that occur on the sequence of transfers between the swap venue chain and the user’s destination chain, after the user’s origin tokens have already been successfully swapped for their desired destination asset.
+Outcome / What to Expect: The user’s newly purchased destination asset tokens will be transferred to their address on the swap chain. (This is the address passed to chains_to_addresses in /fungible/msgs for the chain where the swap takes place, which is given by swap_venue.chain_id in the response from /fungible/route)
+Common failure sources:
+Inactive relayers on a channel allow a packet to timeout
+The user / frontend provides an invalid address for the destination chain
+An IBC client on the destination chain has expired
+Examples: Consider a route where the source asset is ATOM on Neutron, the destination asset is STRIDE on Stride, and the swap takes place on Osmosis:
+Suppose the swap took place and the transfer to Stride has been initiated, but the Relayer between Osmosis and Stride is down. So the packet’s timeout occurs after 5 minutes. When the Relayer comes back online after 8 minutes, it relays a timeout message to Osmosis, releasing the user’s STRIDE, which gets forwarded to their Osmosis address
+In a post-swap error, the user will end up with their destination asset tokens in their address on the chain where the swap took place (e.g. STRIDE on Osmosis in this example)
+In a post-swap error, the user will end up with their destination asset tokens in their address on the chain where the swap took place (e.g. STRIDE on Osmosis in this example)
+
+​
+Axelar Failures
+Axelar transfers can be tracked on Axelarscan. Often, Axelar transfers are delayed by Axelar’s relayer or execution services. If a transaction is taking longer than expected, users can visit Axelarscan, find their transaction, and manually execute the steps needed to get the transfer through. See the Axelar docs for details on how to use Axelarscan.
+
+Internally, the Skip Go API may use Axelar’s General Message Passing service to move assets between EVM and Cosmos. There are similar failure modes for Axelar as there are for IBC:
+
+Swap failures
+What: Axelar GMP takes user assets from an EVM chain to the swap chain. The swap can still fail at this point due to a timeout or slippage.
+Outcome / What to Expect: The user receives the Axelar-transferred token on the chain where the swap was supposed to take place at their recovery address. (Note this is different from the IBC swap failure case where the user receives the swap token back on the source chain)
+Common failure sources:
+Slow relaying from Axelar causes a timeout, and the swap is not attempted.
+Slippage (the amount out for the swap turns out to be less than the user’s specified minimum, i.e. their slippage exceeds their tolerance)
+Post-swap failures
+Once the swap is executed, Axelar is no longer involved, and the same rules that apply to IBC post-swap failures apply here, so the Post-swap failures section above applies.
+​
+CCTP Failures
+Routes that use CCTP transfers rely on Circle to produce attestations. The Circle attestation service waits for a specified number of on-chain block confirmations before producing an attestation. The number of block confirmations required is specified by Circle in their documentation here.
+
+If Circle’s attestation service experiences an outage, malfunction, or otherwise becomes unresponsive, CCTP transfers will continue to burn assets on the source chain, but will not be able to mint assets on the destination chain. In this case, funds that have been burned to initiate a CCTP transfer will be inaccessible until the Circle attestation service recovers.
+
+​
+Hyperlane Failures
+Each Hyperlane token transfer route is secured by an Interchain Security Module (ISM) designated by the deployer of the Hyperlane Warp Route Contracts (the interface to send tokens across chains using Hyperlane). The ISM defines the requirements for a message to be successfully processed on the destination chain.
+
+The most common ISM is a Multisig ISM where “Validators” of a specific Hyperlane route sign attestations that a specific message on an origin chain is a valid message to be processed on the destination chain. In the case where the set of Validators have not hit the required signature threshold to successfully process a Hyperlane message on the receiving chain, funds will not be accessible by the user on either chain until the threshold is met (once met, funds will be sent to the user on the destination chain). This generalizes to the different requirements for different ISMs. The Hyperlane documentation explains the different types of ISMs in more detail: https://docs.hyperlane.xyz/docs/reference/ISM/specify-your-ISM
+
+​
+Go Fast Failures
+If a transfer timeout occurs, meaning a user’s intent does not receive a response from solvers within a predefined time frame, the solver initiates a refund process to ensure that users do not lose funds.
+
+Here’s a breakdown of what happens in the event of a timeout:
+
+Intent Expiration: When a user initiates an intent by calling the submitOrder function on the source chain, a time limit is specified. Solvers monitor the intent and assess whether they can fulfill it within this period. If no solver fills the intent before the timeout, the refund process begins.
+
+Refunds: Once the timeout period is reached without fulfillment, the solver calls a function on the contract to trigger a refund process. This is handled on-chain, and includes any fees initially allocated from the user for solver compensation.
+
+Failures might occur for each transaction in a multi-tx sequence
+
+In the event of a multi-tx route, each transaction may suffer from the kinds of failures noted above. This means it’s technically inaccurate to say that tokens will always end up on the initial chain or the chain where the swap takes place. More accurately, tokens may end up on each chain where a transaction is initiated or the chain where the swap takes place.
+
+For instance, if a pre-swap failure takes place on the second transaction in a sequence, the tokens will end up on the chain that transaction targeted. In our example above, if the transfer from Cosmos Hub to Osmosis required a separate user transaction and the Neutron to Hub leg of the route succeeded in the first transaction, the ATOM tokens would end up in the user’s account on the Hub if the swap exceeds maximum slippage.
+
+We’re working to make these failures even less common
+
+In the short term, we’re working to add packet tracking + live relayer + client status to the API to help identify when packets get stuck and prevent folks from using channels where they’re likely to get stuck in the first place
+In the medium term, we are working to add priority multi-hop relaying into the API.
+In the long term, we’re working to build better incentives for relaying, so relayers don’t need to run as charities. (Relayers do not receive fees or payment of any kind today and subsidize gas for users cross-chain)

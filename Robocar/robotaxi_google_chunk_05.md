@@ -1,0 +1,2 @@
+# Robotaxi Technology (Waymo) - Chunk 5
+The "brain" of the Waymo Driver is an onboard computer combining server-grade CPUs and GPUs. This computing system processes information from dozens of sensors in real-time, identifies different objects like cars and pedestrians, and plans safe routes to destinations. The integration of powerful computing with the sensor suite enables the system to make complex driving decisions instantaneously, a critical requirement for fully autonomous operation in unpredictable urban environments.

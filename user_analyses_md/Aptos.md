@@ -2,12 +2,24 @@
 
 ## Overview
 
-Here's a brief analysis of each tweet:
+Here is a brief summary of each tweet:
 
-1. **Main topics/themes discussed**: The tweets are about the launch party for Aptos (a next-gen perpetual exchange) and its growing popularity.
-2. **Language style and tone**: The language is informal, conversational, and enthusiastic, with a strong sense of excitement and energy.
+1. **Main topics/themes discussed**: 
+   - Aptos protocol updates
+   - Blockchain development and verification
+   - Market analysis and predictions
+   - Industry discussions and news
+
+2. **Language style and tone**:
+   - Formal, technical language used in many tweets
+   - Informative, neutral tone with some enthusiasm
+   - Twitter-specific hashtags (e.g., #FMBC) used to engage the audience
+
 3. **Key characteristics of communication**:
-* The use of colloquial expressions ("Another day, another milestone", "Relive this week's hype") creates a casual tone.
-* The tweets include hashtags (#ICYMI), which adds to the informal and conversational feel.
-* The language is optimistic and promotional, with phrases like "mass adoption" and "heat up".
-* The use of all-caps for "Aptos here" and other emphatic statements creates a sense of excitement and emphasis.
+   - Utilization of industry-specific terminology (e.g., TVL, blockchai)
+   - Reference to specific projects and protocols (e.g., Hyperion XYZ, RAPTR)
+   - Mention of various market indexes and metrics (e.g., may, defi projects)
+
+4. **Ecosystem or project the account advertises**:
+   - Aptos protocol: a blockchain platform for smart contracts
+   - Hyperion XYZ: a specific protocol mentioned in one tweet

@@ -2,20 +2,33 @@
 
 ## Overview
 
-Here's a brief analysis of the tweet:
+**Main topics/themes discussed:**
 
-**Main Topics/Themes:**
+* Market analysis, specifically focusing on indices (ASX, FTSE, SSE, HSI) closing in bearish territory
+* Technical analysis, using chart patterns to predict future price movements
+* Elliott wave analysis, identifying potential waves and trends
 
-* Bond Market analysis, specifically focusing on US 10-year Treasury (TLT) yield
-* Elliott Wave theory, which suggests that market movements follow specific wave patterns
+**Language style and tone:**
 
-**Language Style/Tone:**
+* Informative, with a tone of expert analysis and market insight
+* Uses technical terms and concepts, indicating expertise in the field of finance or investing
 
-* Formal and technical tone, suggesting that the author is an expert in bond market analysis or economics
-* Use of specialized terminology (Elliott Wave theory), indicating a high level of expertise
+**Key characteristics of communication:**
 
-**Key Characteristics of Communication:**
+* Provides detailed explanations and context for complex financial concepts
+* Engages in discussions about market trends and potential price movements
+* Utilizes relevant hashtags to connect with a larger audience interested in finance and investing
 
-* The tweet provides a concise summary of market data and research findings
-* The use of hashtags (#US10, #CA05Y) suggests that the author is affiliated with a specific investment platform or organization
-* The link to external sources (https://t.co/gUtwGnr1jp, https://t.co/enhHMdyeIS) serves as a call-to-action, encouraging engagement and further reading
+**Ecosystem or project:**
+
+* X (formerly Twitter) is the platform used for this analysis, indicating a professional or expert persona
+
+**Context:**
+
+The tweets appear to be from an individual investor or analyst who provides market insights and technical analysis on various indices. The use of specific stock names, such as $SPY and $DIA, suggests that the account may focus on US-based equities. The tone is informative and professional, indicating a high level of expertise in finance or investing.
+
+Some examples of tweets from this individual include:
+
+* "It looks like some indices are not happy. ASX, FTSE, SSE and HSI are on track for closing bearish on Tuesday."
+* "MU... atm this white path is in the lead by a hair. Seeing as diagonals tend to return towards their origin and many EW waves return towards the previous wave 4..."
+* "Are you Team ABC (wave 5 of C was truncated) or WXY? Let us know why..."

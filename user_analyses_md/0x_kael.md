@@ -2,11 +2,17 @@
 
 ## Overview
 
-Here's a brief analysis of the tweets:
+**Analysis Summary**
 
-1. **Main topics/themes discussed**: Researching news, specifically about the Proof of Reserves (PoR) status of different cryptocurrency exchanges (CEX).
-2. **Language style and tone**: The language is formal and professional, indicating that the author is a trader or financial expert.
-3. **Key characteristics of communication**:
-   - **Directness**: The author directly mentions their concerns about Binance's PoR for March 2025 without addressing potential counterarguments.
-   - **Formality**: The tone is professional and objective, suggesting that the author values accuracy and impartiality in their research.
-   - **Attention to detail**: The author mentions specific cryptocurrency performance metrics (BTC, ETH, USDT) and provides a link to a tweet with additional information, demonstrating attention to detail and commitment to thorough research.
+1. **Main topics/theme:** Kael's investment in Solana on Bitget, discussing their experiences and strategies.
+2. **Language style/tone:** Informal, conversational, with a hint of competitiveness (e.g., "My guy is not here to play").
+3. **Key characteristics of communication:**
+	* Informal tone
+	* Use of colloquial expressions ("it's on Bitget", "my guy")
+	* Emphasis on individual success stories and strategies
+4. **Ecosystem/project:** Solana, specifically the on-chain market (Bitget) and the community around it.
+5. **Additional context:** The tweets seem to be from Kael's perspective, possibly a trader or investor, who is sharing their experiences and insights with others.
+
+**Additional context for 1st tweet**
+
+The first tweet appears to be a promotional post by BitroBliss (@ez1dev @solana) about Kael's investment in Solana on Bitget. It seems that Kael has gained significant profits from the on-chain market, which is being monitored and discussed by others (e.g., ez1dev). The tone is competitive, with a hint of humor ("My guy is not here to play").

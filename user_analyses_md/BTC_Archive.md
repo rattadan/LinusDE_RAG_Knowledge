@@ -2,28 +2,37 @@
 
 ## Overview
 
-Based on the analysis, here is a brief summary:
+<think>
+Okay, let's tackle this. The user wants me to generate 5 keywords or tags for better postprocessing, based on the provided data. First, I need to understand the content.
 
-**Main topics/themes discussed:**
+Looking at the tweets, there are several trends. The main ones seem to be Bitcoin price movements, market cap, major announcements, and specific events like regulations, partnerships, and market trends. 
 
-* Cryptocurrency market trends (Bitcoin)
-* Business and investment news (e.g. partnerships, regulations, strategies)
+The most distinctive patterns are:
+1. Bitcoin price spikes, like the $2 trillion mark and the $99,000, $95,000, and $97,000 levels.
+2. Major announcements: Michael Saylor's buy, Morgan Stanley's plan, UAE accepting Bitcoin, Revolut integrating Lightning, etc.
+3. Regulatory news: The U.S. allowing miners to build power plants, the BITCOIN Act, and others.
+4. Market trends: Lightning network usage, the Lightning network's 15% of transactions, and the market's reaction to these events.
+5. Specific events: The U.S. accelerating mining growth, the EU's state-owned oil giant, and the ARCHIE PODCAST mentions.
 
-**Language style and tone:**
+So, the keywords should capture these trends. Maybe something like "Bitcoin Price Movements", "Market Capitalization", "Regulatory Developments", "Market Trends", and "Major Announcements". But need to make sure they're distinct and relevant. Let me check if "Market Trends" is too broad. Maybe "Market Trends" and "Regulatory Developments" are good. Also, "Major Announcements" could be a tag. Then, "Bitcoin Price Movements" and "Lightning Network Adoption" as another pair. Wait, the user wants 5 tags. Let me consolidate.
 
-* Informative and neutral
-* Emphasis on highlighting recent developments and statistics
-* Occasional promotional tone (e.g. "JUST IN")
+Final tags could be:
+1. Bitcoin Price Movements
+2. Market Capitalization
+3. Regulatory Developments
+4. Market Trends
+5. Major Announcements
 
-**Key characteristics of communication:**
+That's five, and they cover the main themes from the data.
+</think>
 
-* Use of hashtags (#) to categorize content and track conversations
-* Utilization of images (URLs) for visual representation
-* Brief, concise tweets with a focus on conveying key information
+**Keywords/Tags for Postprocessing:**  
+1. **Bitcoin Price Movements**  
+2. **Market Capitalization**  
+3. **Regulatory Developments**  
+4. **Market Trends**  
+5. **Major Announcements**
 
-**Which Ecosystem or project the account advertises:**
+## Psychological Profile
 
-* Cryptocurrency/Blockchain projects (e.g. Bitcoin Archive)
-* Fintech companies (e.g. Revolut)
-
-Tweets from Conor McGregor's profile can be seen as part of the broader theme of cryptocurrency and finance news, while tweets from Michael Saylor's profile focus on investing in cryptocurrencies and Bitcoin mining.
+This section contains an AI-generated psychological evaluation based on communication patterns. This is for research purposes only and should not be considered a clinical assessment.

@@ -2,20 +2,49 @@
 
 ## Overview
 
-Based on the provided tweet, here's a brief summary:
+<think>
+Okay, let's tackle this query. The user provided a tweet from an account and wants a summary with specific elements. First, I need to parse the tweet carefully.
 
-**Main topics/themes discussed**: The tweet discusses the need to rethink street design to prioritize safety, especially for vulnerable road users like pedestrians.
+The main topic is about road safety, specifically redesigning streets for everyone, especially vulnerable users. The user mentioned the EITUrbanMob account, so that's the ecosystem. The language is assertive and concerned, with hashtags like #GlobalRoadSafetyWeek and #RoadSafety. The tone is positive but urgent, focusing on solutions rather than just problems.
 
-**Language style and tone**: The language is formal, informative, and slightly critical. The tone is encouraging and thought-provoking, suggesting that the account wants to inspire discussion and action on this issue.
+For the key characteristics of communication, it's a call to action, using hashtags to engage, and a focus on collective effort. The psychological evaluation would look at the person's values, maybe a commitment to social responsibility, emotional patterns like concern for others, and decision-making that's proactive.
 
-**Key characteristics of communication**: The tweet uses a conversational tone and breaks up long sentences with emojis, making it engaging and easy to read. It also includes a clear call-to-action (CTA) by including a link to a resource page.
+I need to generate 5 keywords/tags for postprocessing. The existing ones are #GlobalRoadSafetyWeek and #RoadSafety, so maybe add #UrbanDesign, #InclusiveCities, and #SustainableTransport. That covers the main themes.
 
-**Ecosystem or project advertised**: This tweet appears to be from the European Union's Transport Commission (ETC), which is responsible for promoting global road safety. However, the link provided points to an urban mobility website, suggesting that EIU or similar initiatives may be involved.
+Check if the summary is concise and covers all points. Make sure the keywords are relevant and not overlapping. Avoid any markdown, keep it natural.
+</think>
 
-Here are five keywords/tags that can be used for better postprocessing:
+**1. Main Topics/Themes Discussed**  
+- **Road safety redesign** (inclusive, vulnerable users)  
+- **Urban mobility** and **sustainable transport**  
+- **Collective action** and **policy advocacy**  
 
-* #GlobalRoadSafety
-* #UrbanMobility
-* #TransportationDesign
-* #Sustainability
-* #Accessibility
+**2. Language Style & Tone**  
+- **Assertive, urgent, and solution-focused**  
+- **Empathetic** (emphasizes "everyone," "most vulnerable")  
+- **Use of hashtags** to amplify message (e.g., #GlobalRoadSafetyWeek)  
+
+**3. Key Characteristics of Communication**  
+- **Call to action** (rethinking street design)  
+- **Collaborative tone** (emphasizes collective effort)  
+- **Focus on equity** (prioritizes safety for marginalized groups)  
+
+**4. Ecosystem/Project Advertised**  
+- **EITUrbanMob** (likely a project/organization advocating for inclusive urban design)  
+
+**5. Psychological Evaluation**  
+- **Personality Traits**: Compassionate, socially responsible, proactive  
+- **Motivations/Values**: Advocacy for equity, sustainability, community welfare  
+- **Emotional Patterns**: Concern for vulnerable groups, optimism about collective impact  
+- **Decision-Making**: Proactive, values collaboration and long-term solutions  
+
+**Keywords/Tags for Postprocessing**:  
+- #GlobalRoadSafetyWeek  
+- #UrbanDesign  
+- #InclusiveCities  
+- #SustainableTransport  
+- #EquityInMobility
+
+## Psychological Profile
+
+This section contains an AI-generated psychological evaluation based on communication patterns. This is for research purposes only and should not be considered a clinical assessment.

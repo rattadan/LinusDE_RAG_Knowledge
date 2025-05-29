@@ -2,31 +2,37 @@
 
 ## Overview
 
-Here is a concise summary of the tweets:
+<think>
+Okay, let's tackle this query. The user wants me to generate 5 keywords or tags for better postprocessing based on the provided data. First, I need to understand the main themes from the given tweets.
 
-**Main topics/themes discussed**
+Looking at the tweets, there are a lot about Ethereum's performance. Key points include:
 
-* Ethereum (ETH) market trends, growth, and adoption
-* Stablecoins, DeFi, and layer 2 scaling solutions
-* Institutional investments in ETH, such as BlackRock's BUIDL
-* Ethereum ecosystem milestones, including all-time high active addresses
+1. Ethereum's active addresses and growth (like 15.4M active addresses and a 62.7% surge in 7 days).
+2. Layer 2 dominance at 6.65x, which is a significant metric.
+3. The Strategic Ethereum Reserve hitting a billion dollars, showing institutional backing.
+4. Stablecoins reaching a new all-time high, indicating market strength.
+5. Institutional investors like BlackRock moving towards Ethereum, showing real-world adoption.
 
-**Language style and tone**
+So the main patterns are: Ethereum's growth metrics (active addresses, surge, layer 2 dominance), institutional adoption (Strategic Ethereum Reserve, BlackRock), and market strength (stablecoins, liquidity).
 
-* Informative and neutral, with occasional promotional language (e.g., "Just getting started", "Most airdrops fail!")
-* Engaging and conversational, with a touch of personality (e.g., emojis, colloquial expressions)
+Now, the user wants keywords that capture these patterns. They need to be distinct and useful for postprocessing. Let me brainstorm:
 
-**Key characteristics of communication**
+- ETH GROWTH: Covers active addresses, surge, and layer 2 dominance.
+- INSTITUTIONAL BACKING: Highlights the Strategic Ethereum Reserve and BlackRock's move.
+- MARKET STRENGTH: Refers to stablecoins hitting new highs and liquidity.
+- LAYER 2 DOMINANCE: Specific to the layer 2 metrics mentioned.
+- ADOTION SIGNALS: Emphasizes the signals like new-address momentum and adoption cycles.
 
-* Strong focus on market trends and analysis
-* Use of technical jargon and industry terms (e.g., layer 2, DeFi)
-* Promotional language and emphasis on adoption and growth
-* Conversational tone and engagement with readers
+These tags should be concise and capture the essence of each theme. I need to make sure they are distinct and not overlapping too much. Let's check if they cover all the key points from the data. Yes, each tag addresses a different aspect: growth, institutional support, market strength, layer 2, and adoption signals. That should work.
+</think>
 
-**5 keywords/tags for better postprocessing**
+**Keywords/Tags for Postprocessing:**  
+1. **ETH_GROWTH** (Active addresses, surge, layer 2 dominance)  
+2. **INSTITUTIONAL_BACKING** (Strategic Reserve, BlackRock's shift)  
+3. **MARKET_STRENGTH** (Stablecoins, liquidity, institutional demand)  
+4. **LAYER_2_DOMINANCE** (6.65x, scaling, network security)  
+5. **ADOTION_SIGNALS** (New-address momentum, adoption cycles, market validation)
 
-1. **Ethereum**
-2. **Stablecoins**
-3. **Layer 2 Scaling**
-4. **Institutional Investment**
-5. **BlackRock BUIDL**
+## Psychological Profile
+
+This section contains an AI-generated psychological evaluation based on communication patterns. This is for research purposes only and should not be considered a clinical assessment.

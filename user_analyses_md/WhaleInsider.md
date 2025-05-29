@@ -2,30 +2,30 @@
 
 ## Overview
 
-**Summary**
+<think>
+Okay, let's tackle this query. The user wants a summary of the tweets from the Whale Insider account. They need five keywords/tags for postprocessing. First, I need to analyze the tweets to identify the main themes, language style, key characteristics, the ecosystem, and the psychological traits of the author.
 
-1. Main topics/themes: Bitcoin, cryptocurrency, investment, and financial news.
-2. Language style and tone: Informative, objective, and conversational.
-3. Key characteristics of communication:
-	* Promoting various projects and initiatives
-	* Sharing market analysis and updates
-	* Offering insights into regulatory environments
-4. Advertises an Ecosystem or project: WhaleInsider provides news about Bitcoin-related investments, market developments, and financial news.
+Looking at the tweets, the main topics are about Bitcoin, blockchain, investment, and related policies. The user is discussing various Bitcoin-related events like ETFs, short positions, government policies, and companies buying Bitcoin. The language is very technical and news-oriented, with a lot of specific data points. The tone is authoritative and informative, often using hashtags and mentions of specific entities.
 
-**Biggest Tweet Context**
+Key characteristics of communication include the use of hashtags, mentions of specific companies (like BlackRock, JPMorgan), and frequent mention of investment strategies. The account is likely advertising or promoting Bitcoin-related products or services, maybe through the mentioned companies. The psychological evaluation would involve traits like a strong interest in financial markets, possibly a risk-taker, and a tendency to follow news. The author might have a background in finance or be an informed investor.
 
-Twitter thread by @WhaleInsider:
- 
-1/5 JUST IN: 🇰🇷 All three major South Korean presidential candidates now support $BTC ETFs and institutional investment. https://t.co/HR2jCOvPOF
-2/5 JUST IN: Conor McGregor to meet El Salvador’s President Bukele to discuss establishing a $BTC Strategic Reserve in Ireland. https://t.co/VDV16agA4z
-3/5 RT @WhaleInsider: JUST IN: Abraxas Capital pulls out 185,309 $ETH worth $461.6 million from exchanges in the past 3 days. https://t.co/Z3t7… (link to follow)
-4/5 JUST IN: Vitalik Buterin wants to make Ethereum as simple as Bitcoin in 5 years—boosting efficiency, security, and accessibility. https://t.co/wIkWYyr64C
-5/5 RT @WhaleInsider: JUST IN: Solana memecoin $BOOPA, first dog meme on boopdotfun, hits $10M market cap within 24 hours of launch. https://t.co/7NPUa0zrcd (link to follow)
+For the keywords, I need to capture the essence: Bitcoin, blockchain, investment, policy, and news. These terms are recurring in the tweets. The tags should be concise and relevant. Maybe "Bitcoin", "Blockchain", "Investment", "Policy", "News" as the keywords. That covers the main themes and the ecosystem they're part of.
+</think>
 
-**Keywords/Tags**
+**Keywords/Tags for Postprocessing:**  
+1. **Bitcoin**  
+2. **Blockchain**  
+3. **Investment**  
+4. **Policy**  
+5. **News**  
 
-1. Bitcoin
-2. Cryptocurrency
-3. Investment
-4. Financial News
-5. WhaleInsider
+**Summary Highlights:**  
+- Focus on **Bitcoin** and **blockchain** innovations, investment trends, and regulatory policies.  
+- **News**-driven content with technical depth and real-time data.  
+- **Investment** strategies, ETFs, and corporate actions (e.g., BlackRock, JPMorgan).  
+- **Policy** developments (e.g., Bitcoin reserves, SWIFT replacement).  
+- **Author** is a finance-focused influencer tracking market dynamics and regulatory shifts.
+
+## Psychological Profile
+
+This section contains an AI-generated psychological evaluation based on communication patterns. This is for research purposes only and should not be considered a clinical assessment.

@@ -2,21 +2,52 @@
 
 ## Overview
 
-Here's a summary of the analyzed tweet:
+<think>
+Okay, let's tackle this query. The user wants a detailed analysis of a Twitter message. First, I need to look at the provided tweet. The main content is about crypto with "100% skuteczności" and "dobry maj!" which is a positive outlook. The user also mentions two indicators, and there's a link to a tweet with an image. The hashtags include #kryptowaluty and a URL.
 
-**Main topics/theme:** Oli_Oli Crypto announces the success of his projects, specifically mentioning two indicators.
+For the summary, I need to break down the main topics: crypto, positive sentiment, indicators. Language style is informal, maybe a bit enthusiastic. Tone is upbeat and positive. Key characteristics might be using emojis, short sentences, and hashtags. The ecosystem could be related to crypto, maybe a specific project like a crypto exchange or a wallet.
 
-**Language style/tone:** Informative, assertive, and somewhat boastful. The tone is professional, but with a hint of confidence and excitement.
+Psychological evaluation: Personality traits like enthusiasm, maybe a bit of a perfectionist. Motivations could be investing in crypto, values of success and achievement. Emotional patterns: positive, maybe a bit of anxiety about market fluctuations. Decision-making might be risk-averse but with a strong desire to succeed.
 
-**Key characteristics of communication:**
+Then, generate 5 keywords/tags. They should be relevant to the content. Maybe "crypto," "positive sentiment," "indicators," "emotional patterns," "decision-making." Check if these are distinct and capture the essence.
 
-* Use of hashtags (#) to categorize and make the tweet discoverable.
-* Incorporation of technical terms (e.g., "skuteczności", "indykatorzy") to create a sense of expertise.
-* Brief, concise language with a focus on conveying results rather than explaining concepts.
+Need to make sure the response is concise, focused on the most distinctive patterns. Avoid any extra information. Also, put some tweets into context. The user provided only one tweet, but maybe the context is the user's previous tweets or the overall behavior. Since the user didn't provide more, I'll assume the tweet is representative of the user's style.
 
-**Context:** The tweet is likely from Oli_Oli Crypto's Twitter account, which promotes his cryptocurrency projects. Given the use of technical terms and the tone of confidence, it's possible that he is a self-proclaimed expert in the field of cryptocurrencies.
+Double-check the keywords to ensure they're relevant. Maybe "crypto" and "indicators" are key, then the other tags. Make sure they're concise and meaningful.
+</think>
 
-Here are some additional points to consider:
+**1. Main Topics/Themes Discussed**  
+- **Crypto Investment**: Focus on "100% skuteczności" (100% effectiveness) and "dobry maj!" (good May).  
+- **Indicators**: Mention of two indicators for crypto success.  
+- **Positive Sentiment**: Optimistic tone with emojis (🔥, 😉, 📸).  
 
-* The tweet mentions two specific indicators (likely Bitcoin and another cryptocurrency), suggesting that Oli_Oli Crypto may be involved in cryptocurrency trading or analysis.
-* The use of hashtags related to cryptocurrency and finance suggests that Oli_Oli Crypto's account is primarily focused on promoting his own projects and services rather than sharing general knowledge or news.
+**2. Language Style & Tone**  
+- **Style**: Informal, enthusiastic, and concise.  
+- **Tone**: Upbeat, confident, and aspirational.  
+
+**3. Key Characteristics of Communication**  
+- **Emojis**: Used to emphasize positivity.  
+- **Short Sentences**: Highlights key points.  
+- **Hashtags**: #kryptowaluty (crypto) and a URL link.  
+
+**4. Ecosystem/Project Advertised**  
+- **Crypto Exchange/Wallet**: Likely promotes a platform or service claiming "100% skuteczności" (100% effectiveness) for crypto indicators.  
+
+**5. Psychological Evaluation**  
+- **Personality Traits**: Enthusiastic, perfectionist, and goal-oriented.  
+- **Motivations/Values**: Desire for success, risk-taking, and validation through metrics.  
+- **Emotional Patterns**: Positive, anxious about market fluctuations, and driven by achievement.  
+- **Decision-Making**: Risk-averse but focused on outcomes, prioritizing results over uncertainty.  
+
+**Keywords/Tags for Postprocessing**:  
+1. #kryptowaluty  
+2. #100Skuteczności  
+3. #Indykatory  
+4. #PozitwnySentyment  
+5. #DecyzjeZwrotne  
+
+**Context**: The tweet reflects a user’s confidence in crypto indicators, using emojis and hashtags to amplify positivity, likely targeting investors seeking reliable tools for their crypto strategies.
+
+## Psychological Profile
+
+This section contains an AI-generated psychological evaluation based on communication patterns. This is for research purposes only and should not be considered a clinical assessment.

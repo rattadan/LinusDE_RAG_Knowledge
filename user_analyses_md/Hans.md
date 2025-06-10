@@ -3,48 +3,41 @@
 ## Overview
 
 <think>
-Okay, let's tackle this query step by step. The user wants me to analyze a tweet from a Telegram account and provide a summary with specific elements. First, I need to understand the content of the tweet. The tweet is "Hello, If anybody needs developer, plz dm me." It's pretty straightforward.
+Okay, let's break down this query. The user wants a summary of a tweet or message, focusing on five key areas: main topics, language style, legitness, the ecosystem advertised, and the author's character. Plus, they need five keywords.
 
-For the main topics/themes, the primary focus here is on job hunting or freelance work. The user is offering to help developers by DMing them. The language style is informal and direct, using phrases like "plz dm me" which are casual. The tone is friendly and inviting, encouraging others to reach out.
+First, the text is "Hello, If anybody needs developer, plz dm me." from Telegram. The main topics here are job/developer offer. The language is informal, using "plz" and "dm me" which are common in casual online communication. The tone is friendly and direct, maybe a bit urgent or seeking help.
 
-Key characteristics of communication: The user is using a simple, direct message without much elaboration. They're using a platform (Telegram) which is a bit different from typical social media. The message is concise, so it's probably a short, straightforward offer.
+Legitness: The user is likely a developer looking for work. The message is straightforward, so it's probably genuine. No obvious signs of spam or fake activity. The ecosystem isn't specified, but it's a general job offer, so maybe not tied to a specific project unless more info is given.
 
-Ecosystem or project: Since the user is using Telegram, it's likely related to a freelance or job platform. The account might be part of a community or group that connects freelancers with clients. The user is promoting themselves as a developer, so the ecosystem could be a freelance marketplace or a specific project they're involved in.
+Author's character: The person is probably professional, maybe a developer. The communication is concise, which suggests they value efficiency. Motivations could be seeking employment or collaboration. Emotional patterns are calm and straightforward. Decision-making is direct, not hesitant.
 
-Psychological evaluation: The person might be looking for work, valuing efficiency and direct communication. Their personality traits could be pragmatic and straightforward. Motivations might include financial stability or freelance work. Emotional patterns could be confident or eager. Decision-making is likely quick and based on immediate needs.
+Context: The user is actively seeking opportunities, possibly in tech, and is approachable. The keywords should reflect these aspects: developer, job, networking, Telegram, professional.
 
-Now, I need to generate 5 keywords/tags for postprocessing. The tweet is about job offers, so maybe "freelance," "developer," "job hunt," "Telegram," "direct communication." These tags should capture the main elements.
-
-Wait, the user wants the response concise and focused on the most distinctive patterns. So I need to make sure the summary is brief but covers all the points. Also, the keywords should be relevant and not too generic. Let me check again.
-
-Main topics: Job offer, freelance, Telegram, direct communication, maybe project or ecosystem. The keywords would be "freelance," "developer," "job hunt," "Telegram," "direct communication." That's five, which fits the requirement.
+I need to make sure the summary is concise, covers all points, and the keywords are relevant. Let me check if I missed anything. The user is on Telegram, so that's part of the ecosystem. The main theme is job/developer, so that's the first point. Language is informal and direct. Legitness is likely genuine. The author is a professional developer, seeking collaboration. The keywords are developer, job, networking, Telegram, professional.
 </think>
 
-**1. Main Topics/Themes:**  
-- Job hunting/freelance opportunities  
-- Direct communication/invitation to connect  
+**1. Main topics/themes discussed**: Job/developer offer, networking, professional collaboration.  
+**2. Language style and tone**: Informal, direct, and urgent ("plz dm me").  
+**3. Evaluation of legitness**: Likely genuine (no spammy patterns, straightforward request).  
+**4. Ecosystem/project**: Not specific; general job/developer outreach.  
+**5. Author's character**:  
+   - **Personality traits**: Efficient, approachable, results-oriented.  
+   - **Motivations/values**: Seeking professional opportunities, valuing direct communication.  
+   - **Emotional patterns**: Calm, focused; no overt emotional cues.  
+   - **Decision-making**: Direct, action-oriented.  
 
-**2. Language Style & Tone:**  
-- Informal, casual, and urgent (e.g., "plz dm me")  
-- Friendly, concise, and straightforward  
+**Context**: The user is a developer actively seeking collaboration or employment, using Telegram to connect with potential clients or partners.  
 
-**3. Key Characteristics of Communication:**  
-- Short, no-frills messages  
-- Focus on immediate action (e.g., "dm me")  
-- No elaboration, relying on context (e.g., Telegram platform)  
+**Keywords/Tags**: developer, job, networking, Telegram, professional.
+---
+## Original Tweets/Messages
 
-**4. Ecosystem/Project:**  
-- Freelance marketplace/developer community (linked to Telegram)  
+<details>
+<summary>Click to view original content</summary>
 
-**5. Psychological Evaluation:**  
-- **Personality:** Pragmatic, direct, and efficient.  
-- **Motivations:** Financial stability, freelance work, or project collaboration.  
-- **Emotional Patterns:** Confident, eager, and goal-oriented.  
-- **Decision-Making:** Quick, based on immediate needs (e.g., job opportunities).  
+| Type | Content |
+|------|---------|
+| messages | Hello,
+If anybody needs developer, plz dm me. |
 
-**Keywords/Tags for Postprocessing:**  
-#Freelance #Developer #JobHunt #Telegram #DirectCommunication
-
-## Psychological Profile
-
-This section contains an AI-generated psychological evaluation based on communication patterns. This is for research purposes only and should not be considered a clinical assessment.
+</details>

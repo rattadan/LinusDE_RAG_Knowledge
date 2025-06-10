@@ -3,35 +3,44 @@
 ## Overview
 
 <think>
-Okay, let's see. The user provided a bunch of tweets from someone talking about crypto, market trends, and some personal opinions. They want me to generate 5 keywords or tags that would help with postprocessing these tweets.
+Okay, let's tackle this. The user provided a bunch of tweets from a user named "divine_economy" and wants me to generate 5 keywords or tags that capture the most distinctive patterns.
 
-First, I need to identify the main themes in the tweets. The person talks about market trends, like the "timeline recap" where they mention if a token has a huge market cap, it's crime and you shouldn't buy. There's also a lot about the "2018 warren buffet quote" and how people are getting more cautious. They mention building in crypto now because no one else is, and the idea that the farcaster ecosystem needs more crimes. There's a lot about market makers, the importance of betting on the right tech, and the current state of the crypto market with everyone wanting to leave.
+First, I need to look through all the tweets and identify recurring themes. Let me go through them one by one.
 
-So the key themes here are: market trends, market makers, building in crypto, token valuations, and the current state of the market. But I need to make sure the keywords are distinct. Let me think.
+Looking at the first few tweets: there's a lot about market caps, tokens, and trading strategies. For example, "if a token has a huge market cap, then it’s crime..." and "if a token has a low market cap, then it’s a failure..." So that's a recurring theme about market caps and buying tokens.
 
-The user also mentioned "top and bottom signals in crypto" and "everyone has stopped building completely." So maybe "market signals" or "market trends." Then there's the part about "the trick is to always trade against your beliefs," which relates to strategy. Also, the idea of "cashing out" in the guide, which is about exiting the market. 
+Then there's a lot about crypto scams, like "solana simply cannot compete with the number of major scam founders" and "crime and you shouldn't buy." So "crypto scams" is another theme.
 
-Wait, the main tags could be: 
-1. Market Trends
-2. Market Signals
-3. Token Valuations
-4. Crypto Strategy
-5. Market Exit
+Another recurring point is about the bear market. The tweet "what nader describes is a completely normal phenomenon in crypto... during bull markets" and "how this mentality has taken hold during a bear" suggests bear market dynamics.
 
-But maybe "Market Signals" is a bit broad. Let me check the original tweets again. The person talks a lot about market trends, how to read them, and the current state. So "Market Trends" and "Market Signals" are both relevant. Then "Token Valuations" because they mention market cap and whether to buy. "Crypto Strategy" because of the advice to trade against your beliefs. And "Market Exit" as in the guide about cashing out. 
+There's also a lot about the "token 2049" event, with the tweet "don't go to token 2049." So that's a specific event or conference.
 
-Alternatively, maybe "Cashing Out" is a keyword. But the user wants 5 distinct ones. Let me see. The most distinctive patterns are: Market Trends, Market Signals, Token Valuations, Crypto Strategy, and Market Exit. That's five. They are all related to the analysis and strategy in the tweets. Yeah, that makes sense.
+Additionally, the user mentions things like "trade against your beliefs" and "commit pseudosuicide," which are trading strategies. So "trading strategies" might be another tag.
+
+Wait, but the user wants the most distinctive patterns. Let me check again. The main themes seem to be:
+
+1. Market cap analysis (buying tokens based on market cap)
+2. Crypto scams and fraud
+3. Bear market psychology
+4. Token 2049 event
+5. Trading strategies and psychological aspects
+
+But maybe some of these can be merged. For example, "market cap analysis" and "crypto scams" are distinct. "Bear market" and "trading strategies" are also distinct. The "token 2049" is a specific event. So the top five would be:
+
+- Market Cap Analysis
+- Crypto Scams
+- Bear Market Psychology
+- Token 2049
+- Trading Strategies
+
+But I need to check if there are other recurring terms. The user also mentions "Farcaster ecosystem," "Solana," "Ethereum," "Token 2049," "Market Makers," "PMF (Product-Market Fit)," "App Store," etc. But the main themes are the ones I listed. So those five tags should capture the main patterns.
 </think>
 
-**Keywords/Tags for Postprocessing:**  
-1. **Market Trends**  
-2. **Token Valuations**  
-3. **Crypto Strategy**  
-4. **Market Signals**  
-5. **Cashing Out**  
+**Keywords/Tags:**  
+1. **Market Cap Analysis**  
+2. **Crypto Scams**  
+3. **Bear Market Psychology**  
+4. **Token 2049**  
+5. **Trading Strategies**  
 
-These tags capture the core themes of market analysis, token pricing, strategy advice, and exit strategies from the tweets.
-
-## Psychological Profile
-
-This section contains an AI-generated psychological evaluation based on communication patterns. This is for research purposes only and should not be considered a clinical assessment.
+These tags capture recurring themes of market cap judgments, scam warnings, bear market dynamics, event critiques, and trading psychology in the tweets.

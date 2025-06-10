@@ -3,46 +3,26 @@
 ## Overview
 
 <think>
-Okay, let's tackle this query. The user provided several tweets from an account and wants a summary with specific elements. First, I need to analyze the main topics. The tweets mention Japan's economy, Trump's tariffs, a pharmaceutical company using XRP, crypto signals, and US legislation. So the main themes are economic data, cryptocurrency trends, and political policies.
+Okay, let's tackle this query. The user provided several tweets and wants a summary with specific points. First, I need to analyze each tweet to identify the main topics. The first tweet talks about Japan's economy contraction and its potential positive impact on markets and Bitcoin. The second is about Trump's tariff policy and his retreat from it. The third mentions a company using XRP for payments. The fourth discusses McClellan oscillator signals for stocks and crypto. The fifth is about positive crypto legislation in the US and a BlackRock clip.
 
-Next, the language style and tone. The tweets are urgent with emojis like 🔥,💥, and use phrases like "ATENCIÓN" and "BRUTAL". The tone is informative but also a bit aggressive, maybe indicating the author is sharing important or controversial information.
+Now, the language style is energetic with emojis and exclamation points, which suggests a proactive and enthusiastic tone. The user is likely promoting crypto, so the legitness might be questionable, but they're presenting economic data. The account seems to be in the crypto ecosystem, possibly a financial analyst or influencer. 
 
-Key characteristics of communication: The author uses short, impactful sentences, mentions specific numbers and dates, and includes hashtags. They might be a financial analyst or a crypto enthusiast, possibly trying to inform others about market trends and policies.
+For the author's character, the communication is bold and confident, maybe with a focus on opportunities. Motivations could be promoting crypto or financial trends. Emotional patterns might be positive and assertive. Decision-making seems data-driven but with a bias towards optimism. The context is to highlight positive signals for crypto, possibly to attract investors.
 
-Ecosystem or project: The account seems to be related to cryptocurrency and financial markets. They mention specific companies like Wellgistics and the US administration's policies, so maybe it's a financial analysis or a crypto news outlet.
-
-Psychological evaluation: The author might have a pro-crypto stance, interested in market trends and political policies affecting finance. They could be analytical, value information that affects their investments, and have a tendency to be alert to market changes. Their decision-making is based on data and trends.
-
-Now, the user wants 5 keywords/tags for postprocessing. From the tweets, the key terms are "cryptocurrency trends", "economic data", "US policy", "market analysis", and "crypto investment". Need to make sure they're distinct and relevant.
+Keywords would be related to crypto, economic signals, Trump, XRP, and McClellan oscillator. Need to make sure the summary is concise and covers all the points without going into too much detail. Check if there's any inconsistency in the analysis. Looks good. Time to structure the response clearly.
 </think>
 
-**1. Main Topics/Themes:**  
-- **Economic data** (Japan's economy, US tariffs, crypto markets).  
-- **Cryptocurrency trends** (XRP, Bitcoin, regulatory shifts).  
-- **Political policies** (Trump's tariffs, US legislative actions).  
+**Summary:**  
+1. **Main topics/themes:** Economic trends (Japan, Trump tariffs, XRP adoption), crypto market signals (Bitcoin, McClellan oscillator), and legislative developments in the U.S. for crypto.  
+2. **Language style and tone:** High-energy, emotionally charged, with frequent emojis and exclamation marks. Focuses on "positive" signals and "opportunities" for crypto.  
+3. **Legitness evaluation:** Mixed. The tweets present economic data and crypto trends but often frame them as "positive" without critical analysis. Some claims (e.g., "80% tariffs to China") are simplified or speculative.  
+4. **Ecosystem/project:** Likely promotes crypto (Bitcoin, XRP) and financial markets, possibly as a crypto analyst or influencer.  
+5. **Author's character:**  
+   - **Personality traits:** Confident, assertive, and optimistic. Uses hyperbolic language ("BRUTAL," "EXTREMADAMENTE RARA").  
+   - **Motivations/values:** Likely profit-driven, with a focus on promoting crypto as an investment. May prioritize sensationalism over nuanced analysis.  
+   - **Emotional patterns:** High energy, urgency, and a tendency to amplify positive signals.  
+   - **Decision-making:** Data-driven but leans on simplified interpretations (e.g., "McClellan oscillator" as a "rare" signal).  
 
-**2. Language Style/Tone:**  
-- **Urgent/analytical** with emojis (🔥,💥), concise sentences.  
-- **Informative** but **aggressive** (e.g., "BRUTAL"), emphasizing market risks and policy shifts.  
+**Context:** The account appears to position itself as a crypto market analyst, leveraging economic events and technical indicators to advocate for crypto investments. The focus on "positive" signals and Trump's policies suggests a bias toward bullish sentiment, possibly to attract traders or investors.  
 
-**3. Key Communication Characteristics:**  
-- **Data-driven** (e.g., stats on GDP, tariffs, crypto prices).  
-- **Trend-focused** (cryptocurrency, economic indicators, regulatory changes).  
-- **Skeptical/optimistic** tone, highlighting both risks and opportunities.  
-
-**4. Ecosystem/Project:**  
-- **Cryptocurrency & financial markets** (focus on crypto trends, economic data, regulatory shifts).  
-- Likely a **financial analyst** or **crypto news outlet** sharing market insights.  
-
-**5. Psychological Evaluation:**  
-- **Personality Traits:** Analytical, risk-tolerant, data-driven.  
-- **Motivations:** Invest in crypto, follow economic/political trends, seek opportunities.  
-- **Emotional Patterns:** Alert to market shifts, reactive to volatility.  
-- **Decision-Making:** Based on trends, data, and geopolitical factors.  
-
-**Keywords/Tags for Postprocessing:**  
-#CryptoTrends #EconomicData #USPolicy #MarketAnalysis #CryptocurrencyInvestment
-
-## Psychological Profile
-
-This section contains an AI-generated psychological evaluation based on communication patterns. This is for research purposes only and should not be considered a clinical assessment.
+**Keywords/tags:** #CryptoMarket, #Bitcoin, #XRP, #EconomicSignals, #McClellanOscillator

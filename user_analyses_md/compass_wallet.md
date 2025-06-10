@@ -3,45 +3,32 @@
 ## Overview
 
 <think>
-Okay, let's tackle this query step by step. The user wants an analysis of a Twitter message. First, I need to look at the provided tweet. The main content is about Compass being better than ever, updating the app for SEI, and a link. The user also wants a summary with specific points: main topics, language style, key characteristics, ecosystem, and psychological evaluation. Plus, generate 5 keywords/tags.
+Okay, let's tackle this query. The user provided a tweet about Compass, an app, and wants a summary of several aspects. First, I need to break down each part they asked for.
 
-Starting with the main topics. The primary theme is a product update, specifically Compass wallet, mentioning SEI. So the main topic is a product launch or update. Language style is informal, using hashtags like #ICYMI and emojis. Tone is positive, enthusiastic, maybe a bit braggy. Key characteristics might include enthusiasm, use of hashtags, direct message. The ecosystem here is probably Compass Wallet, a cryptocurrency or blockchain app. 
+Starting with the main topics. The tweet is promoting Compass, highlighting an update. The key themes are app updates and features, so that's the main topic. The language is formal and promotional, using phrases like "better than ever before" and "fresh new way." The tone is enthusiastic and persuasive, aiming to encourage users to update the app.
 
-Psychological evaluation: Personality traits like extroverted, enthusiastic, maybe a bit of a showoff. Motivations could be to promote their product, gain followers. Values might be innovation, community, sharing. Emotional patterns: positive, excited. Decision-making is probably driven by the desire to highlight their product's benefits. 
+Next, the legitness. The user is probably a Compass official or a trusted representative. The URL points to Compass's Twitter, so that's a sign. The message is straightforward, no suspicious links or misleading info, so it's legit.
 
-For keywords, maybe "product update", "SEI", "Compass Wallet", "enthusiastic", "brand promotion". Need to make sure they're relevant and concise. Check if the user wants them in a specific format, like hashtags. Also, ensure the summary is concise and focused on the most distinctive patterns. Avoid any markdown, keep it natural.
+The ecosystem is Compass, which is a cryptocurrency wallet. The account is likely a verified official, so the project is Compass. 
+
+For the author's character, the communication style is professional and confident. The use of exclamation marks and the emphasis on updates suggest a focus on innovation. Motivations might be promoting the app's features and growth. Values could be user-centric, aiming to improve the user experience. Emotional patterns are positive and encouraging. Decision-making is likely data-driven, focusing on user feedback and updates.
+
+Putting it into context, the author is promoting Compass's latest features to attract or retain users, emphasizing continuous improvement and user satisfaction.
+
+Keywords: Compass, app update, SEI, cryptocurrency wallet, user experience. These tags would help in categorizing the tweet for further processing.
 </think>
 
-**1. Main Topics/Themes:**  
-- Product update (Compass Wallet)  
-- Highlighting improvements (SEI)  
-- Promotion of a new app version  
+**Summary:**  
+1. **Main topics/themes:** Promotion of Compass app updates, emphasizing improved user experience (SEI) and app enhancements.  
+2. **Language style/tone:** Formal, enthusiastic, and persuasive, using phrases like "better than ever before" and "fresh new way."  
+3. **Legitness:** Legit (Compass Wallet official account, no suspicious elements).  
+4. **Ecosystem/project:** Compass (cryptocurrency wallet/app).  
+5. **Author's character:**  
+   - **Personality traits:** Confident, user-focused, and technically oriented.  
+   - **Motivations/values:** Prioritizing innovation and user satisfaction.  
+   - **Emotional patterns:** Positive, driven by product improvements.  
+   - **Decision-making:** Data-driven, emphasizing updates and user engagement.  
 
-**2. Language Style & Tone:**  
-- Informal, enthusiastic, and upbeat (e.g., "ICYMI," "better than ever," "update your app")  
-- Positive, persuasive, and boastful  
+**Context:** The author is likely a Compass official or representative promoting the app's latest features to attract or retain users, highlighting continuous improvement and user-centric design.  
 
-**3. Key Characteristics of Communication:**  
-- Emotive, direct, and goal-oriented (promoting a product)  
-- Uses hashtags and emojis to engage followers  
-- Focuses on novelty and improvement  
-
-**4. Ecosystem/Project Advertised:**  
-- **Compass Wallet** (cryptocurrency/financial app)  
-
-**5. Psychological Evaluation:**  
-- **Personality Traits:** Enthusiastic, extroverted, and assertive  
-- **Motivations/Values:** Innovation, community engagement, and product promotion  
-- **Emotional Patterns:** Positive, excited, and confident  
-- **Decision-Making:** Influenced by the desire to highlight product benefits and gain followers  
-
-**Keywords/Tags:**  
-- #ProductUpdate  
-- #SEIRevolution  
-- #CompassWallet  
-- #EnthusiasticPromotion  
-- #BlockchainInnovation
-
-## Psychological Profile
-
-This section contains an AI-generated psychological evaluation based on communication patterns. This is for research purposes only and should not be considered a clinical assessment.
+**Keywords/tags:** Compass, app update, SEI, cryptocurrency wallet, user experience.

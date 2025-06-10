@@ -3,53 +3,33 @@
 ## Overview
 
 <think>
-Okay, let's tackle this query step by step. The user wants me to analyze the provided tweets and generate a summary with specific elements. First, I need to understand the content of the tweets given. The main tweet is a retweet from @SerenityFund about a weekly stablecoin, with a link and an image.
+Okay, let's tackle this query. The user provided a tweet that's a retweet from SerenityFund about a stablecoin, with a link and an image. They want a summary with five points and keywords.
 
-Starting with the main topics/themes. The primary focus here is on stablecoins, specifically a weekly update. The user might be interested in the financial sector, cryptocurrency, or blockchain. The mention of "weekly" suggests a recurring or ongoing topic, maybe something like a new feature or update.
-
-Next, the language style and tone. The tweet is straightforward, using "RT" to indicate it's a retweet, which is common in social media. The tone is neutral and informative, with no emotional color. The use of hashtags like #stablecoin and #crypto adds to the theme but doesn't convey strong emotion.
-
-Key characteristics of communication: The author is likely using a formal yet concise style, as it's a retweet. The communication is direct, focusing on factual information. The use of hashtags might indicate a professional or community-oriented approach.
-
-Ecosystem or project the account advertises. The account is associated with Convex Finance, which is a DeFi project. The tweet is about a stablecoin, which is a product of Convex Finance. So, the account is advertising or promoting a stablecoin product.
-
-Psychological evaluation: The personality traits might be analytical and focused on financial trends. The motivations could be to stay informed about DeFi and cryptocurrency. Emotional patterns might be neutral, as the tweet doesn't express strong feelings. Decision-making approach is probably data-driven, relying on information from reliable sources.
-
-Now, generating 5 keywords/tags for postprocessing. The main ones would be stablecoin, DeFi, cryptocurrency, blockchain, and weekly updates. These tags capture the main themes and the specific aspects of the content.
-
-I need to make sure the summary is concise and highlights the most distinctive patterns. The user wants a brief summary, so I should avoid extra details. Also, the keywords should be relevant and capture the essence of the tweets.
+First, I need to break down each part. The main topics are stablecoins and the SerenityFund. The language is formal and concise, using hashtags. The legitness is high because it's from a known fund. The account is probably ConvexFinance, which is a DeFi project. The author's personality seems professional, maybe focused on finance. Motivations could be promoting stablecoins, values in DeFi, decision-making based on community or technical aspects. Emotional patterns are neutral, maybe cautious. The context is promoting a stablecoin in the DeFi space. Keywords should be related to the stablecoin, DeFi, Convex, etc.
 </think>
 
-**1. Main Topics/Themes Discussed:**  
-- **Stablecoin updates** (weekly feature)  
-- **DeFi (Decentralized Finance)**  
-- **Cryptocurrency trends**  
+**Summary:**  
+1. **Main topics/themes:** Promotion of a stablecoin (linked to SerenityFund) in the DeFi ecosystem.  
+2. **Language style/tone:** Formal, concise, and focused on financial/technical themes.  
+3. **Legitness:** High (SerenityFund is a recognized DeFi project).  
+4. **Ecosystem/project:** ConvexFinance (DeFi stablecoin/liquidity provider).  
+5. **Author's character:**  
+   - **Personality traits:** Professional, data-driven, community-oriented.  
+   - **Motivations/values:** Promoting stablecoins for liquidity and stability in DeFi.  
+   - **Emotional patterns:** Neutral, focused on factual/technical communication.  
+   - **Decision-making:** Prioritizes community and technical validation.  
 
-**2. Language Style & Tone:**  
-- **Neutral, factual** (informative, no emotional emphasis)  
-- **Simplified, concise** (e.g., "RT @SerenityFund: Weekly #stablecoin")  
+**Context:** The account likely aims to promote ConvexFinance’s stablecoin solutions within the DeFi ecosystem, emphasizing reliability and community-driven development.  
 
-**3. Key Characteristics of Communication:**  
-- **Informative and factual** (focus on product updates)  
-- **Direct and structured** (no embellishment)  
-- **Reliable source** (linked to a DeFi project)  
+**Keywords/tags:** #StableCoin #DeFi #ConvexFinance #SerenityFund #LiquidityProvider
+---
+## Original Tweets/Messages
 
-**4. Advertised Ecosystem/Project:**  
-- **Convex Finance** (DeFi platform) promoting a stablecoin product.  
+<details>
+<summary>Click to view original content</summary>
 
-**5. Psychological Evaluation:**  
-- **Personality Traits:** Analytical, data-driven, focused on financial trends.  
-- **Motivations/Values:** Informed, interested in DeFi, value reliability and innovation.  
-- **Emotional Patterns:** Neutral, no strong sentiment.  
-- **Decision-Making:** Data-driven, relies on factual information from credible sources.  
+| Type | Content |
+|------|---------|
+| messages | RT @SerenityFund: Weekly #stablecoin https://t.co/93vOkC8DbL |
 
-**Keywords/Tags for Postprocessing:**  
-- #Stablecoin  
-- #DeFi  
-- #Cryptocurrency  
-- #Blockchain  
-- #WeeklyUpdates
-
-## Psychological Profile
-
-This section contains an AI-generated psychological evaluation based on communication patterns. This is for research purposes only and should not be considered a clinical assessment.
+</details>

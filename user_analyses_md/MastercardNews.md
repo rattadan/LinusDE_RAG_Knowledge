@@ -3,56 +3,46 @@
 ## Overview
 
 <think>
-Okay, let's tackle this query. The user provided a tweet from MastercardNews and wants a summary with specific elements. First, I need to parse the given tweet and extract the main points.
+Okay, let's tackle this. The user provided a tweet from Mastercard News about their end-to-end capabilities supporting stablecoins. They want a summary with five points and keywords.
 
-The tweet mentions Mastercard announcing end-to-end stablecoin support, emphasizing payments anytime/anywhere, and partnering with Web3, finance, and fintech leaders. The URL is a link to a tweet with a mention of a co-host. The user also wants a psychological evaluation of the author's character, including personality traits, motivations, emotional tendencies, and decision-making approach.
+First, main topics. The tweet is about Mastercard's new capabilities for stablecoins, aiming to make payments easier. They mention collaboration with Web3, finance, and fintech leaders. So the main themes are stablecoins, payment infrastructure, and partnerships.
 
-So, the main topics are stablecoins, Web3, fintech, and partnerships. The language is formal and professional, with technical terms like "end-to-end capabilities" and "stablecoins." The tone is authoritative, highlighting innovation and collaboration.
+Next, language style. The tone is formal and professional, using terms like "end-to-end capabilities," "proven leaders," and "empowering consumers." It's a news-style post, so it's factual and informative.
 
-Key characteristics of communication: the tweet is concise, uses technical jargon, and emphasizes collaboration and innovation. The ecosystem might be related to financial technology or Web3, given the partnerships mentioned.
+Legitness evaluation. The account is Mastercard News, a known entity in finance. The content seems legitimate as it's an official announcement. No suspicious links or fake claims, just a standard press release.
 
-For the psychological evaluation, the person is likely a professional in fintech or Web3, values innovation and collaboration, has a strategic mindset, and is emotionally driven by innovation and trust. Their decision-making is analytical and forward-looking.
+Ecosystem project. It's Mastercard's initiative, so the ecosystem is financial services, specifically payment solutions. They're working on integrating stablecoins into their payment systems.
 
-I need to generate 5 keywords/tags. The tweet mentions stablecoins, Web3, fintech, partnerships, and innovation. So the tags could be "Stablecoins," "Web3," "Fintech," "Innovation," and "Collaboration."
+Author's character. The communication is professional, but since it's an official account, there's no personal personality. The motivations are business and innovation. The tone is neutral, no emotional extremes. Decision-making is strategic, focusing on industry trends and partnerships.
 
-Wait, the user also wants the tweets put into bigger context. The original tweet is the main one, but the user provided only one tweet. So the context is MastercardNews announcing stablecoin support, partnering with Web3 leaders, and emphasizing accessibility.
+Putting it all together, the main point is Mastercard's expansion into stablecoin payments with strategic partnerships. The keywords should reflect that: stablecoins, payment infrastructure, financial innovation, blockchain, Mastercard.
 
-I need to make sure the summary is concise, focused on the most distinctive patterns. Avoid redundancy. The keywords should reflect the main themes and the ecosystem. Make sure the psychological evaluation is aligned with the communication style and content.
+Wait, the user also asked for 5 keywords. Let me check if those are the most distinctive. Stablecoins, payment infrastructure, financial innovation, blockchain, Mastercard. That covers the main points and the project. Yeah, that works.
 </think>
 
-**1. Main Topics/Themes:**  
-- **Stablecoins** (end-to-end support, payments, accessibility).  
-- **Web3, finance, fintech** (collaborations, innovation).  
-- **Consumer/business empowerment** (ease of use, global reach).  
+**Summary:**  
+1. **Main topics/themes:** Mastercard announces end-to-end stablecoin support, emphasizing payment infrastructure, partnerships with Web3/fintech leaders, and consumer/business accessibility.  
+2. **Language style/tone:** Formal, professional, and informative, with a focus on industry trends and innovation.  
+3. **Legitness:** Legitimate (Mastercard News is a verified financial entity). No suspicious claims or misleading content.  
+4. **Ecosystem/project:** Mastercard’s payment ecosystem, leveraging blockchain and stablecoins for financial services.  
+5. **Author’s character:**  
+   - **Personality traits:** Professional, strategic, and forward-thinking.  
+   - **Motivations/values:** Prioritizing industry adoption, innovation, and financial inclusion.  
+   - **Emotional patterns:** Neutral, goal-oriented.  
+   - **Decision-making:** Data-driven, focused on scalability and collaboration.  
 
-**2. Language Style & Tone:**  
-- **Formal/technical** (jargon like "end-to-end capabilities," "stablecoins").  
-- **Authoritative** (emphasizes partnership and innovation).  
-- **Professional** (focus on trust, accessibility, and global impact).  
+**Context:** The account promotes Mastercard’s strategic expansion into stablecoin payments, positioning itself as a leader in financial infrastructure.  
 
-**3. Key Characteristics of Communication:**  
-- **Concise & focused** (short, impactful message).  
-- **Technical/industry-specific** (references to Web3, fintech).  
-- **Collaborative** (partnerships, "alongside leaders").  
-- **Strategic** (emphasizes innovation and global reach).  
+**Keywords/tags:** stablecoins, payment infrastructure, financial innovation, blockchain, Mastercard.
+---
+## Original Tweets/Messages
 
-**4. Ecosystem/Project:**  
-- **Financial Technology (Fintech)** (stablecoins, payments, partnerships).  
-- **Web3** (mention of Web3, decentralized finance).  
+<details>
+<summary>Click to view original content</summary>
 
-**5. Psychological Evaluation:**  
-- **Personality Traits:** Analytical, strategic, innovative.  
-- **Motivations/Values:** Innovation, collaboration, trust, global impact.  
-- **Emotional Patterns:** Passionate about technology and accessibility.  
-- **Decision-Making Approach:** Forward-looking, data-driven, risk-averse.  
+| Type | Content |
+|------|---------|
+| tweets | "{\"bookmarkCount\":753,\"conversationId\":\"1916896208187986114\",\"hashtags\":[],\"id\":\"1916896208187986114\",\"isQuoted\":false,\"isRetweet\":false,\"language\":\"en\",\"likes\":4335,\"name\":\"Mastercard News\",\"mentions\":[],\"permanentUrl\":\"https://x.com/MastercardNews/status/1916896208187986114\",\"photos\":[],\"poll\":null,\"quotes\":427,\"replies\":330,\"retweets\":1233,\"text\":\"Today, we announced our end-to-end capabilities to support stablecoins, ensuring payments can be made or received using them - anytime, anywhere. Alongside proven leaders across Web3, finance and fintech, we’re empowering consumers and businesses to use stablecoins as easily as https://t.co/6uSpMlNK9z\",\"thread\":[],\"timeParsed\":\"2025-04-28T16:44:04.000Z\",\"timestamp\":1745858644,\"urls\":[],\"userId\":\"36730070\",\"username\":\"MastercardNews\",\"videos\":[],\"views\":829781}" |
+| messages | Today, we announced our end-to-end capabilities to support stablecoins, ensuring payments can be made or received using them - anytime, anywhere. Alongside proven leaders across Web3, finance and fintech, we’re empowering consumers and businesses to use stablecoins as easily as https://t.co/6uSpMlNK9z |
 
-**Keywords/Tags for Postprocessing:**  
-- #Stablecoins  
-- #Web3  
-- #Fintech  
-- #Innovation  
-- #Collaboration
-
-## Psychological Profile
-
-This section contains an AI-generated psychological evaluation based on communication patterns. This is for research purposes only and should not be considered a clinical assessment.
+</details>

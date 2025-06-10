@@ -3,26 +3,20 @@
 ## Overview
 
 <think>
-Okay, let's see. The user provided a bunch of tweets from Michael Saylor, a Bitcoin influencer. They want me to generate 5 keywords or tags that highlight the most distinctive patterns in these tweets.
+Okay, let's tackle this. The user provided a bunch of tweets, mostly from Michael Saylor, and wants me to generate 5 keywords or tags that capture the most distinctive patterns. First, I need to look through all the tweets and identify common themes or recurring topics.
 
-First, I need to figure out what themes are common. Looking at the tweets, there are several topics. The main ones seem to be about Bitcoin investment, strategy, and the "Tulip season" metaphor. There's also mention of buying Bitcoin at low prices, the "₿ train," and connecting the dots in Bitcoin trends.
+Looking at the first set of tweets, there's a lot about Bitcoin, like "Kids Get Bitcoin," "You can still buy $BTC for less than $0.2 million," and "Don't miss the ₿ train." So "Bitcoin" is a big one. Then there's mentions of "Strategy World 2025," which points to "Strategy" as a keyword. 
 
-So the key patterns here are: 1) Bitcoin investment strategies, 2) The "Tulip season" metaphor, 3) Buying Bitcoin at low prices, 4) The "₿ train" as a trend, and 5) Connecting the dots in Bitcoin trends. 
+Another recurring phrase is "Embrace the Winning Strategy," so "Winning Strategy" might be a tag. The tweet "Connect the Dots" is another one, so "Connect the Dots" could be a tag. Also, "Tulip season ends. Bitcoin is forever." That's a metaphor, but "Bitcoin is forever" is a common sentiment, so maybe "Bitcoin Forever" as a tag. 
 
-Wait, but the user wants 5 keywords. Let me check if these can be condensed. The main ones are: Bitcoin Investment, Tulip Season, Buy Low Sell High, ₿ Train, and Connect the Dots. These terms are all relevant and capture the essence of the tweets. 
-
-I should make sure they're distinct and cover the main themes. "Buy Low Sell High" is a common strategy phrase, "Tulip Season" refers to the 2008 bubble, "₿ Train" is a term for the rise of Bitcoin, and "Connect the Dots" refers to the trend of linking Bitcoin to other trends. That should cover the key patterns.
+Wait, but the user wants 5. Let me check again. The main topics are Bitcoin, Strategy, Winning Strategy, Connect the Dots, and Bitcoin Forever. But maybe "Bitcoin" is the most common, then "Strategy," "Winning Strategy," "Connect the Dots," and "Bitcoin Forever." That's five. Alternatively, maybe "Bitcoin" is one, "Strategy" another, "Winning Strategy" third, "Connect the Dots" fourth, and "Bitcoin Forever" fifth. That seems to cover the main themes. Let me make sure there's no other recurring terms. The tweets also mention "Kids Get Bitcoin," "Don't miss the ₿ train," "Join us today for Strategy World 2025," and "Bitcoin makes you Interesting." So "Kids Get Bitcoin" is a specific tag, but maybe that's too specific. The user wants the most distinctive patterns, so maybe the general terms like Bitcoin, Strategy, Winning Strategy, Connect the Dots, and Bitcoin Forever are better. Yeah, that's five. I'll go with those.
 </think>
 
 **Keywords/Tags:**  
-1. **Bitcoin Investment**  
-2. **Tulip Season**  
-3. **Buy Low Sell High**  
-4. **₿ Train**  
-5. **Connect the Dots**  
+1. **Bitcoin**  
+2. **Strategy**  
+3. **Winning Strategy**  
+4. **Connect the Dots**  
+5. **Bitcoin Forever**  
 
-These tags highlight core themes: Bitcoin strategy, historical metaphors, investment tactics, trend terminology, and narrative connections.
-
-## Psychological Profile
-
-This section contains an AI-generated psychological evaluation based on communication patterns. This is for research purposes only and should not be considered a clinical assessment.
+These tags capture recurring themes (Bitcoin adoption, strategic messaging, metaphors, and long-term optimism) central to the tweets.

@@ -3,50 +3,48 @@
 ## Overview
 
 <think>
-Okay, let's tackle this query step by step. The user provided a tweet from a Twitter account and wants a detailed analysis with specific sections. First, I need to extract the main topics, language style, key characteristics, ecosystem, and psychological evaluation. Then generate 5 keywords/tags.
+Okay, let's tackle this query. The user provided a tweet from an account related to BIT10, LiquidiumFi, and Dfinity. They want a summary of five aspects: main topics, language style, legitness evaluation, the ecosystem/project advertised, and the author's character. Plus, five keywords.
 
-Starting with the main topics: The tweet mentions BIT10, LiquidiumFi, dfinity, DeFi, and a live event. The key themes are DeFi, modular interoperable products, and collaboration. The language is enthusiastic, using emojis and hashtags. The tone is positive and excited, emphasizing collaboration and innovation.
+First, I need to parse the tweet. The main topics are DeFi, modular interoperable products, ICP, and collaboration between BIT10, LiquidiumFi, and Dfinity. The language is energetic, using emojis and exclamation points. The tone is enthusiastic and forward-looking. 
 
-For the key characteristics of communication: The user is likely a professional in DeFi, maybe a developer or project leader. They use technical terms, show enthusiasm, and are active in the DeFi community. The communication is informative and forward-looking.
+Legitness: The accounts mentioned are real, so the project is legitimate. The collaboration is plausible. 
 
-Ecosystem: The account is part of the DeFi ecosystem, specifically involved with BIT10, LiquidiumFi, and dfinity. They're promoting a DeFi project, so the ecosystem here is DeFi and blockchain.
+The ecosystem is DeFi, specifically BIT10's project. 
 
-Psychological evaluation: The person is likely a passionate DeFi enthusiast, values innovation and collaboration. They might be motivated by contributing to the DeFi space, have a values of community and progress, emotional patterns of excitement and enthusiasm, and decision-making driven by innovation and collaboration.
+For the author's character: The communication is confident and persuasive, suggesting a strong personality. Motivations might be to promote DeFi and ICP. Emotional patterns are positive and excited. Decision-making is proactive.
 
-Keywords/tags could be DeFi, Blockchain, Modular Interoperability, Collaboration, Innovation. Need to make sure they're relevant and concise.
+Keywords: DeFi, ICP, Modular Interoperability, BIT10, Dfinity. 
 
-Check if the user wants the tweets put in context. The tweet is from BIT10, so the context is their DeFi project. The keywords should reflect the main points discussed.
+I need to make sure the summary is concise and covers all points without fluff. Check if the legitness is correctly evaluated. Also, ensure the keywords are relevant and capture the essence.
 </think>
 
-**1. Main Topics/Themes:**  
-- DeFi innovation (BIT10 x LiquidiumFi x dfinity)  
-- Modular, interoperable blockchain products  
-- Collaboration and live event participation  
+**1. Main topics/themes discussed**: DeFi innovation, collaboration between BIT10, LiquidiumFi, and Dfinity, modular interoperable products on ICP.  
+**2. Language style and tone**: Energetic, persuasive, and forward-looking, using emojis and exclamation points to emphasize urgency and excitement.  
+**3. Evaluation of legitness**: Legitimate (mentions established projects and a clear technical focus).  
+**4. Ecosystem/project**: BIT10’s DeFi initiatives on ICP, leveraging Dfinity’s infrastructure.  
+**5. Author’s character**:  
+   - **Personality traits**: Confident, assertive, and vision-driven.  
+   - **Motivations/values**: Promoting DeFi innovation and ICP’s potential.  
+   - **Emotional patterns**: High-energy, focused on growth and collaboration.  
+   - **Decision-making**: Proactive, emphasizing urgency and technical progress.  
 
-**2. Language Style & Tone:**  
-- **Style:** Technical (DeFi terms), enthusiastic, concise.  
-- **Tone:** Positive, energetic, forward-looking. Emojis (🔥, 📈) and hashtags (DeFi, Blockchain) amplify excitement.  
+**Context**: The author aims to position BIT10 as a leader in next-gen DeFi on ICP, leveraging partnerships to highlight interoperability and user-centric design.  
 
-**3. Key Characteristics of Communication:**  
-- **Personality:** Passionate, visionary, tech-savvy.  
-- **Motivations/Values:** Innovation, community collaboration, blockchain advancement.  
-- **Emotional Patterns:** Exhilaration at collaboration, enthusiasm for DeFi evolution.  
-- **Decision-Making:** Prioritizes innovation, seeks partnerships, values progress.  
+**Keywords/Tags**: DeFi, ICP, Modular Interoperability, BIT10, Dfinity
+---
+## Original Tweets/Messages
 
-**4. Ecosystem/Project:**  
-- **Ecosystem:** DeFi & blockchain (BIT10, LiquidiumFi, dfinity).  
-- **Project:** BIT10’s DeFi initiative, emphasizing modular interoperability and collaboration.  
+<details>
+<summary>Click to view original content</summary>
 
-**5. Keywords/Tags for Postprocessing:**  
-- #DeFi  
-- #Blockchain  
-- #ModularInteroperability  
-- #Collaboration  
-- #Innovation  
+| Type | Content |
+|------|---------|
+| messages | BIT10 x @LiquidiumFi x @dfinity = Real DeFi in motion! 
 
-**Contextualized Summary:**  
-The tweet highlights BIT10’s DeFi collaboration with LiquidiumFi and dfinity, emphasizing modular, interoperable blockchain products. The author is a passionate DeFi enthusiast, driven by innovation and community collaboration, sharing excitement about advancing decentralized finance. The account promotes DeFi projects, aligning with themes of technical progress and cross-chain partnerships.
+Today we’re joining the World Computer Talk to dive into building modular, interoperable, user-first products on ICP! 🔥
 
-## Psychological Profile
+DeFi is evolving fast — and BIT10 is right at the edge of what’s next. 
 
-This section contains an AI-generated psychological evaluation based on communication patterns. This is for research purposes only and should not be considered a clinical assessment.
+🎙️ Tune in at 9PM GMT+7 👇 |
+
+</details>

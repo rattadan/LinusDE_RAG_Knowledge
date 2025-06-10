@@ -3,46 +3,69 @@
 ## Overview
 
 <think>
-Okay, let's tackle this query. The user wants me to analyze the given tweet and provide a summary with specific points. First, I need to understand the tweet content. The user provided a tweet that's a retweet from @EUScienceInnov about Horizon Europe investments in 2025. The main topic is EU research funding. 
+I'll analyze this tweet based on the requested elements:
 
-For the main topics/themes, the primary focus is on EU science and technology investment. The language style is formal and informative, using hashtags like #HorizonEurope and #EUInvestment. The tone is neutral, factual, and promotional. 
+1. Main topics/themes discussed:
+- European Union science and innovation funding
+- Horizon Europe program
+- Future investment directions in research and technology
+- EU's strategic approach to science and innovation
 
-Key characteristics of communication: The user is likely a public figure or a representative of an organization promoting EU initiatives. They might be using this to raise awareness or support for the project. The communication is structured, with clear calls to action and hashtags.
+2. Language style and tone:
+- The tweet is brief and factual
+- It has a formal, informative tone
+- It uses standard English without slang or colloquial expressions
+- The language is neutral and objective
+- The use of the arrow emoji (➡️) suggests a directional focus or emphasis on moving forward
 
-The ecosystem or project they advertise might be Horizon Europe, which is the EU's research and innovation program. The psychological evaluation would involve traits like being informed, possibly motivated by a desire to support EU initiatives, values of collaboration and progress, emotional patterns of being enthusiastic about new projects, and decision-making that's strategic and data-driven.
+3. Evaluation of legitimacy:
+- The tweet appears legitimate
+- The account @HorizonEU is the official Twitter/X account for Horizon Europe, the EU's key funding program for research and innovation
+- The tweet is simply retweeting another EU account (@EUScienceInnov) and directing users to an official EU website
+- The content aligns with the account's purpose of sharing information about EU research funding opportunities
 
-I need to generate 5 keywords/tags for postprocessing. The existing ones are #HorizonEurope and #EUInvestment. Maybe add #ResearchInnovation, #EUScience, and #Innovation2025. That should cover the main themes.
+4. Which Ecosystem or project the account advertises:
+- The Horizon Europe program
+- This is the European Union's flagship research and innovation funding program
+- The tweet specifically points to information about funding plans for 2025
 
-Wait, the user also wants the tweets put into bigger context. The tweet is a single one, but maybe the user is referring to the broader context of the account's activities. Since the account is linked to HorizonEU, the context would be about EU science and innovation projects. The psychological evaluation should highlight traits like being informed, motivated by values of collaboration, and emotional patterns of enthusiasm. Decision-making is strategic, focusing on research and innovation.
+5. Evaluation of the author's character:
+- This is not a personal account but an official EU institutional account
+- Personality traits: Formal, informative, transparent
+- Potential motivations and values: Promoting EU research and innovation, transparency in funding allocation, supporting scientific progress
+- Emotional patterns and tendencies: Neutral and objective, no emotional language used
+- Decision-making approach: Information-focused, aimed at directing users to official resources rather than expressing opinions
 
-I need to make sure the summary is concise and includes all the required points without being too detailed. Also, the keywords should be relevant and help in postprocessing. Let me check again to ensure all parts are covered.
+Putting this tweet in the bigger context of intentions:
+This tweet follows the standard pattern of the HorizonEU account which is to share information about research and innovation funding opportunities within the European Union. It demonstrates the account's focus on transparency and dissemination of information about EU investment priorities in science and technology.
+
+Keywords/tags:
+#HorizonEurope #EUFunding #ResearchInnovation #SciencePolicy #EUInvestment
 </think>
 
-**1. Main Topics/Themes Discussed**  
-- EU science and innovation investment (Horizon Europe 2025)  
-- Research funding, technological advancement, and policy initiatives  
+1. **Main Topics/Themes**:  
+- EU research funding allocation for 2025 via Horizon Europe  
+- Science and innovation priorities under EU policy  
 
-**2. Language Style & Tone**  
-- **Style**: Formal, informative, and promotional.  
-- **Tone**: Neutral, factual, and celebratory (e.g., "Find out more" and "➡️").  
+2. **Language Style/Tone**:  
+- Formal and informational, typical of institutional communication  
+- Arrow emoji adds slight urgency, directing attention to the link  
 
-**3. Key Characteristics of Communication**  
-- **Structure**: Clear, concise, and focused on actionable information.  
-- **Audience**: Likely targeted at EU citizens, policymakers, or stakeholders.  
-- **Purpose**: To raise awareness about EU research funding and its impact.  
+3. **Legitimacy Evaluation**:  
+- Legitimate: Official HorizonEU account retweeting another EU institution  
+- Contains a direct link to an EU domain (.eu), aligning with the account’s verified mission  
 
-**4. Ecosystem/Project Advertised**  
-- **Horizon Europe** (EU’s research and innovation program for 2025).  
+4. **Advertised Ecosystem/Project**:  
+- **Horizon Europe**: EU’s flagship research and innovation funding program  
 
-**5. Psychological Evaluation**  
-- **Personality Traits**: Informed, curious, and value collaboration.  
-- **Motivations/Values**: Support for scientific progress, national pride, and collective advancement.  
-- **Emotional Patterns**: Enthusiastic about innovation, optimistic about future opportunities.  
-- **Decision-Making**: Strategic, data-driven, and focused on long-term societal benefits.  
+5. **Author Character Analysis**:  
+- **Personality**: Bureaucratic, structured, and mission-driven  
+- **Motivations**: Enhancing public awareness of EU-funded opportunities, fostering transparency  
+- **Emotional Patterns**: Neutral; avoids emotive language, prioritizing factual delivery  
+- **Decision-Making**: Strategic, focusing on resource dissemination rather than engagement  
 
-**Keywords/Tags for Postprocessing**:  
-#HorizonEurope, #EUInvestment, #ResearchInnovation, #EUScience, #Innovation2025
+**Contextual Insight**:  
+This tweet exemplifies the account’s role as a conduit for EU science policy updates, aiming to inform stakeholders (researchers, institutions, etc.) about upcoming funding cycles. The retweet amplifies reach while maintaining alignment with institutional goals.  
 
-## Psychological Profile
-
-This section contains an AI-generated psychological evaluation based on communication patterns. This is for research purposes only and should not be considered a clinical assessment.
+**Keywords/Tags**:  
+#HorizonEurope #EUFunding #ResearchInnovation #SciencePolicy #EUInvestment

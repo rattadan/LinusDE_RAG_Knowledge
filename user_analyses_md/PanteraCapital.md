@@ -3,52 +3,47 @@
 ## Overview
 
 <think>
-Okay, let's tackle this query. The user wants me to analyze the provided tweets and generate a summary with specific sections. They also want 5 keywords/tags for post-processing. 
+Okay, let's break down this user's query. They provided a set of tweets and want a summary covering five points: main topics, language style, legitness, the ecosystem, and the author's character. Plus, keywords.
 
-First, I need to look at the tweets. The main topics seem to be about crypto market fundamentals, long-term bullish views, and market performance. The user mentions Pantera Capital, so that's a key ecosystem. The language is formal and analytical, with mentions of specific projects like Cosmo Jiang's letter. The tone is professional, focusing on market analysis and investment strategies.
+First, I need to analyze each tweet. The first one talks about the market rewarding tokens with real fundamentals, referencing a letter by @cosmo_jiang. The second is a retweet about a Milken Institute talk. The third mentions Q1 2025 being a tough quarter but still bullish. The author is Pantera Capital, so that's the ecosystem.
 
-For the main themes, the key points are market fundamentals, long-term bullish outlook, and Q1 2025 performance. The language style is technical and analytical, using terms like "sound fundamentals," "drawdowns," and "long-term bullish." The key characteristics include a focus on data-driven analysis, confidence in market trends, and a strategic investment approach.
+Language style is formal, analytical, with references to letters and specific dates. The tone is confident and forward-looking. Legitness is high because it's from a known crypto firm. The author's character seems professional, data-driven, and optimistic. They focus on long-term trends, which suggests patience and a strategic approach. Motivations are likely to promote their firm's expertise in crypto. Emotional patterns are steady and positive, decision-making is based on fundamentals.
 
-The ecosystem is Pantera Capital, which is a well-known crypto investment firm. The account is likely promoting their research and insights. The psychological evaluation would involve traits like analytical and confident, motivations related to investment strategies, emotional tendencies towards optimism, and decision-making based on data and trends.
-
-Now, the user wants a concise summary focusing on distinctive patterns. I need to highlight the main topics, language style, key characteristics, ecosystem, and psychological aspects. The keywords should be relevant to the content, like "crypto market fundamentals," "long-term bullish," "market analysis," "Pantera Capital," and "investment strategies."
-
-I need to make sure the response is concise and meets all the user's requirements. Also, generate 5 tags that capture the essence of the tweets. Let me check if I missed anything. The user also wants the tweets put into bigger context, so I should mention the specific points like Q1 2025 performance and the mention of Cosmo Jiang's letter. 
-
-I think that's covered. The summary is structured with the required sections, the keywords are relevant, and the tags are concise. The psychological evaluation is based on the communication style and content. Alright, ready to put it all together.
+Keywords should be related to the themes: crypto fundamentals, long-term bullish, market trends, digital assets, Pantera Capital. Need to make sure they're concise and relevant.
 </think>
 
 **Summary:**  
-1. **Main Topics/Themes:**  
-   - Crypto market fundamentals (e.g., "sound fundamentals," "drawdowns").  
-   - Long-term bullish outlook for crypto (e.g., Q1 2025 performance).  
-   - Market analysis and investment strategies (e.g., Pantera Capital’s research).  
+1. **Main Topics/Themes:** Focus on crypto market fundamentals, long-term bullish outlook, and institutional adoption trends.  
+2. **Language Style & Tone:** Formal, analytical, and confident, with references to letters, data, and industry events.  
+3. **Legitness:** High (Pantera Capital is a reputable crypto research firm).  
+4. **Ecosystem/Project:** Advertises Pantera Capital, a well-known crypto research and investment firm.  
+5. **Author's Character:**  
+   - **Personality Traits:** Professional, data-driven, and optimistic.  
+   - **Motivations/Values:** Emphasizes long-term fundamentals over short-term volatility.  
+   - **Emotional Patterns:** Steady, focused, and forward-looking.  
+   - **Decision-Making:** Based on research, trends, and institutional perspectives.  
 
-2. **Language Style & Tone:**  
-   - Formal, analytical, and data-driven.  
-   - Optimistic tone, emphasizing resilience and strategy.  
+**Context:** The account promotes Pantera Capital’s analysis of crypto market fundamentals and long-term growth, positioning itself as a trusted authority in the space.  
 
-3. **Key Characteristics of Communication:**  
-   - Focus on empirical data (e.g., "significant drawdowns").  
-   - Confident in market trends and long-term gains.  
-   - Strategic framing of investment decisions.  
+**Keywords/Tags:** crypto fundamentals, long-term bullish, market trends, digital assets, Pantera Capital.
+---
+## Original Tweets/Messages
 
-4. **Ecosystem/Project:**  
-   - **Pantera Capital** (a crypto investment firm).  
-   - Highlights research by **@cosmo_jiang** (a key analyst).  
+<details>
+<summary>Click to view original content</summary>
 
-5. **Psychological Evaluation:**  
-   - **Personality Traits:** Analytical, confident, and strategic.  
-   - **Motivations/Values:** Investment-driven, bullish on long-term trends.  
-   - **Emotional Patterns:** Optimistic, resilient, and data-focused.  
-   - **Decision-Making:** Based on market fundamentals and historical trends.  
+| Type | Content |
+|------|---------|
+| messages | The market may be starting to reward tokens with real fundamentals – a theme we've been emphasizing.
 
-**Keywords/Tags:**  
-#CryptoMarketFundamentals #LongTermBullish #PanteraCapital #DigitalAssetAdoption #InvestmentStrategy  
+@cosmo_jiang explores this in our latest letter: https://t.co/oSh3VxvEKZ
 
-**Contextualization:**  
-The tweets reflect Pantera Capital’s emphasis on market fundamentals, Q1 2025 performance, and their collaboration with @cosmo_jiang. The account promotes strategic, data-driven insights into crypto investing, targeting investors focused on long-term growth and market resilience.
+"We believe the market is increasingly beginning to focus on tokens with sound fundamentals and we are https://t.co/YiA5bb4piN |
+| messages | RT @dan_pantera: Excited to speak at the Milken Institute Global Conference next week on digital asset adoption and the future of investing… |
+| messages | Q1 2025 was crypto’s worst quarter since summer 2022 – but there are many reasons to be long-term bullish, as @cosmo_jiang highlights in our latest letter.
 
-## Psychological Profile
+Read about them here: https://t.co/oSh3VxwcAx
 
-This section contains an AI-generated psychological evaluation based on communication patterns. This is for research purposes only and should not be considered a clinical assessment.
+"While the past may not predict the future, significant drawdowns have https://t.co/hRKJXRwJ3w |
+
+</details>

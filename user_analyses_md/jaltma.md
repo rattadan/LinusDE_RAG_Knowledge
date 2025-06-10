@@ -3,31 +3,39 @@
 ## Overview
 
 <think>
-Okay, let's tackle this query. The user wants a summary of the tweets from an account. First, I need to look at the tweets provided. Both messages are from the same person, jaltma, and they're about the defense vertical. The main theme seems to be advising founders not to approach the defense sector casually.
+Okay, let's tackle this query. The user provided two tweets from an account, and they want a summary of five aspects: main topics, language style, legitness, the ecosystem/project advertised, and the author's character traits. Plus, five keywords.
 
-The language style is formal and authoritative, with phrases like "its own universe" and "like with some casualness." The tone is confident and perhaps a bit serious, emphasizing the importance of taking the defense vertical seriously.
+First, I need to analyze the content. Both tweets are from @jaltma. The main topics are about advising founders not to approach the defense industry casually. The language is formal, using phrases like "its own universe," which suggests a serious or technical tone. The user is likely in a field related to defense or tech, maybe a consultant or entrepreneur. 
 
-Key characteristics of communication here are the use of strong, declarative statements, maybe a bit of rhetorical flair. The account is likely advertising a product or service related to the defense industry, given the context of founders and the advice given.
+Legitness: The account is verified, so it's legitimate. The project mentioned is defense, so maybe a tech or security company. The author's personality seems professional, maybe cautious. Motivations could be to warn others, showing experience. Emotional patterns might be measured, decision-making based on experience. 
 
-For the psychological evaluation, the person might have a personality that's confident and experienced, possibly in a technical or specialized field. Their motivations could be to provide valuable advice or establish credibility. Emotional patterns might include a tendency to emphasize caution and expertise. Decision-making could be analytical, preferring to approach complex areas with thoroughness.
+Keywords: defense industry, founder advice, strategic caution, vertical expertise, security sector. 
 
-Now, generating 5 keywords/tags. They should capture the main themes: defense, founder advice, caution, expertise, and maybe the ecosystem. Let me see... "Defense Advisory," "Founder Guidance," "Cautionary Advice," "Expertise in Tech," and "Ecosystem Insights." That covers the main points.
+Wait, the user wants the evaluation of legitness. The account is verified, so that's a point. The project could be in the defense or security ecosystem. The author's character traits: professional, cautious, experienced. 
+
+I need to make sure the summary is concise, focusing on the most distinctive patterns. Also, check if the tweets are in the same context. Both are similar, so the main theme is advising founders on the defense vertical. The tone is serious, using metaphor. 
+
+I think that's all. Now structure the answer with the five points and the keywords.
 </think>
 
-**Summary:**  
-1. **Main Topics/Themes:** Advice to founders about the defense vertical, emphasizing caution and expertise.  
-2. **Language Style & Tone:** Formal, authoritative, with rhetorical emphasis on the "universe" of the defense sector.  
-3. **Key Characteristics:** Confident, analytical, and emphasizes caution in complex, specialized domains.  
-4. **Ecosystem/Project:** Likely advertising a product/service related to defense tech or industry expertise.  
-5. **Psychological Evaluation:**  
-   - **Personality:** Confident, experienced, and detail-oriented.  
-   - **Motivations:** To provide credible guidance, establish authority, and help founders navigate niche markets.  
-   - **Emotional Patterns:** Cautious, analytical, and focused on risk assessment.  
-   - **Decision-Making:** Logical, prioritizes thoroughness and expertise in complex domains.  
+**1. Main topics/themes discussed**:  
+Advising founders to approach the defense industry with caution, emphasizing its complexity and specialized nature.  
 
-**Keywords/Tags:**  
-#DefenseAdvisory #FounderGuidance #CautionaryAdvice #ExpertiseInTech #EcosystemInsights
+**2. Language style and tone**:  
+Formal, cautionary, and metaphorical ("its own universe"). Conveys expertise and a serious, strategic tone.  
 
-## Psychological Profile
+**3. Evaluation of legitness**:  
+Legitimate (verified account). Contextual relevance to defense/tech ecosystems suggests credibility in niche expertise.  
 
-This section contains an AI-generated psychological evaluation based on communication patterns. This is for research purposes only and should not be considered a clinical assessment.
+**4. Ecosystem/project advertised**:  
+Defense industry, likely related to cybersecurity, defense tech, or strategic consulting.  
+
+**5. Evaluation of the author's character**:  
+- **Personality traits**: Professional, cautious, and knowledgeable.  
+- **Motivations/values**: Prioritizes strategic foresight and warns against underestimating industry complexity.  
+- **Emotional patterns**: Calm, measured, and experience-driven.  
+- **Decision-making**: Relies on expertise and caution, avoiding hasty judgments.  
+
+**Context**: The author likely aims to position themselves as a trusted advisor in high-stakes, specialized industries, leveraging their experience to caution others.  
+
+**Keywords/tags**: defense industry, founder advice, strategic caution, vertical expertise, security sector.

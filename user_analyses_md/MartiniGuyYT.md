@@ -3,33 +3,27 @@
 ## Overview
 
 <think>
-Okay, let's tackle this. The user wants me to generate 5 keywords or tags for better postprocessing, based on the provided data. First, I need to understand the main themes from the tweets.
+Okay, I need to generate 5 keywords or tags based on the given data. Let me look through the provided tweets to identify the main themes.
 
-Looking at the tweets, there's a lot about Bitcoin, crypto trends, and related topics. The most prominent ones seem to be Bitcoin's price movements, major investors buying Bitcoin, and government support. There's also mention of altcoins, mainnet launches, and specific events like the BlackRock purchase.
+First, there's a lot of mentions of Bitcoin (BTC) and its price movements, like "BITCOIN IS PUMPING" and "BLACKROCK JUST BOUGHT..." So "Bitcoin" is a key term. Then there's a lot about companies investing in Bitcoin, like BlackRock, Fidelity, and others. So "Corporate Bitcoin Investment" might be a good tag.
 
-So, the key themes here are: Bitcoin price, investor interest, government support, altcoins, and mainnet launches. These are the areas where the tweets are focused. The user wants tags that capture these trends. 
+Another recurring theme is the political or legislative aspects, like the "Bitcoin Reserve Bill" and senators supporting it. So "Bitcoin Legislation" could be another tag. 
 
-I need to make sure the tags are distinct and relevant. Let me list them out:
+There's also a lot of talk about altcoins and the potential for them to rise, such as "WHICH ALTCOINS SHOULD I MAKE A VIDEO ABOUT". So "Altcoins" is a keyword. 
 
-1. Bitcoin Price Trends - since there's a lot about price movements and market analysis.
-2. Investor Interest - because many tweets mention large investors buying Bitcoin.
-3. Government Support - as some tweets talk about U.S. support and legislation.
-4. Altcoin Ecosystem - since there's a question about which altcoins to make videos about.
-5. Mainnet Launches - because the Plume Mainnet launch is mentioned.
+Lastly, there's a lot of mentions of market trends and predictions, like "Bernstein Predicts Bitcoin Record Highs". So "Market Trends" or "Bitcoin Market Trends" might fit. 
 
-These cover the main topics from the tweets. I should check if there's any overlap or if I can make them more specific. For example, "Bitcoin Price Trends" is broad but covers the main focus. "Investor Interest" is good because it's a key theme. "Government Support" is another big one. "Altcoin Ecosystem" and "Mainnet Launches" are also important. 
-
-I think that's it. These tags should help in postprocessing by grouping similar topics together.
+I need to make sure these tags are distinct and cover the main topics. Let me check again. Bitcoin, Corporate Investment, Legislation, Altcoins, Market Trends. That seems to cover the main points.
 </think>
 
-**Keywords/Tags for Postprocessing:**  
-1. **Bitcoin Price Trends**  
-2. **Investor Interest**  
-3. **Government Support**  
-4. **Altcoin Ecosystem**  
-5. **Mainnet Launches**  
+**Keywords/Tags:**  
+1. **Bitcoin (BTC)**  
+2. **Corporate Bitcoin Investment**  
+3. **Bitcoin Legislation**  
+4. **Altcoins**  
+5. **Bitcoin Market Trends**  
 
-These tags capture the core themes of market dynamics, investor behavior, policy shifts, and technological advancements in the crypto space.
+These tags capture the dominant themes: Bitcoin's price movements, institutional adoption, legislative developments, altcoin potential, and market forecasts.
 
 ## Psychological Profile
 

@@ -3,47 +3,34 @@
 ## Overview
 
 <think>
-Okay, let's tackle this query. The user wants an analysis of the provided tweets from a Twitter account. They need a summary with specific points: main topics, language style, key communication characteristics, which ecosystem/project they advertise, and a psychological evaluation. Also, they want the tweets contextualized and five keywords/tags.
+Okay, let's break down this query. The user wants me to analyze several tweets from an account, focusing on specific aspects like main topics, language style, legitimacy, the project being advertised, and the author's character. They also want keywords for postprocessing.
 
-First, I need to look at the tweets. The user has several posts. The first one is about relaxing on weekends, mentioning avoiding trading on weekends. Then there's a Bitcoin trading plan with specific strategies, like entering short after confirmations and long on retests. There's also mentions of $CELO, $ROSE, and other crypto assets. The user uses terms like "rotation zones," "deviations," and "macro analysis." The language is technical and conversational, with emojis and hashtags.
+First, I need to look at each tweet. The first one is about relaxing on the weekend, avoiding the charts, and wishing others a peaceful Sunday. That's a personal message, maybe to show they're not always active. The second tweet is about $BTC trading strategies, entering short and long positions based on certain indicators. That's clearly related to trading, possibly crypto. The third is a mindfulness emoji, which might indicate they value balance. The fourth mentions a good weekly close and higher $CELO, which is another crypto. The fifth is a checkmark with $ROSE, another crypto. The sixth talks about rotation zones and taking advantage of deviations, which is technical analysis. The seventh is a retweet with a GMMMMMM and a beach emoji, maybe promoting a project. The eighth is a mention of $ME and WealthGroup, which is a company, so that's a project. The ninth is a simple graph for $ETH, again crypto.
 
-Main topics are crypto trading strategies, market analysis, personal relaxation, and possibly affiliate marketing. The language style is casual, using emojis and hashtags. The tone is informal, with a mix of humor and technical terms. Key characteristics might include a mix of personal and professional content, using technical jargon, and a focus on trading strategies.
+So the main topics are crypto trading strategies, technical analysis, and maybe promoting certain projects. The language is casual, uses emojis, and has a friendly tone. The author seems to be a trader, possibly in crypto, sharing strategies and updates. They mention specific projects like $BTC, $CELO, $ROSE, $ME, and WealthGroup. The account might be promoting these projects, but there's no clear indication of a specific ecosystem. The author's character seems to be someone who values balance (mindfulness), is detail-oriented (technical analysis), and might be focused on short-term gains. They might be a trader or investor, possibly with a profit-driven motive. Their emotional patterns are positive, using emojis and exclamation points. Decision-making is based on technical analysis and market trends.
 
-The ecosystem could be related to cryptocurrency trading, maybe a crypto trading bot or a personal finance platform. The psychological evaluation would involve traits like a trader with a focus on strategy, possibly valuing precision and control, motivated by financial goals, with emotional patterns of seeking stability and control, and decision-making based on data and patterns.
-
-Keywords could be crypto trading, market analysis, strategy, personal finance, and market trends. Need to make sure these are concise and relevant.
+For keywords, I need to capture the main elements: crypto trading, technical analysis, project promotion, mindfulness, and market trends. That should help in postprocessing.
 </think>
 
-**1. Main Topics/Themes Discussed**  
-- **Crypto trading strategies** (e.g., short/long entries, macro analysis, rotation zones).  
-- **Market analysis** (e.g., BTC, CELO, ROSE, ETH).  
-- **Personal finance** (e.g., "relaxing," "no need to complicate life").  
-- **Emotional control** (e.g., "avoid operating on weekends," "seek stability").  
+**Summary:**  
+1. **Main Topics/Themes:** Crypto trading strategies ($BTC, $CELO, $ROSE, $ME), technical analysis (rotation zones, deviations), and mindfulness.  
+2. **Language Style & Tone:** Casual, upbeat, and visually oriented (emojis, hashtags). Uses concise, actionable language for trading advice.  
+3. **Legitimacy Evaluation:** Mixed. Shares specific trading signals but lacks transparency about risk management. Could be a trader or project promoter, but no clear institutional backing is evident.  
+4. **Advertised Project:** Likely promotes crypto assets ($BTC, $CELO, $ROSE, $ME) and WealthGroup. No explicit ecosystem (e.g., Solana, Ethereum) is tied to the account.  
+5. **Author’s Character:**  
+   - **Personality Traits:** Analytical, detail-oriented, and values balance (mindfulness). Uses emojis to convey positivity.  
+   - **Motivations/Values:** Profit-driven, focused on short-term trading. May prioritize efficiency over long-term sustainability.  
+   - **Emotional Patterns:** Consistently upbeat, with emphasis on "success" (e.g., "good weekly close").  
+   - **Decision-Making:** Data-driven (charts, deviations) but lacks risk disclosure.  
 
-**2. Language Style & Tone**  
-- **Style**: Technical jargon (e.g., "deviations," "rotation zones"), casual conversational tone with emojis (e.g., 🧠, 🫵🏻).  
-- **Tone**: Confident, analytical, and slightly humorous (e.g., "leggende" = rumors).  
+**Context:** The account appears to be a crypto trader or promoter, sharing technical strategies and project updates. The frequent mentions of "scalp" and "retest" suggest a focus on short-term gains, while the mindfulness emojis hint at a desire to maintain composure under pressure.  
 
-**3. Key Communication Characteristics**  
-- **Focus on strategy** (e.g., trading plans, market trends).  
-- **Emphasis on control** (e.g., "avoid operating on weekends," "seek stability").  
-- **Use of technical terms** (e.g., "macro analysis," "rotation zones").  
-
-**4. Advertised Ecosystem/Project**  
-- **Cryptocurrency trading bot** or **market analysis platform** (e.g., via mentions of $BTC, $CELO, $ROSE).  
-
-**5. Psychological Evaluation**  
-- **Personality Traits**: Traders prioritizing strategy, detail-oriented, and value control.  
-- **Motivations/Values**: Financial goals, risk management, and preference for simplicity.  
-- **Emotional Patterns**: Seeking stability, avoiding complexity, and valuing precision.  
-- **Decision-Making**: Data-driven, focused on patterns, and prioritizes control.  
-
-**Keywords/Tags for Postprocessing**:  
-- #CryptoTrading  
-- #MarketAnalysis  
-- #StrategyFocus  
-- #EmotionalControl  
-- #MarketTrends
+**Keywords/Tags:**  
+- crypto trading  
+- technical analysis  
+- project promotion  
+- mindfulness  
+- market trends
 
 ## Psychological Profile
 

@@ -3,32 +3,18 @@
 ## Overview
 
 <think>
-Okay, let's tackle this. The user wants me to generate 5 keywords or tags for better postprocessing, based on the given data. First, I need to understand the content thoroughly.
+Okay, let's see. The user provided a bunch of tweets related to Cosmos, IBC Eureka, DeFi, and some other terms. They want me to generate 5 keywords or tags that capture the most distinctive patterns.
 
-Looking at the data, there's a lot of mentions of "Cosmos," "IBC Eureka," "DeFi," "new kind of DeFi," "built on the Cosmos Hub," and "tune in tomorrow." These terms are recurring. Also, there's a lot of talk about building the next generation of the internet, which ties into "vision of Cosmos." 
+First, I need to look through all the tweets and identify the main themes. The mentions of "IBC Eureka" and "Cosmos Hub" are recurring. Also, "DeFi" is a big part of several tweets. Then there's "next generation of the internet" from the quote, which is a strong point. The term "Big week" is mentioned, but that's more of a temporal reference. The video links and media mentions might be less relevant for keywords. 
 
-So the main themes here are Cosmos, IBC Eureka, DeFi, the future of internet, and maybe the project's goals. The user wants keywords that are distinctive. Let me see:
+So, the main themes are Cosmos, IBC Eureka, DeFi, next generation internet, and maybe something about the hub. Wait, the user said to focus on the most distinctive patterns. Let me check again. The tweets mention Cosmos, DeFi, IBC Eureka, the vision of the next generation, and the Hub. Also, "Big week" is a bit of a pattern, but maybe not as strong. The video content is part of the posts, but maybe that's more about the media aspect. 
 
-1. Cosmos: It's the main project name, so that's a solid tag.
-2. IBC Eureka: Since it's the technology powering the DeFi, that's another key.
-3. DeFi: It's the core of the content, so that's essential.
-4. Future of Internet: The vision mentioned, which is part of the project's goal.
-5. Next Generation: The phrase used to describe the internet's evolution, which ties into the vision.
+So the top keywords would be: #Cosmos, #IBC, #DeFi, #NextGenInternet, and #CosmosHub. That covers the main topics. Let me check if there's any other recurring terms. The "vision" part is in the quote, but maybe that's part of the #NextGenInternet. Also, "Tune in tomorrow" is a call to action, but not a keyword. The "Big week" is a pattern, but maybe not as relevant. 
 
-Wait, but "Next Generation" might be too generic. Maybe "Innovation" or "Progress" could work. Alternatively, "Vision" is already there. Let me check if "Vision" is too broad. The original text mentions "the vision of Cosmos," so that's a good one. 
-
-So the five tags could be: Cosmos, IBC Eureka, DeFi, Future of Internet, Vision. That covers the main points. I need to make sure they're distinct and relevant. Let me confirm again. Yes, these terms are all present in the content and capture the key aspects.
+I think those five are the most distinctive. They cover the main projects, the financial aspect (DeFi), the vision, and the key components of the Cosmos ecosystem.
 </think>
 
 **Keywords/Tags:**  
-1. **Cosmos**  
-2. **IBC Eureka**  
-3. **DeFi**  
-4. **Future of Internet**  
-5. **Vision**  
+#Cosmos #IBC #DeFi #NextGenInternet #CosmosHub  
 
-These tags highlight the project's core themes: its name, technology, core innovation, and long-term goals.
-
-## Psychological Profile
-
-This section contains an AI-generated psychological evaluation based on communication patterns. This is for research purposes only and should not be considered a clinical assessment.
+These tags highlight core themes: blockchain ecosystem (Cosmos), interoperability (IBC), decentralized finance (DeFi), visionary goals, and key infrastructure (Hub).

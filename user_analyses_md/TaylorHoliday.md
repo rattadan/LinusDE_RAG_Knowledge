@@ -3,50 +3,35 @@
 ## Overview
 
 <think>
-Okay, let's tackle this query. The user wants a summary of a Twitter message, focusing on specific aspects. First, I need to analyze the given tweet.
+Okay, let's tackle this query. The user provided a tweet and wants a summary with five points. First, I need to break down the content. The main topic is about Incremental Marginal Return (IMR), which is a concept in marketing or advertising. The tweet mentions a formula involving Revenue, Incrementality Factor, COD, and Spend. The user is probably talking about a tool or dashboard that will be available for analyzing ad performance.
 
-The tweet mentions "Incremental Marginal Return (IMR)" with an equation. The main topics are probably about advertising and financial concepts. The language is formal, technical, and maybe a bit jargon-heavy. The tone is professional, not too casual.
+Next, the language style is technical but concise. Terms like "COD" and "Spend" are used, which are common in marketing. The tone is informative and maybe a bit promotional, as they mention the dashboard is coming soon. The user might be an account that advertises a project related to ad analytics or marketing tools. The mention of a dashboard suggests they're part of a project that provides such tools.
 
-Key characteristics of communication: technical terms, structured equations, maybe a bit of a sales pitch. The ecosystem could be related to advertising or financial services. The psychological evaluation would look at the person's traits, maybe they're analytical, value precision, have a business mindset, and might be strategic.
+For the evaluation of legitness, I need to check if the information is credible. The formula given is plausible in the context of marketing metrics, but without more context, it's hard to say. The account might be a legitimate marketing expert or a company selling ad analytics software.
 
-I need to generate 5 keywords/tags for postprocessing. The tweet has IMR, Revenue, COD, Spend, and maybe the ecosystem. So the tags could be IMR, Revenue, COD, Spend, Advertising. That's five.
+Regarding the author's character: the communication is direct and focused on a specific topic, which suggests they're knowledgeable. The use of technical terms indicates expertise. Their motivations might be to share insights or promote their service. Emotional patterns are professional, and decision-making is data-driven, as they're discussing metrics.
 
-Check if the summary is concise. Make sure to highlight the main themes, language style, key characteristics, ecosystem, and psychological aspects. Also, put some tweets in context. The user provided only one tweet, so the context is just that tweet. 
+The keywords should be related to the main topics. Maybe "Incremental Marginal Return", "Advertising Analytics", "Marketing Metrics", "Dashboard Tools", and "Spend Optimization". These tags would help in categorizing the tweet for further processing.
 
-Wait, the user said "put some tweets from the person into bigger context." But there's only one tweet. So maybe the context is that the person is promoting a tool or method related to advertising and finance. The psychological evaluation would be someone who's analytical, value precision, strategic, and maybe focused on ROI. 
-
-I need to make sure the keywords are relevant and concise. Avoid any markdown, keep it natural. Alright, time to structure the answer with the five points and the keywords.
+I need to make sure the summary is concise, focusing on the most distinctive patterns. Avoid any assumptions beyond the given text. Check if the project is a specific ecosystem, like a marketing platform or a software company. The mention of a dashboard suggests it's part of a project that offers such tools. The author's personality traits are professional and data-oriented.
 </think>
 
-**1. Main Topics/Themes Discussed**  
-- **Advertising optimization** (e.g., incremental marginal return, revenue, spend).  
-- **Financial metrics** (COD, Spend, Revenue).  
-- **Strategic planning** (transforming advertising portfolios into actionable tools).  
+**Summary:**  
+1. **Main topics/themes:** Promotion of a marketing analytics tool (dashboard) for calculating Incremental Marginal Return (IMR) in advertising, emphasizing revenue optimization and spend efficiency.  
+2. **Language style and tone:** Technical, concise, and promotional. Uses formulaic language and hints at a tool ("coming soon to every dashboard") to convey expertise and urgency.  
+3. **Legitness:** Likely legitimate for a marketing or ad tech project, as IMR is a recognized metric. The mention of a dashboard suggests a tool for tracking ad performance.  
+4. **Ecosystem/project:** Likely a marketing analytics platform or ad optimization tool (e.g., a SaaS solution for advertisers).  
+5. **Author's character:**  
+   - **Personality:** Professional, data-driven, and confident in technical expertise.  
+   - **Motivations:** Promote a product/service focused on advertising efficiency.  
+   - **Emotional patterns:** Calm, focused, and goal-oriented.  
+   - **Decision-making:** Relies on quantifiable metrics (e.g., spend, revenue, COD) to justify claims.  
 
-**2. Language Style & Tone**  
-- **Formal/technical** (jargon-heavy, structured equations).  
-- **Professional tone** (assertive, data-driven).  
+**Context:** The author appears to be a marketing or ad tech professional or company advertising a tool for advanced ad performance analysis, targeting advertisers seeking to optimize spend and revenue through IMR metrics.  
 
-**3. Key Characteristics of Communication**  
-- **Analytical** (focus on metrics and ROI).  
-- **Strategic** (promotes tools for optimizing advertising portfolios).  
-- **Precise** (use of technical terms like COD, Spend).  
-
-**4. Ecosystem/Project Advertised**  
-- **Advertising/Marketing tech** (e.g., AI/automation tools for ROI optimization).  
-
-**5. Psychological Evaluation**  
-- **Personality**: Analytical, detail-oriented, strategic.  
-- **Motivations/Values**: Seeking efficiency, ROI maximization, innovation.  
-- **Emotional Patterns**: Confident, data-driven, focused on results.  
-- **Decision-Making**: Rational, prioritizes measurable outcomes.  
-
-**Contextual Example**  
-The tweet promotes a tool or method for optimizing advertising portfolios, emphasizing metrics like COD (Cost of Display) and Spend, while framing the goal as transforming "advertising portfolio into a useful" resource.  
-
-**Keywords/Tags for Postprocessing**:  
-#IncrementalMarginalReturn #RevenueOptimization #CODMetrics #AdPortfolioStrategy #MarketingAnalytics
-
-## Psychological Profile
-
-This section contains an AI-generated psychological evaluation based on communication patterns. This is for research purposes only and should not be considered a clinical assessment.
+**Keywords/tags:**  
+- Incremental Marginal Return  
+- Advertising Analytics  
+- Marketing Metrics  
+- Dashboard Tools  
+- Spend Optimization

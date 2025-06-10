@@ -3,34 +3,36 @@
 ## Overview
 
 <think>
-Okay, let's see. The user provided a bunch of tweets from Suhail Kakar, and they want me to generate 5 keywords or tags that capture the most distinctive patterns in these posts. 
+Okay, let's see. The user provided a bunch of tweets from Suhail Kakar and wants me to identify the most distinctive patterns and generate 5 keywords or tags for better postprocessing. The response needs to be concise.
 
-First, I need to understand the themes in his tweets. From the content, there are a few main points. He talks about the challenges in crypto, like developer activity falling, the importance of real PMF (personal mission funds), the shift from traditional hiring to building online, and the contrast between the two tribes in crypto: those trying to get rich and those rebuilding the internet. Also, he mentions issues like airdrops not retaining users and the need for better tools and documentation.
+First, I need to look through all the tweets to find common themes. Let me go through them one by one.
 
-So the key themes here are: developer activity, PMF, the shift to building online, the two tribes, and the challenges in the crypto ecosystem. But I need to pick the most distinctive ones. 
+The first few tweets talk about Ethereum's Pectra, developer tools, and the challenges in the crypto space. There's a lot about developer activity, tech hiring issues, and the state of the industry. Then there are mentions of airdrops not retaining users, the importance of real PMF (product-market fit), and the contrast between different tribes in crypto. Also, there's a lot about the problems with current tech, like broken docs, missing SDKs, and the need for better infrastructure. 
 
-"Developer Activity" is a big one because he mentions that developer activity is falling, and he's talking about the importance of real PMF. Then "PMF" is a specific term he uses. The second one could be "Building Online" since he emphasizes that the new game is to build online and ship in public. The third might be "Crypto Ecosystem Challenges" or something like that. Wait, but the user wants keywords, not a full tag. 
+Another recurring theme is the shift from traditional hiring to building online and shipping in public. There's also a lot about the current state of the industry being saturated with people trying to get rich fast, leading to a lack of real user demand. 
 
-Alternatively, maybe "PMF" is a key term here. Then "Developer Activity" and "Building Online" are the main ones. The other ones like "Two Tribes" could be a tag too. But the user wants 5 keywords. Let me check again.
+Looking at the hashtags and topics, the main points seem to be around the state of the crypto industry, developer challenges, the need for real PMF, the problems with current tech, and the contrast between different groups in the space. 
 
-He also mentions "tech hiring is collapsing," "airdrops don't retain users," and "grants don't retain builders." So maybe "PMF," "Developer Activity," "Building Online," "Crypto Ecosystem Challenges," and "Two Tribes." But "Two Tribes" is a bit more of a concept. However, the user might want more specific tags. 
+So, the key patterns are: 
+1. Developer challenges and hiring issues in crypto.
+2. The importance of real product-market fit (PMF).
+3. Criticism of current tech infrastructure and tools.
+4. The divide between short-term gains and long-term rebuilding of the internet.
+5. The need for better, more user-friendly solutions in crypto.
 
-Alternatively, "PMF," "Developer Activity," "Building Online," "Crypto Ecosystem Challenges," and "Two Tribes." That's five. But maybe "Two Tribes" is too broad. Or maybe "PMF" is the most distinctive. 
-
-Another angle: the main issues are developer activity, PMF, the shift to building online, the two tribes, and the challenges in the ecosystem. So the five keywords could be: PMF, Developer Activity, Building Online, Two Tribes, and Crypto Ecosystem Challenges. 
-
-But the user might want more concise tags. Let me make sure. The answer should be 5 keywords. So perhaps PMF, Developer Activity, Building Online, Two Tribes, and Crypto Ecosystem Challenges. That's five. Alternatively, maybe "PMF," "Developer Activity," "Building Online," "Crypto Ecosystem Challenges," and "Two Tribes." Yeah, that's five. I think that's the most distinct patterns here.
+From these, I can extract keywords like "Crypto Developer Challenges", "Real PMF in Crypto", "Tech Infrastructure Issues", "Crypto Tribes Divide", and "User-Friendly Crypto Solutions". These should capture the main themes and help with postprocessing.
 </think>
 
+**Distinctive Patterns:**  
+1. **Developer Challenges**: Criticism of broken tools, lack of infrastructure, and declining developer activity in crypto.  
+2. **Real PMF Focus**: Emphasis on product-market fit over grants, airdrops, or short-term gains.  
+3. **Tech Infrastructure Issues**: Highlighting fragmented, unreliable, or outdated tools in web3.  
+4. **Crypto Tribes Divide**: Contrast between "get-rich-fast" vs. "rebuilding the internet" communities.  
+5. **Hiring Crisis**: Decline in developer jobs and shift to "build-online, ship-public" strategies.  
+
 **Keywords/Tags:**  
-1. **PMF** (Personal Mission Funds)  
-2. **Developer Activity**  
-3. **Building Online**  
-4. **Crypto Ecosystem Challenges**  
-5. **Two Tribes**  
-
-These tags highlight critical themes: developer struggles, PMF as a rare asset, the shift to decentralized building, ecosystem issues, and the contrast between crypto's two main goals.
-
-## Psychological Profile
-
-This section contains an AI-generated psychological evaluation based on communication patterns. This is for research purposes only and should not be considered a clinical assessment.
+- `#CryptoDeveloperChallenges`  
+- `#RealPMFInCrypto`  
+- `#Web3InfrastructureIssues`  
+- `#CryptoTribesDivide`  
+- `#TechHiringCrisis`

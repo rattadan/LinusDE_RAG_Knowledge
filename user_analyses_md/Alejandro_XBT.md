@@ -3,49 +3,48 @@
 ## Overview
 
 <think>
-Okay, let's tackle this query. The user provided a tweet from a Twitter account and wants a summary with specific elements. First, I need to parse the tweet carefully.
+Okay, let's tackle this query. The user provided a tweet that needs analysis. First, I need to break down each part of the request. 
 
-The main message is about removing certain financial terms from their vocabulary. The user mentions "Bull market," "Bear market," "Altseason," "4-year cycle," and "Etherum." The account is probably a financial influencer or a trader who wants to avoid using those terms to stay neutral or maybe to avoid controversy. 
+The main topics here are about financial markets, specifically rejecting certain terms like "bull market" and "altseason." The person is trying to redefine the current market context, possibly to promote a different investment strategy or project. The language is direct and confrontational, using commands like "Remove these words." The tone is dismissive, suggesting a rejection of traditional market terminology.
 
-For the language style and tone, the user is direct and concise, using a command structure. The tone is authoritative, maybe even a bit critical of their own vocabulary. The key characteristics of communication here are assertiveness, clarity, and a focus on removing specific terms.
+Next, the legitimacy evaluation. The user is probably trying to push a specific narrative, maybe related to a cryptocurrency or alternative investment. The mention of "Etherum" (though spelled wrong, likely a typo for Ethereum) points towards a crypto project. The account might be promoting a new market model or a specific project that doesn't fit into traditional market cycles.
 
-The ecosystem or project they might be advertising could be a financial education platform, a tool for traders, or a service that helps users avoid jargon. Since they're removing terms, it's likely related to financial literacy or a tool that simplifies financial terminology.
+For the author's character, the communication style is assertive and possibly manipulative. The use of commands and rejection of established terms suggests a desire to control the narrative. Motivations could be to promote a new investment idea or to discredit traditional financial concepts. Emotional patterns might be aggressive or confrontational, aiming to push a specific message. Decision-making seems to be based on rejecting established frameworks, indicating a preference for new or alternative approaches.
 
-Psychologically, the author might be someone who values clarity and precision in communication. They could be a professional in finance, a trader, or someone interested in avoiding jargon. Their motivations might be to stay professional, avoid misunderstandings, or cater to a specific audience. Emotional patterns could be analytical and focused. Decision-making might be logical, based on avoiding certain terms to make their communication more effective.
+Putting it all together, the account is likely promoting a crypto project that challenges traditional market cycles. The author's personality is assertive, possibly with a focus on innovation and rejection of the status quo. The keywords would be related to market terminology, crypto, alternative investments, financial skepticism, and new market models.
 
-Now, I need to generate 5 keywords/tags for postprocessing. They should be related to the content, like financial terms, clarity, removal of jargon, communication strategies, and maybe the ecosystem they're part of.
-
-Check if the response is concise and focuses on the most distinctive patterns. Make sure each part of the query is addressed without going off track. Avoid any markdown and keep it natural.
+I need to make sure the summary is concise, highlighting the main points without getting too detailed. Also, the keywords should capture the essence of the tweet and the account's intent.
 </think>
 
-**1. Main Topics/Themes Discussed**  
-The user emphasizes removing specific financial jargon (e.g., "bull market," "bear market") from their vocabulary to avoid controversy or simplify communication. The focus is on **avoiding technical terms** and **clarifying language** for broader accessibility.  
+**1. Main topics/themes**: Rejection of traditional financial terminology ("bull market," "altseason") to promote a "different market" narrative, possibly tied to cryptocurrency or alternative investment strategies.  
+**2. Language style & tone**: Direct, assertive, and dismissive. Uses commands ("Remove these words") and implies a rejection of established frameworks.  
+**3. Legitimacy**: Unclear. The focus on rejecting standard terms may signal a desire to promote a specific project or ideology, but lacks concrete evidence of credibility.  
+**4. Ecosystem/project**: Likely related to cryptocurrency (mention of "Etherum" suggests Ethereum or similar). Could be promoting a new financial model or alternative investment strategy.  
+**5. Author's character**:  
+   - **Personality**: Assertive, confrontational, and possibly manipulative.  
+   - **Motivations**: Disillusioned with traditional markets, seeking to promote a new paradigm.  
+   - **Emotional patterns**: Aggressive, dismissive of established norms.  
+   - **Decision-making**: Based on rejecting conventional frameworks, prioritizing novelty over tradition.  
 
-**2. Language Style & Tone**  
-- **Style**: Direct, concise, and assertive.  
-- **Tone**: Authoritative, critical of jargon, and focused on precision.  
+**Context**: The author aims to redefine market dynamics, possibly to promote a crypto project or alternative investment strategy, by rejecting traditional financial terminology.  
 
-**3. Key Characteristics of Communication**  
-- **Clarity**: Prioritizes straightforward, unambiguous language.  
-- **Self-awareness**: Acknowledges the need to refine vocabulary.  
-- **Concision**: Removes redundancy and unnecessary complexity.  
+**Keywords**: #MarketRejection, #CryptoNarrative, #FinancialSkepticism, #AlternativeInvestment, #MarketParadigmShift.
+---
+## Original Tweets/Messages
 
-**4. Ecosystem/Project Advertised**  
-The account likely promotes a **financial literacy tool** or **jargon-reduction platform**, targeting users who seek to simplify complex financial terminology.  
+<details>
+<summary>Click to view original content</summary>
 
-**5. Psychological Evaluation**  
-- **Personality Traits**: Analytical, precise, and value clarity.  
-- **Motivations/Values**: Professionalism, education, and accessibility.  
-- **Emotional Patterns**: Rational, focused, and disinterested in controversy.  
-- **Decision-Making**: Logical, prioritizing simplicity and precision over complexity.  
+| Type | Content |
+|------|---------|
+| messages | Remove these words from your vocabulary:
 
-**Keywords/Tags for Postprocessing**:  
-- #FinancialClarity  
-- #JargonFreeCommunication  
-- #FinancialLiteracy  
-- #AvoidTechnicalTerms  
-- #SimplifiedFinance
+&gt; Bull market
+&gt; Bear market
+&gt; Altseason 
+&gt; 4-year cycle
+&gt; Etherum 
 
-## Psychological Profile
+This is a different market now. |
 
-This section contains an AI-generated psychological evaluation based on communication patterns. This is for research purposes only and should not be considered a clinical assessment.
+</details>

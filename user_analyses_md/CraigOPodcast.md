@@ -3,50 +3,58 @@
 ## Overview
 
 <think>
-Okay, let's tackle this query. The user wants me to analyze a specific tweet from a Twitter account. The task is to break down the tweet into five parts: main topics, language style, key communication characteristics, the ecosystem/project advertised, and a psychological evaluation. Plus, they want a summary with the tweets in context and five keywords/tags for postprocessing.
+Okay, let's break down this tweet. The user is asking for an analysis of a tweet from CraigOPodcast, who's promoting Tangem. First, the main topics here are the video drop and the security of Tangem. The person is sharing their story and why they trust Tangem's security. So the main themes are crypto security and personal trust in a project.
 
-First, I need to look at the provided tweet. The user mentioned the tweet is from @CraigOPodcast, and the content is about a video drop for Tangem, discussing security protocols and crypto safety. The tweet has a notification style, urgency, and uses hashtags like #Tangem and #CryptoSecurity.
+Next, the language style is enthusiastic and urgent, with emojis and hashtags. The tone is positive and persuasive, trying to get people to watch the video. The use of "Exciting news!" and "Don’t miss it!" shows excitement and urgency.
 
-Main topics: The primary topic is the video drop and the security of Tangem's protocols. The user is sharing their story and why they trust the security. So the main theme is crypto security and product promotion.
+Legitness evaluation: The user is an influencer in the crypto space, so they probably have a genuine interest in Tangem. But they might be using their platform to promote the project, so it's important to check if they have a real connection. The mention of their story adds a personal touch, which could be authentic.
 
-Language style and tone: The tone is urgent and enthusiastic, using exclamation marks and hashtags. The language is concise, with a call to action ("Don't miss it!"). The use of emojis like 🚨 and the hashtag #Tangem suggests a promotional and engaging tone.
+The ecosystem here is Tangem, a crypto security project. The account is promoting Tangem, so that's clear.
 
-Key characteristics of communication: The tweet is short, uses urgency, includes a call to action, and is part of a podcast. It's likely a promotional message to attract followers and drive engagement. The user is probably trying to build trust and encourage action.
+For the author's character: The communication is confident and proactive. They seem to value security and transparency, which are key in crypto. Their motivation is likely to build trust and promote Tangem. Emotional patterns are positive and encouraging. Decision-making is probably based on personal experience and trust in the project.
 
-Ecosystem/project advertised: The account is promoting Tangem, a crypto wallet. The tweet links to a specific post, so it's part of the Tangem ecosystem. The user is advertising their own content related to Tangem.
-
-Psychological evaluation: The person is likely a crypto enthusiast who values security and trust. They might be motivated by a desire to share knowledge and build credibility. Their personality traits could be assertive and detail-oriented. Motivations might include promoting security, educating others, and building a community. Emotional patterns could be enthusiastic and confident. Decision-making might be based on trust and reliability.
-
-Now, the user wants the tweets in context. The tweet is part of a podcast, so the context is a podcast episode discussing security. The keywords/tags should be related to crypto, security, trust, promotion, and podcast.
-
-I need to make sure the response is concise, focused on the most distinctive patterns, and includes the five keywords. Also, check if the analysis is accurate and covers all parts as per the user's request.
+Putting it all together, CraigOPodcast is using his influence to highlight Tangem's security, leveraging his personal story to build credibility. The key points are the promotion of Tangem, the emphasis on security, and the use of personal narrative to gain trust. The keywords would be crypto security, Tangem promotion, personal trust, influencer marketing, and crypto trust.
 </think>
 
-**1. Main Topics/Themes**:  
-- Crypto security (Tangem's protocols), trust in digital assets, and product promotion.  
-- Podcast episode content (Tangem video drop).  
+**1. Main topics/themes discussed**  
+Crypto security, personal story, promotion of Tangem.  
 
-**2. Language Style & Tone**:  
-- Urgent, enthusiastic, and promotional. Uses exclamation marks, hashtags (#Tangem, #CryptoSecurity), and concise phrasing.  
+**2. Language style and tone**  
+Urgent, enthusiastic, and persuasive. Uses emojis, hashtags, and personal anecdotes to build credibility.  
 
-**3. Key Communication Characteristics**:  
-- Short, impactful sentences; call to action (e.g., "Don’t miss it!"); integration of podcast context.  
+**3. Evaluation of legitness**  
+Highly likely genuine, given the personal narrative and focus on security. However, potential for self-promotion in the crypto space.  
 
-**4. Advertised Ecosystem/Project**:  
-- **Tangem** (crypto wallet) and its ecosystem, emphasizing security and user trust.  
+**4. Ecosystem/project**  
+Tangem (crypto security platform).  
 
-**5. Psychological Evaluation**:  
-- **Personality Traits**: Assertive, detail-oriented, and confident.  
-- **Motivations/Values**: Prioritizes security, education, and community trust.  
-- **Emotional Patterns**: Enthusiastic, anxious (urgency), and confident.  
-- **Decision-Making**: Rational (trust-based) and influenced by credibility.  
+**5. Evaluation of the author’s character**  
+- **Personality traits**: Confident, transparent, and values trust.  
+- **Motivations/values**: Prioritizes security and authenticity in crypto.  
+- **Emotional patterns**: Positive, driven by conviction in Tangem’s mission.  
+- **Decision-making**: Relies on personal experience and trust in technology.  
 
-**Contextual Summary**:  
-The tweet is a podcast episode promoting Tangem’s video, emphasizing security and trust. The author uses urgency and hashtags to engage followers, aligning with Tangem’s ecosystem.  
+**Context**: CraigOPodcast uses his platform to advocate for Tangem, leveraging personal credibility to promote its security protocols.  
 
-**Keywords/Tags for Postprocessing**:  
-#CryptoSecurity #Tangem #PodcastPromotion #TrustInDigitalAssets #SecurityProtocols
+**Keywords/tags**:  
+- crypto security  
+- Tangem promotion  
+- personal trust  
+- influencer marketing  
+- crypto transparency
+---
+## Original Tweets/Messages
 
-## Psychological Profile
+<details>
+<summary>Click to view original content</summary>
 
-This section contains an AI-generated psychological evaluation based on communication patterns. This is for research purposes only and should not be considered a clinical assessment.
+| Type | Content |
+|------|---------|
+| messages | 🚨 Exciting news! My @Tangem
+ video drops late this week! 
+
+Sharing my story & why I trust Tangem’s security protocols to keep funds safe. 
+
+Don’t miss it! #Tangem #CryptoSecurity https://t.co/yzfQy0p50s |
+
+</details>

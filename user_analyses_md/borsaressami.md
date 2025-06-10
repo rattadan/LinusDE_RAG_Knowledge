@@ -3,45 +3,39 @@
 ## Overview
 
 <think>
-Okay, let's tackle this query. The user provided a tweet from a Twitter account and wants a detailed analysis based on specific criteria. First, I need to understand the tweet content.
+Okay, let's tackle this query. The user provided a tweet in Turkish and wants a summary with specific points. First, I need to understand the content. The tweet is about Ethereum (ETH) price analysis, mentioning a 4-hour analysis, price stuck around 1850, potential breakout, and a drop to 1650. It also mentions a weekend volume and advises attention.
 
-The tweet is about a stock market analysis with numbers like 1850 and 1650. The user mentions price trends, market sentiment, and a link to an image. The language is technical, using symbols like 📊, 📈, 📉, and emojis. The tone is analytical and possibly cautious, with a focus on market behavior.
-
-For the main topics/themes, the key points are stock price analysis, market trends, and possibly risk management. The language style is formal and technical, with emojis to add a visual element. The tone is informative and possibly cautious, using terms like "devam edebilir" and "dikkat etmekte fayda var."
-
-Key characteristics of communication include technical terminology, use of emojis, and a focus on market trends. The ecosystem might be related to a stock market analysis platform or a financial service. The psychological evaluation would involve traits like analytical thinking, cautiousness, and a focus on risk management. Motivations could be financial planning or market analysis. Emotional patterns might be cautious and analytical. Decision-making is based on data and trends.
-
-The user also wants 5 keywords/tags for postprocessing. From the tweet, the relevant ones are #Eth (which I think is #Ethics or maybe a typo), #StockMarket, #TrendAnalysis, #RiskManagement, and #FinancialAnalysis. Need to check if #Eth is correct. Also, the image URL might be relevant, but the user didn't ask for that. The keywords should be concise and relevant.
-
-I need to make sure the analysis is concise and focused on the most distinctive patterns. The response should be structured with the five points and the keywords. Avoid any markdown and keep it natural.
+Main topics: Ethereum price analysis, potential breakout, support/resistance levels, market sentiment. The language is formal with emojis and technical terms. The tone is analytical, confident, and advisory. The legitimacy is questionable because it's a single tweet without evidence. The account might be promoting a trading strategy or a crypto project. The author seems analytical, possibly a trader or analyst, with a focus on technical analysis. Motivations might be profit, but could be speculative. Emotional patterns are calm and confident, decision-making based on technical indicators. In context, the author is likely a crypto analyst or trader sharing insights, but needs verification. Keywords: #Ethereum, #CryptoAnalysis, #TradingStrategy, #MarketTrend, #TechnicalAnalysis.
 </think>
 
-**1. Main Topics/Themes Discussed**  
-- Stock market analysis (price trends, volatility, risk management).  
-- Technical indicators (e.g., 1850, 1650 levels, market sentiment).  
-- Market behavior and strategic decisions (e.g., "hacimsizliği piyasada kendini belli ediyor").  
+**Summary:**  
+1. **Main topics/themes**: Ethereum price analysis, potential breakout at 1850, support/resistance levels, market sentiment.  
+2. **Language style**: Technical, concise, with emojis and bullish/ bearish indicators. Tone is analytical and confident.  
+3. **Legitness**: Low. Single tweet without evidence or context; could be speculative or misleading.  
+4. **Ecosystem/project**: Likely promotes Ethereum (ETH) or crypto trading strategies.  
+5. **Author character**:  
+   - **Personality**: Analytical, assertive, focused on technical metrics.  
+   - **Motivations**: Profit-driven, possibly a trader or crypto analyst.  
+   - **Emotional patterns**: Calm, confident; emphasizes market trends over sentiment.  
+   - **Decision-making**: Data-driven, relying on price levels and volume.  
 
-**2. Language Style & Tone**  
-- **Style**: Technical, data-driven, and concise.  
-- **Tone**: Analytical, cautious, and focused on market trends. Emojis (📊, 📈, 📉) add visual clarity.  
+**Context**: The author appears to be a crypto analyst or trader sharing short-term ETH price predictions, but lacks transparency or verification.  
 
-**3. Key Characteristics of Communication**  
-- **Technical terminology** (e.g., "devam edebilir," "dikkat etmekte fayda var").  
-- **Emojis** to emphasize key points (e.g., 📊, 📉).  
-- **Focus on risk/reward** and market sentiment.  
+**Keywords/Tags**: #Ethereum, #CryptoAnalysis, #TradingStrategy, #MarketTrend, #TechnicalAnalysis.
+---
+## Original Tweets/Messages
 
-**4. Ecosystem/Project Advertised**  
-- Likely related to **stock market analysis**, financial platforms, or trading strategies.  
+<details>
+<summary>Click to view original content</summary>
 
-**5. Psychological Evaluation**  
-- **Personality Traits**: Analytical, detail-oriented, and risk-aware.  
-- **Motivations/Values**: Financial planning, market strategy, and data-driven decision-making.  
-- **Emotional Patterns**: Cautious, analytical, and reactive to market shifts.  
-- **Decision-Making**: Based on historical data, trends, and risk assessment.  
+| Type | Content |
+|------|---------|
+| messages | #Eth 4h Analiz 📊
 
-**Keywords/Tags for Postprocessing**:  
-#StockMarket #TrendAnalysis #RiskManagement #FinancialAnalysis #Eth (possibly a typo for #Ethics)
+Fiyat bizim 1850'lere takıldı kaldı. Burası kırılırsa üst hedefe doğru yükseliş devam edebilir. 📈
 
-## Psychological Profile
+Düşüşte ise 1650 seviyelerini beklemeye devam ediyorum. 📉
 
-This section contains an AI-generated psychological evaluation based on communication patterns. This is for research purposes only and should not be considered a clinical assessment.
+Haftasonu hacimsizliği de piyasada kendini belli ediyor. Dikkat etmekte fayda var dostlar. 👍🏻 https://t.co/Ql5oK14oar |
+
+</details>

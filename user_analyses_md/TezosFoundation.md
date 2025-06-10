@@ -3,44 +3,54 @@
 ## Overview
 
 <think>
-Okay, let's tackle this query. The user provided a single tweet from the Tezos Foundation and wants a summary with specific elements. First, I need to parse the tweet.
+Okay, let's tackle this query. The user provided a tweet from an account that's promoting the Tezos protocol upgrade, Rio. The task is to analyze it for five aspects: main topics, language style, legitness, the ecosystem it's advertising, and the author's character. Plus, generate keywords.
 
-The tweet is a retweet from @tezos about the 18th upgrade, mentioning flexible staking and new rewards model. The main topics are Tezos protocol upgrades, staking, rewards. The language is formal and technical, with emojis. The tone is informative and excited about the new features.
+First, the main topics. The tweet is about a Tezos protocol upgrade, Rio, with features like flexible staking and new rewards. So the main theme is a new protocol update, highlighting technical improvements and incentives.
 
-Key characteristics of communication: the user is probably a tech enthusiast or a developer, using technical terms. They might be promoting a new feature, so the message is about innovation and community. The ecosystem here is Tezos, but since it's a retweet, maybe they're part of the Tezos Foundation or a community member.
+Next, the language style. It's concise, uses emojis (like 🌳, ⚡️, 💡) to add visual interest, and mentions specific features. The tone is upbeat and informative, aiming to engage the audience with the benefits of the upgrade.
 
-Psychological evaluation: The person might value innovation and community, have a trait of being detail-oriented, motivated by contributing to tech, emotional patterns like enthusiasm, decision-making might be analytical. They might prioritize community and innovation.
+Legitness evaluation. The tweet is from the Tezos Foundation, which is a known entity in the blockchain space. The URL points to their official status, so it's legitimate. The content is factual, discussing a real upgrade, so it's trustworthy.
 
-Now, the user wants 5 keywords/tags. From the tweet, the main themes are Tezos, protocol upgrades, staking, rewards, and community. So tags could be #Tezos, #ProtocolUpgrades, #Staking, #Rewards, #Community.
+The ecosystem being advertised is Tezos, a blockchain platform. The account is likely the Tezos Foundation or a related entity, promoting their project.
 
-Need to make sure the summary is concise and highlights the key points without extra details. Also, the user wants the response focused on the most distinctive patterns, so I need to avoid any extra information.
+For the author's character: the communication style is professional yet approachable, using emojis to make it friendly. The motivation is to inform and promote the upgrade, which is a technical aspect. The emotional pattern is positive and excited, wanting to highlight the benefits. Decision-making is data-driven, focusing on features and their implications.
+
+Putting it all together, the account is promoting Tezos, using a professional yet engaging style, and the author is likely a trusted figure in the blockchain community. The keywords should reflect the main points: Tezos, protocol upgrade, staking, rewards, blockchain. That makes sense for categorization and further processing.
 </think>
 
-**1. Main Topics/Themes:**  
-- Tezos protocol upgrades (18th version)  
-- Staking flexibility (1-day cycles)  
-- Rewards model (DAL support)  
-- Community-driven innovation  
+**1. Main topics/themes discussed**  
+Tezos protocol upgrade (Rio), staking improvements, new reward model, blockchain development.  
 
-**2. Language Style & Tone:**  
-- **Style:** Technical, formal, and excited.  
-- **Tone:** Informative, enthusiastic, and forward-looking.  
+**2. Language style and tone**  
+Concise, technical, and enthusiastic. Uses emojis (🌴, ⚡️, 💡) to emphasize key features and maintain a positive, informative tone.  
 
-**3. Key Characteristics of Communication:**  
-- **Personality:** Detail-oriented, tech-savvy, and community-focused.  
-- **Motivations:** Innovation, collaboration, and technical expertise.  
-- **Emotional Patterns:** Enthusiastic, optimistic, and driven by progress.  
-- **Decision-Making:** Analytical, value-driven, and goal-oriented.  
+**3. Evaluation of legitness**  
+Highly legitimate: references the Tezos Foundation’s official Twitter account and a verified protocol update. Content aligns with known Tezos developments.  
 
-**4. Ecosystem/Project:**  
-- **Tezos Foundation** (promoting protocol upgrades and community engagement).  
+**4. Ecosystem/project advertised**  
+Tezos (blockchain platform), focusing on protocol upgrades and staking incentives.  
 
-**5. Keywords/Tags for Postprocessing:**  
-#Tezos #ProtocolUpgrades #Staking #Rewards #Community  
+**5. Evaluation of the author’s character**  
+- **Personality traits**: Professional, knowledgeable, and engaging.  
+- **Motivations/values**: Promotes technical advancements for the Tezos community, prioritizing transparency and user benefits.  
+- **Emotional patterns**: Confident and excited about progress, aiming to educate and inspire.  
+- **Decision-making**: Data-driven, emphasizing concrete features (e.g., 1-day staking cycles) over vague claims.  
 
-**Contextualized Summary:**  
-The tweet highlights Tezos’ 18th protocol upgrade, emphasizing flexible staking and new rewards mechanisms. The author’s tone reflects excitement about technological innovation and community collaboration, aligning with the Tezos Foundation’s mission to advance decentralized finance. The message is concise, technical, and focused on technical progress, suggesting a deep technical knowledge and passion for blockchain development.
+**Context**: The account is a trusted authority in the Tezos ecosystem, disseminating factual updates about protocol improvements to engage and inform users.  
 
-## Psychological Profile
+**Keywords/tags**:  
+#Tezos, #ProtocolUpgrade, #Staking, #Blockchain, #TezosFoundation
+---
+## Original Tweets/Messages
 
-This section contains an AI-generated psychological evaluation based on communication patterns. This is for research purposes only and should not be considered a clinical assessment.
+<details>
+<summary>Click to view original content</summary>
+
+| Type | Content |
+|------|---------|
+| messages | RT @tezos: Rio, the 18th Tezos protocol upgrade, is live! 🌴
+
+⚡️ More flexible staking with 1-day cycles
+💡 New rewards model supporting DAL… |
+
+</details>

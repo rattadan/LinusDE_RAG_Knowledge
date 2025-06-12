@@ -3,7 +3,7 @@
 ## Overview
 nRide is a community-owned, decentralized ride-hailing protocol designed to create a more open, equitable, and transparent ecosystem for drivers and riders. By leveraging blockchain technology and smart contracts, nRide eliminates intermediaries, reduces fees, and empowers users to interact directly.
 
-- **Website:** [nride.com](https://nride.network) 
+- **Website:** [nride.network](https://nride.network) 
 - **Whitepaper:** See `nRide_Whitepaper/`
 
 ## Key Features

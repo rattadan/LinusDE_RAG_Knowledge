@@ -29,20 +29,3 @@ Putting it all together, the account is probably promoting a mindset or project 
 
 **Keywords/tags:** hustle culture, confidence, action-oriented, motivational, competitive mindset.
 ---
-## Original Tweets/Messages
-
-<details>
-<summary>Click to view original content</summary>
-
-| Type | Content |
-|------|---------|
-| messages | @dieterthemieter Let's talk in Dms chief |
-| messages | Gm.
-
-Remember:
-
-Someone out there is doing less than you with more confidence.
-
-So get up, post that content and pitch that gig, |
-
-</details>

@@ -25,17 +25,3 @@ Wait, the user mentioned "Ecosystem or project" so I need to check if there's a 
 
 **Keywords/tags:** championship, resilience, competitive, motivational, overcoming odds.
 ---
-## Original Tweets/Messages
-
-<details>
-<summary>Click to view original content</summary>
-
-| Type | Content |
-|------|---------|
-| messages | Gm Champs 🏆 
-
-Another day to show up even against the odds 📉📈
-
-Drop that setup you are anticipating ⬇️⬇️ |
-
-</details>

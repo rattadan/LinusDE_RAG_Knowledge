@@ -43,26 +43,3 @@ Crypto/blockchain project (likely a token or platform). The rebrand from "Cenk" 
 **Keywords/Tags**:  
 #Crypto, #Rebrand, #Algorithm, #Signal, #Build
 ---
-## Original Tweets/Messages
-
-<details>
-<summary>Click to view original content</summary>
-
-| Type | Content |
-|------|---------|
-| messages | RT @DusanCrypto: Post every day.
-The algo doesn’t miss you.
-It forgets you. |
-| messages | Post every day.
-The algo doesn’t miss you.
-It forgets you. |
-| messages | gm gm everyone! ☀️
-
-Rebrand ≠ Reset
-
-Used to be Cenk.
-Now it’s just Dusan.
-
-Signal only. Let’s build! 💪 https://t.co/P3qNU5ZNfa |
-
-</details>

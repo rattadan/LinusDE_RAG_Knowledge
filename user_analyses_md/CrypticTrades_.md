@@ -45,24 +45,3 @@ Keywords: #BitcoinAnalysis, #MarketTalk, #OnChainData, #CryptoTrading, #MacroEco
 
 **Keywords/Tags:** #BitcoinAnalysis, #MarketTalk, #OnChainData, #CryptoTrading, #MacroEconomics
 ---
-## Original Tweets/Messages
-
-<details>
-<summary>Click to view original content</summary>
-
-| Type | Content |
-|------|---------|
-| messages | Yesterday I released one of my most pivotal Market Talks.
-
-Connecting the macro environment with the risk appetite, $BTC.D, liquidity traps on $BTC, and the “emotional-gap” thesis moving forward.
-
-55 minutes of pure alpha. 
-
-Check it out!✅👇
-
-https://t.co/HlRnOIim9L |
-| messages | RT @CrypticTrades_: $BTC - This is absolutely beautiful.
-
-Timeline watching the clash between Elon and Trump, while On-Chain Data is showin… |
-
-</details>

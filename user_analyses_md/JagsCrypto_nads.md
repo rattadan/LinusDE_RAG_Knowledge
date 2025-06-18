@@ -46,22 +46,3 @@ Keywords: NFT collaboration, DeFi growth, TVL metrics, community engagement, cry
 
 **Keywords/tags**: NFT collaboration, DeFi growth, TVL metrics, community engagement, crypto promotion.
 ---
-## Original Tweets/Messages
-
-<details>
-<summary>Click to view original content</summary>
-
-| Type | Content |
-|------|---------|
-| messages | RT @_mysticsNFT: La Mouch 🤝 Mystics 
-
-Two realms collide, ancient forces meet primal instincts.
-
-To celebrate this powerful collab, we're g… |
-| messages | ive been watching new folks join @sparkdotfi every day, and honestly, it’s exciting to see more people diving into what it’s really about.
-
-No hype, just real growth and solid numbers over $6B TVL and a revenue of $355M.
-
-For me, it’s about understanding the system and seeing the |
-
-</details>

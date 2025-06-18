@@ -42,15 +42,3 @@ Highly suspicious. The mention of a "cult" and the use of a cryptic link suggest
 
 **Keywords/Tags**: Cult, Cryptocurrency, Scam, Conspiracy, Belief
 ---
-## Original Tweets/Messages
-
-<details>
-<summary>Click to view original content</summary>
-
-| Type | Content |
-|------|---------|
-| messages | RT @PsyduckSui: $PSY cult? 
-
-Believe in something https://t.co/Bp05HCgD9v |
-
-</details>
